@@ -1,22 +1,22 @@
-title: AI Engineering
+title: [[AI Engineering]]
 type: source
 tags: [book, mlops, production-ml, engineering]
-sources: [AI ENGINEERING by [[Chip Huyen]] (PDF)(Nonfiction).pdf]
+sources: [[[AI ENGINEERING]] by [[Chip Huyen]] (PDF)(Nonfiction).pdf]
 created: 2026-04-12
 updated: 2026-04-12
 ---
 
-# AI Engineering
+# [[AI Engineering]]
 
 **Author:** [[Chip Huyen]]  
 **Published:** 2024  
-**Source:** AI ENGINEERING by [[Chip Huyen]] (PDF)(Nonfiction).pdf  
+**Source:** [[AI ENGINEERING]] by [[Chip Huyen]] (PDF)(Nonfiction).pdf  
 **Date ingested:** 2026-04-12  
 **Type:** book
 
 ## Summary
 
-AI Engineering focuses on production ML — the "after the model works" part. Unlike Kaggle-style ML, production systems must handle data drift, monitoring, continuous retraining, and cross-team coordination. The hardest problems in AI aren't model architecture — they're data pipelines, deployment, and keeping systems running in production.
+[[AI Engineering]] focuses on production ML — the "after the model works" part. Unlike Kaggle-style ML, production systems must handle data drift, monitoring, continuous retraining, and cross-team coordination. The hardest problems in AI aren't model architecture — they're data pipelines, deployment, and keeping systems running in production.
 
 ## Key Claims
 
@@ -35,7 +35,7 @@ AI Engineering focuses on production ML — the "after the model works" part. Un
 
 ## Entities Mentioned
 
-- [[Chip Huyen]] — Author and practitioner establishing the AI engineering discipline
+- [[Chip Huyen]] — Author and practitioner establishing the [[AI engineering]] discipline
 
 ## Concepts Covered
 

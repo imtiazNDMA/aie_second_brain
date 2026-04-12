@@ -1,7 +1,7 @@
 # Index
 
-## Entities (32)
-- [[Chip Huyen]]: Author of AI Engineering and Designing Machine Learning Systems
+## Entities (33)
+- [[Chip Huyen]]: Author of [[AI Engineering]] and Designing Machine Learning Systems
 - [[Sebastian Raschka]]: Author of Build a Large Language Model (From Scratch)
 - [[Claude Code]]: [[Anthropic]]'s [[AI Coding Agent]] for terminal
 - [[Anthropic]]: AI research company behind Claude
@@ -33,8 +33,9 @@
 - [[Meilisearch]]: Hybrid keyword/vector search engine supporting RAG pipelines
 - [[Eli Stevens]]: Co-author of Deep Learning with [[PyTorch]] and longtime CTO
 - [[Luca Antiga]]: [[PyTorch]] contributor and co-author of Deep Learning with [[PyTorch]]
+- [[LangChain]]: LLM orchestration framework for loaders, splitters, retrievers, and agents
 
-## Concepts (76)
+## Concepts (77)
 - [[Data Pipeline]]: Orchestrating data flow from sources to models
 - [[Feature Store]]: Centralized feature definitions and storage
 - [[Data Collection]]: Gathering data for ML training
@@ -97,6 +98,7 @@
 - [[PyTorch Tensor]]: Core multidimensional array structure with GPU/NumPy interop
 - [[Autograd]]: Automatic differentiation engine backing [[PyTorch]] models
 - [[Torch NN Module]]: Layers, datasets, and optimizers provided by torch.nn
+- [[TorchScript]]: Serialized graph format for deploying [[PyTorch]] models without Python
 - [[Markov Chain Monte Carlo]]: Sampling-based Bayesian inference family
 - [[Variational Inference]]: Optimization-based posterior approximation
 - [[Dirichlet Process K-Means]]: Nonparametric clustering allowing flexible component counts
@@ -115,7 +117,7 @@
 ## Sources (15)
 - [[2026-04-12-building-ai-coding-agents-terminal]]: Building AI Coding Agents for the Terminal
 - [[2026-04-12-building-llms-for-production]]: Building LLMs for Production ([[Chip Huyen]])
-- [[2026-04-12-ai-engineering]]: AI Engineering ([[Chip Huyen]])
+- [[2026-04-12-ai-engineering]]: [[AI Engineering]] ([[Chip Huyen]])
 - [[2026-04-12-designing-ml-systems]]: Designing Machine Learning Systems ([[Chip Huyen]])
 - [[2026-04-12-build-llm-from-scratch]]: Build a Large Language Model (From Scratch) ([[Sebastian Raschka]])
 - [[2026-04-12-ai-agents-in-action]]: AI Agents in Action ([[Micheal Lanham]])
@@ -129,17 +131,19 @@
 - [[2026-04-12-14-types-of-rag]]: 14 Types of RAG (Meilisearch)
 - [[2026-04-12-deep-learning-with-pytorch]]: Deep Learning with [[PyTorch]] (Essential Excerpts)
 
-## Syntheses (6)
+## Syntheses (8)
 - [[Agent Orchestration Platforms]]: Comparison of AutoGen, CrewAI, LangGraph, and Nexus stacks
 - [[Parameter-Efficient Fine-Tuning]]: Trade-offs between LoRA, [[QLoRA]], Half FT, and routing strategies
 - [[RAG Evaluation Playbook]]: Metrics and governance for retriever/generator/evaluator loops
 - [[Prompt Evaluation Workflows]]: Process and tooling for SOMA + [[Prompt Flow]] pipelines
 - [[Agent Memory Architectures]]: Layering semantic/episodic/procedural stores for assistants
 - [[Agent Trust and Safety Controls]]: Observability, guardrails, and safety models for autonomous agents
+- [[LLM Ops Toolchain]]: Mapping Feature→Training→Inference stages to ZenML, Comet, Prompt Flow, Opik
+- [[RAG Architecture Decision Guide]]: Selecting between simple, graph, speculative, and agentic RAG variants
 
 ## Code Examples (6)
 - [[Code Examples Overview]]: Placeholder hub for future runnable snippets
-- [[PyTorch Linear Regression]]: End-to-end tensor/autograd example fitting a line
+- [[PyTorch Linear Regression]]: End-to-end tensor/[[autograd]] example fitting a line
 - [[PyTorch Tensor Basics]]: Cheatsheet for creation, indexing, NumPy interop, serialization
 - [[PyTorch TorchScript Export]]: Trace/script a model and load it for deployment
 - [[LangChain Mini RAG Pipeline]]: Minimal ingestion → embedding → retrieval QA workflow

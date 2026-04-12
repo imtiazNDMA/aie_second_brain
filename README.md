@@ -1,4 +1,4 @@
-# AI Engineering Second Brain
+# [[AI Engineering]] Second Brain
 
 Second-brain workspace for capturing AI-engineering literature, code snippets, and RAG/agent workflows. The repo hosts:
 

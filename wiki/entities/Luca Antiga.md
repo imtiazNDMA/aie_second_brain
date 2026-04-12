@@ -9,7 +9,7 @@ updated: 2026-04-12
 
 # Luca Antiga
 
-Co-author of *Deep Learning with [[PyTorch]]*, co-founder/CEO of an AI engineering company in Bergamo, Italy, and a recurring [[PyTorch]] contributor.
+Co-author of *Deep Learning with [[PyTorch]]*, co-founder/CEO of an [[AI engineering]] company in Bergamo, Italy, and a recurring [[PyTorch]] contributor.
 
 ## Summary
 

@@ -187,15 +187,15 @@ Multimodal RAG is used to analyze files that combine text and other forms of med
 - Requires more storage and processing power
 - Quality depends on how well it interprets various data formats
 
-## 8\. Adaptive RAG
+## 8\. [[Adaptive RAG]]
 
-[Adaptive RAG](https://www.meilisearch.com/blog/adaptive-rag) is a RAG model that learns from experience. It pays attention to what works and what doesn’t, and gradually improves its ability to respond to different kinds of questions.
+[[[Adaptive RAG]]](https://www.meilisearch.com/blog/adaptive-rag) is a RAG model that learns from experience. It pays attention to what works and what doesn’t, and gradually improves its ability to respond to different kinds of questions.
 
-![Adaptive RAG.png](https://unable-actionable-car.media.strapiapp.com/Adaptive_RAG_60242702c1.png)
+![[[Adaptive RAG]].png](https://unable-actionable-car.media.strapiapp.com/Adaptive_RAG_60242702c1.png)
 
-Adaptive RAG works by first recognizing the type of question (simple, complex, broad, or narrow) it received, then adjusting its retrieval process and generation style based on the question to provide an accurate answer.
+[[Adaptive RAG]] works by first recognizing the type of question (simple, complex, broad, or narrow) it received, then adjusting its retrieval process and generation style based on the question to provide an accurate answer.
 
-Adaptive RAG is used in systems that deal with all kinds of queries, such as customer support bots, research tools, and digital assistants.
+[[Adaptive RAG]] is used in systems that deal with all kinds of queries, such as customer support bots, research tools, and digital assistants.
 
 **Pros:**
 

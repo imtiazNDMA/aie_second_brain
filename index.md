@@ -1,7 +1,7 @@
 # Index
 
 ## Entities (32)
-- [[Chip Huyen]]: Author of AI Engineering and Designing Machine Learning Systems
+- [[Chip Huyen]]: Author of [[AI Engineering]] and Designing Machine Learning Systems
 - [[Sebastian Raschka]]: Author of Build a Large Language Model (From Scratch)
 - [[Claude Code]]: [[Anthropic]]'s [[AI Coding Agent]] for terminal
 - [[Anthropic]]: AI research company behind Claude
@@ -115,7 +115,7 @@
 ## Sources (15)
 - [[2026-04-12-building-ai-coding-agents-terminal]]: Building AI Coding Agents for the Terminal
 - [[2026-04-12-building-llms-for-production]]: Building LLMs for Production ([[Chip Huyen]])
-- [[2026-04-12-ai-engineering]]: AI Engineering ([[Chip Huyen]])
+- [[2026-04-12-ai-engineering]]: [[AI Engineering]] ([[Chip Huyen]])
 - [[2026-04-12-designing-ml-systems]]: Designing Machine Learning Systems ([[Chip Huyen]])
 - [[2026-04-12-build-llm-from-scratch]]: Build a Large Language Model (From Scratch) ([[Sebastian Raschka]])
 - [[2026-04-12-ai-agents-in-action]]: AI Agents in Action ([[Micheal Lanham]])
@@ -139,7 +139,7 @@
 
 ## Code Examples (6)
 - [[Code Examples Overview]]: Placeholder hub for future runnable snippets
-- [[PyTorch Linear Regression]]: End-to-end tensor/autograd example fitting a line
+- [[PyTorch Linear Regression]]: End-to-end tensor/[[autograd]] example fitting a line
 - [[PyTorch Tensor Basics]]: Cheatsheet for creation, indexing, NumPy interop, serialization
 - [[PyTorch TorchScript Export]]: Trace/script a model and load it for deployment
 - [[LangChain Mini RAG Pipeline]]: Minimal ingestion → embedding → retrieval QA workflow

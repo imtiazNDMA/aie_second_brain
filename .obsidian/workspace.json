@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "wiki/synthesis/RAG Evaluation Playbook.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "RAG Evaluation Playbook"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "wiki/synthesis/RAG Evaluation Playbook.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for RAG Evaluation Playbook"
             }
           },
           {
@@ -182,8 +182,19 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "7598289e3e50dbc2",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -209,36 +220,36 @@
   },
   "active": "ceabba4f334430ef",
   "lastOpenFiles": [
-    "wiki/code-examples/Code Examples Overview.md",
-    "README.md",
-    "raw/source.dvc",
-    "wiki/code-examples/LangChain Mini RAG Pipeline.md",
-    "wiki/code-examples/Prompt Flow SOMA Evaluation.md",
-    "wiki/code-examples/PyTorch TorchScript Export.md",
+    "wiki/synthesis/RAG Architecture Decision Guide.md",
     "wiki/synthesis/Prompt Evaluation Workflows.md",
-    "wiki/code-examples/PyTorch Linear Regression.md",
-    "wiki/code-examples/PyTorch Tensor Basics.md",
-    "wiki/concepts/Ensemble Methods.md",
-    "wiki/concepts/Distributed Training.md",
-    "wiki/concepts/Real-Time Deployment.md",
-    "wiki/concepts/RAG Evaluation.md",
-    "wiki/concepts/QLoRA.md",
-    "wiki/concepts/PyTorch Tensor.md",
-    "wiki/concepts/PyTorch.md",
-    "wiki/concepts/Prompt Flow.md",
-    "wiki/concepts/LLM Application Loop.md",
-    "wiki/concepts/LLM Evaluation Rubrics.md",
-    "wiki/concepts/AI Interface.md",
-    "wiki/concepts/Autograd.md",
-    "wiki/concepts/Torch NN Module.md",
-    "wiki/entities/Luca Antiga.md",
-    "wiki/entities/Eli Stevens.md",
+    "wiki/synthesis/Parameter-Efficient Fine-Tuning.md",
+    "wiki/synthesis/LLM Ops Toolchain.md",
+    "wiki/synthesis/Agent Trust and Safety Controls.md",
+    "wiki/synthesis/Agent Orchestration Platforms.md",
+    "wiki/synthesis/Agent Memory Architectures.md",
+    "wiki/concepts/TorchScript.md",
+    "wiki/entities/LangChain.md",
+    "wiki/entities/AgentOps.md",
     "wiki/entities/Albert Ziegler.md",
-    "wiki/sources/2026-04-12-deep-learning-with-pytorch.md",
+    "wiki/entities/Anjanava Biswas.md",
+    "wiki/entities/Anthropic.md",
+    "wiki/entities/CrewAI.md",
+    "wiki/entities/Comet ML.md",
+    "wiki/entities/ZenML.md",
+    "wiki/sources/2026-04-12-llm-engineers-handbook.md",
+    "wiki/sources/2026-04-12-designing-ml-systems.md",
+    "wiki/sources/2026-04-12-ml-algorithms-in-depth.md",
+    "wiki/sources/2026-04-12-prompt-engineering-llms.md",
+    "wiki/sources/2026-04-12-rag-driven-generative-ai.md",
+    "wiki/sources/2026-04-12-ultimate-guide-fine-tuning.md",
+    "wiki/sources/2026-04-12-ai-agents-in-action.md",
+    "wiki/sources/2026-04-12-14-types-of-rag.md",
+    "wiki/index.md",
+    "wiki/concepts/Continuous Training.md",
+    "raw/source.dvc",
     "wiki/code-examples",
     "raw/source/Deep Learning with PyTorch_ Essential Excerpts 2019.txt",
     "raw/source/Deep Learning with PyTorch_ Essential Excerpts 2019.pdf",
-    "wiki/synthesis/Agent Trust and Safety Controls.md",
     "raw/source/Validation and Enhancement for Retrieval Augmented systems.pdf",
     "raw/source/LEARNING TO RETRIEVE, GENERATE, AND Critique Through Self Reflection.pdf",
     "raw/source/Retrieval-Augmented Generation for Large.pdf",

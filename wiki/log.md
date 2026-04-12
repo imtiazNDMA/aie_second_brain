@@ -59,13 +59,16 @@ New entities: [[Eli Stevens]], [[Luca Antiga]]. New concepts: [[PyTorch]], [[PyT
 Created wiki/code-examples/ with [[Code Examples Overview]] to host runnable snippets alongside concepts/syntheses.
 
 ## [2026-04-12] code-example | [[PyTorch Linear Regression]]
-Added [[PyTorch Linear Regression]] walkthrough demonstrating tensors, Autograd, and `torch.nn` training loop for a simple regression task.
+Added [[PyTorch Linear Regression]] walkthrough demonstrating tensors, [[Autograd]], and `torch.nn` training loop for a simple regression task.
 
 ## [2026-04-12] code-example | PyTorch Tensor & TorchScript
 Added [[PyTorch Tensor Basics]] cheatsheet and [[PyTorch TorchScript Export]] deployment demo to round out the code-examples directory with tensor fundamentals and production workflows.
 
 ## [2026-04-12] code-example | RAG & Prompt Flow
 Added [[LangChain Mini RAG Pipeline]] (Python ingestion/embedding/retrieval) and [[Prompt Flow SOMA Evaluation]] (Prompt Flow DAG + SOMA grader) to extend the snippet catalog beyond PyTorch.
+
+## [2026-04-12] synthesis | LLM Ops & RAG Decisions
+Created [[LLM Ops Toolchain]] and [[RAG Architecture Decision Guide]] to map tooling choices and 14-style RAG variants; added supporting pages [[LangChain]] and [[TorchScript]].
 
 ## [2026-04-12] lint | Health check
 Found 0 errors, 0 warnings, and 2 info items. Fixed: renamed synthesis files to match wikilinks and normalized remaining lowercase link variants.

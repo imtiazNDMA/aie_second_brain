@@ -7,7 +7,7 @@ created: 2026-04-12
 updated: 2026-04-12
 ---
 
-# Agent Memory Architectures
+# [[Agent Memory]] Architectures
 
 Agents described across *Building Agentic AI Systems*, *AI Agents in Action*, and *RAG-Driven Generative AI* share a common blueprint: combine fast conversational context, durable knowledge stores, and retrieval/evaluation layers so assistants stay grounded.
 

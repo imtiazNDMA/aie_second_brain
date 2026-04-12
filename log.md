@@ -59,7 +59,7 @@ New entities: [[Eli Stevens]], [[Luca Antiga]]. New concepts: [[PyTorch]], [[PyT
 Created wiki/code-examples/ with [[Code Examples Overview]] to host runnable snippets alongside concepts/syntheses.
 
 ## [2026-04-12] code-example | [[PyTorch Linear Regression]]
-Added [[PyTorch Linear Regression]] walkthrough demonstrating tensors, Autograd, and `torch.nn` training loop for a simple regression task.
+Added [[PyTorch Linear Regression]] walkthrough demonstrating tensors, [[Autograd]], and `torch.nn` training loop for a simple regression task.
 
 ## [2026-04-12] code-example | PyTorch Tensor & TorchScript
 Added [[PyTorch Tensor Basics]] cheatsheet and [[PyTorch TorchScript Export]] deployment demo to round out the code-examples directory with tensor fundamentals and production workflows.

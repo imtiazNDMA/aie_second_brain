@@ -9,11 +9,11 @@ updated: 2026-04-12
 
 # Chip Huyen
 
-[[Chip Huyen]] is a writer and ML engineer focusing on AI engineering and production ML. Author of [[AI Engineering]] (2024).
+[[Chip Huyen]] is a writer and ML engineer focusing on [[AI engineering]] and production ML. Author of [[AI Engineering]] (2024).
 
 ## Summary
 
-Vietnamese-American author and engineer known for practical ML education. Previously at NVIDIA, Google, and Stanford. Author of "Machine Learning Engineering" and "AI Engineering".
+Vietnamese-American author and engineer known for practical ML education. Previously at NVIDIA, Google, and Stanford. Author of "Machine Learning Engineering" and "[[AI Engineering]]".
 
 ## Sources
 

@@ -7,7 +7,7 @@ created: 2026-04-12
 updated: 2026-04-12
 ---
 
-# Agent Trust and Safety Controls
+# [[Agent Trust and Safety]] Controls
 
 Combines governance guidance from *Building Agentic AI Systems*, *AI Agents in Action*, and *The Ultimate Guide to Fine-Tuning* to outline how to keep autonomous assistants observable, reviewable, and compliant.
 
@@ -19,7 +19,7 @@ Combines governance guidance from *Building Agentic AI Systems*, *AI Agents in A
 | **Prompt & Policy Guardrails** | Encode system rules in [[Prompt Flow]] profiles, apply [[LLM Evaluation Rubrics]]/[[SOMA Evaluation Framework]] offline, and monitor live traces in [[Opik]] | Ensures instruction drift is caught before reaching users |
 | **Safety Models** | Run Llama Guard, Shield Gemma, WILDGUARD (per Ultimate Guide) on both prompts and completions | Adds automated red teaming before/after deployment |
 | **Human-in-the-Loop** | Require approvals for high-risk actions (file writes, network calls) using LangGraph guard nodes or GPT Assistants Playground permissions | Keeps humans in control for destructive operations |
-| **Continuous Training & PEFT** | Apply [[Parameter-Efficient]] updates (LoRA/[[QLoRA]]) to close safety gaps quickly while logging every change to [[Comet ML]] | Supports rapid mitigation when policies change |
+| **[[Continuous Training]] & PEFT** | Apply [[Parameter-Efficient]] updates (LoRA/[[QLoRA]]) to close safety gaps quickly while logging every change to [[Comet ML]] | Supports rapid mitigation when policies change |
 
 ## Process Blueprint
 

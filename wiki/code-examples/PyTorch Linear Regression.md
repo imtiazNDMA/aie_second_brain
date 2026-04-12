@@ -75,7 +75,7 @@ for epoch in range(epochs):
         print(f"Epoch {epoch+1:03d} | Loss={loss.item():.4f} | w={w:.3f}, b={b:.3f}")
 ```
 
-Expected output shows the learned slope/intercept converging near 3 and 2 respectively while loss approaches zero. This demonstrates tensors flowing through `nn.Module`, gradients tracked via Autograd, and optimizer updates.
+Expected output shows the learned slope/intercept converging near 3 and 2 respectively while loss approaches zero. This demonstrates tensors flowing through `nn.Module`, gradients tracked via [[Autograd]], and optimizer updates.
 
 ## 6. Using the Trained Model
 
