@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/code-examples/Code Examples Overview.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Code Examples Overview"
+              "title": "README"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/code-examples/Code Examples Overview.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Code Examples Overview"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -209,12 +209,14 @@
   },
   "active": "ceabba4f334430ef",
   "lastOpenFiles": [
+    "wiki/code-examples/Code Examples Overview.md",
+    "README.md",
+    "raw/source.dvc",
     "wiki/code-examples/LangChain Mini RAG Pipeline.md",
     "wiki/code-examples/Prompt Flow SOMA Evaluation.md",
     "wiki/code-examples/PyTorch TorchScript Export.md",
     "wiki/synthesis/Prompt Evaluation Workflows.md",
     "wiki/code-examples/PyTorch Linear Regression.md",
-    "wiki/code-examples/Code Examples Overview.md",
     "wiki/code-examples/PyTorch Tensor Basics.md",
     "wiki/concepts/Ensemble Methods.md",
     "wiki/concepts/Distributed Training.md",
@@ -237,13 +239,11 @@
     "raw/source/Deep Learning with PyTorch_ Essential Excerpts 2019.txt",
     "raw/source/Deep Learning with PyTorch_ Essential Excerpts 2019.pdf",
     "wiki/synthesis/Agent Trust and Safety Controls.md",
-    "wiki/synthesis/Agent Memory Architectures.md",
     "raw/source/Validation and Enhancement for Retrieval Augmented systems.pdf",
     "raw/source/LEARNING TO RETRIEVE, GENERATE, AND Critique Through Self Reflection.pdf",
     "raw/source/Retrieval-Augmented Generation for Large.pdf",
     "raw/source/Graph Retrieval-Augmented Generation.pdf",
     "Clippings/Unconfirmed 384396.crdownload",
-    "Clippings/Unconfirmed 988668.crdownload",
-    "Clippings/Unconfirmed 164677.crdownload"
+    "Clippings/Unconfirmed 988668.crdownload"
   ]
 }
