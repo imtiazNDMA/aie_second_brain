@@ -14,7 +14,7 @@ Co-author of *Deep Learning with [[PyTorch]]* and longtime Silicon Valley softwa
 ## Summary
 
 - Brings 15+ years of engineering experience and emphasizes approachable, hands-on teaching for [[PyTorch]] newcomers.
-- Co-wrote the Manning guide that introduces tensors, [[autograd]], and the [[PyTorch]] ecosystem.
+- Co-wrote the Manning guide that introduces tensors, [[Autograd]], and the [[PyTorch]] ecosystem.
 
 ## Works
 

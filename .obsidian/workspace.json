@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "db8ac52c1385f4f4",
+        "id": "700c821ea07c4e51",
         "type": "tabs",
         "children": [
           {
-            "id": "ceabba4f334430ef",
+            "id": "8afa1bf7309dd102",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/synthesis/RAG Evaluation Playbook.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RAG Evaluation Playbook"
+              "title": "README"
             }
           }
         ]
@@ -155,12 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of README"
             }
           },
           {
@@ -218,34 +219,34 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "7598289e3e50dbc2",
+  "active": "48b63c2dfa6339da",
   "lastOpenFiles": [
-    "wiki/concepts/reranking.md",
-    "wiki/concepts/embeddings.md",
-    "wiki/synthesis/RAG Architecture Decision Guide.md",
-    "wiki/synthesis/Prompt Evaluation Workflows.md",
-    "wiki/synthesis/Parameter-Efficient Fine-Tuning.md",
-    "wiki/synthesis/LLM Ops Toolchain.md",
-    "wiki/synthesis/Agent Trust and Safety Controls.md",
-    "wiki/synthesis/Agent Orchestration Platforms.md",
-    "wiki/synthesis/Agent Memory Architectures.md",
+    "Untitled.canvas",
+    "README.md",
+    "wiki/concepts/AI Engineering.md",
+    "wiki/sources/2026-04-12-ai-engineering.md",
+    "AGENTS.md",
+    "AI ENGINEERING.md",
+    "wiki/concepts/Simulated Annealing.md",
+    "wiki/concepts/DoRA.md",
+    "wiki/concepts/Ensemble Methods.md",
+    "wiki/concepts/Feature Store.md",
+    "wiki/concepts/Feature-Training-Inference Architecture.md",
+    "wiki/concepts/Vector Database.md",
+    "wiki/concepts/WebGPU.md",
+    "wiki/concepts/RLHF.md",
+    "wiki/concepts/RAG Evaluation.md",
+    "wiki/concepts/Reasoning Strategies.md",
+    "wiki/concepts/Rotary Position Embeddings.md",
+    "wiki/concepts/Self-RAG.md",
+    "wiki/concepts/Transformer.md",
     "wiki/concepts/TorchScript.md",
-    "wiki/entities/LangChain.md",
-    "wiki/entities/AgentOps.md",
-    "wiki/entities/Albert Ziegler.md",
-    "wiki/entities/Anjanava Biswas.md",
-    "wiki/entities/Anthropic.md",
-    "wiki/entities/CrewAI.md",
-    "wiki/entities/Comet ML.md",
-    "wiki/entities/ZenML.md",
-    "wiki/sources/2026-04-12-llm-engineers-handbook.md",
-    "wiki/sources/2026-04-12-designing-ml-systems.md",
-    "wiki/sources/2026-04-12-ml-algorithms-in-depth.md",
-    "wiki/sources/2026-04-12-prompt-engineering-llms.md",
-    "wiki/sources/2026-04-12-rag-driven-generative-ai.md",
-    "wiki/sources/2026-04-12-ultimate-guide-fine-tuning.md",
-    "wiki/sources/2026-04-12-ai-agents-in-action.md",
-    "wiki/sources/2026-04-12-14-types-of-rag.md",
+    "wiki/concepts/Variational Inference.md",
+    "wiki/concepts/Self-Attention.md",
+    "wiki/concepts/HyDE.md",
+    "wiki/concepts/Inference Optimization.md",
+    "wiki/concepts/Knowledge-Graph Indexing.md",
+    "wiki/concepts/LLM Application Loop.md",
     "raw/source.dvc",
     "wiki/code-examples",
     "raw/source/Deep Learning with PyTorch_ Essential Excerpts 2019.txt",

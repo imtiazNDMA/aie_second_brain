@@ -9,7 +9,7 @@ updated: 2026-04-12
 
 ## Definition
 
-Python-first deep learning library featuring dynamic (“define-by-run”) computation graphs, eager execution, and batteries-included tooling for tensors, [[autograd]], neural networks, data loading, and deployment (TorchScript/TorchServe).
+Python-first deep learning library featuring dynamic (“define-by-run”) computation graphs, eager execution, and batteries-included tooling for tensors, [[Autograd]], neural networks, data loading, and deployment (TorchScript/TorchServe).
 
 ## Highlights
 

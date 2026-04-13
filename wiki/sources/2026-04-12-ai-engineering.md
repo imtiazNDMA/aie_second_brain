@@ -1,7 +1,7 @@
 title: [[AI Engineering]]
 type: source
 tags: [book, mlops, production-ml, engineering]
-sources: [[[AI ENGINEERING]] by [[Chip Huyen]] (PDF)(Nonfiction).pdf]
+sources: [AI ENGINEERING by Chip Huyen (PDF)(Nonfiction).pdf]
 created: 2026-04-12
 updated: 2026-04-12
 ---
@@ -10,7 +10,7 @@ updated: 2026-04-12
 
 **Author:** [[Chip Huyen]]  
 **Published:** 2024  
-**Source:** [[AI ENGINEERING]] by [[Chip Huyen]] (PDF)(Nonfiction).pdf  
+**Source:** [[AI Engineering]] by [[Chip Huyen]] (PDF)(Nonfiction).pdf  
 **Date ingested:** 2026-04-12  
 **Type:** book
 
@@ -35,7 +35,7 @@ updated: 2026-04-12
 
 ## Entities Mentioned
 
-- [[Chip Huyen]] — Author and practitioner establishing the [[AI engineering]] discipline
+- [[Chip Huyen]] — Author and practitioner establishing the [[AI Engineering]] discipline
 
 ## Concepts Covered
 

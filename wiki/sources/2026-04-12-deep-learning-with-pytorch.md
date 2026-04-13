@@ -16,7 +16,7 @@ updated: 2026-04-12
 
 ## Summary
 
-Introductory chapters from Manning’s *Deep Learning with [[PyTorch]]* that explain why [[PyTorch]] prioritizes Pythonic, eager execution; walk through tensor fundamentals; show how tensors model real-world data; and outline the tooling ecosystem ([[autograd]], `torch.nn`, datasets/dataloaders, TorchScript, TorchServe). The excerpt also discusses hardware/Jupyter setup guidance and how [[PyTorch]] fits within the broader deep learning landscape.
+Introductory chapters from Manning’s *Deep Learning with [[PyTorch]]* that explain why [[PyTorch]] prioritizes Pythonic, eager execution; walk through tensor fundamentals; show how tensors model real-world data; and outline the tooling ecosystem ([[Autograd]], `torch.nn`, datasets/dataloaders, TorchScript, TorchServe). The excerpt also discusses hardware/Jupyter setup guidance and how [[PyTorch]] fits within the broader deep learning landscape.
 
 ## Key Claims
 

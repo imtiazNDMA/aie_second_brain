@@ -14,7 +14,7 @@ updated: 2026-04-12
 ## Capabilities
 
 - **Layers** — Linear, convolutional, recurrent, normalization, dropout, embeddings, etc.
-- **Module subclassing** — Override `__init__`/`forward` to define arbitrary architectures while leveraging [[autograd]].
+- **Module subclassing** — Override `__init__`/`forward` to define arbitrary architectures while leveraging [[Autograd]].
 - **Utilities** — `torch.utils.data.Dataset`/`DataLoader` for feeding data, `torch.nn.DataParallel` and `torch.distributed` for multi-device scaling.
 - **Training loop integration** — Works with `torch.optim` optimizers and standard for-loops/Jupyter notebooks.
 

@@ -1,6 +1,6 @@
 ---
 tags: [evaluation, rubric, prompt-testing]
-sources: [[2026-04-12-ai-agents-in-action], 2026-04-12-prompt-engineering-llms]
+sources: [2026-04-12-ai-agents-in-action, 2026-04-12-prompt-engineering-llms]
 created: 2026-04-12
 updated: 2026-04-12
 ---

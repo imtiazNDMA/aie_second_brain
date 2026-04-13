@@ -9,7 +9,7 @@ updated: 2026-04-12
 
 # Chip Huyen
 
-[[Chip Huyen]] is a writer and ML engineer focusing on [[AI engineering]] and production ML. Author of [[AI Engineering]] (2024).
+[[Chip Huyen]] is a writer and ML engineer focusing on [[AI Engineering]] and production ML. Author of [[AI Engineering]] (2024).
 
 ## Summary
 

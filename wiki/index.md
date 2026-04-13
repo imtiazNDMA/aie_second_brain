@@ -1,6 +1,6 @@
 # Index
 
-## Entities (33)
+## Entities (58)
 - [[Chip Huyen]]: Author of [[AI Engineering]] and Designing Machine Learning Systems
 - [[Sebastian Raschka]]: Author of Build a Large Language Model (From Scratch)
 - [[Claude Code]]: [[Anthropic]]'s [[AI Coding Agent]] for terminal
@@ -31,11 +31,36 @@
 - [[Chroma]]: Lightweight vector store for dynamic, short-lived collections
 - [[LangGraph]]: LangChain graph runtime for structured multi-agent workflows
 - [[Meilisearch]]: Hybrid keyword/vector search engine supporting RAG pipelines
+- [[Weaviate]]: Open-source vector database with hybrid search and tenant isolation
+- [[Faiss]]: Meta AI similarity-search library for high-speed vector indexing
+- [[Haystack]]: deepset’s framework for composing QA/RAG pipelines with pluggable nodes
+- [[TorchServe]]: Official PyTorch inference server packaging TorchScript models for deployment
 - [[Eli Stevens]]: Co-author of Deep Learning with [[PyTorch]] and longtime CTO
 - [[Luca Antiga]]: [[PyTorch]] contributor and co-author of Deep Learning with [[PyTorch]]
 - [[LangChain]]: LLM orchestration framework for loaders, splitters, retrievers, and agents
+- [[Hugging Face Hub]]: Git-backed registry for models, datasets, and spaces
+- [[Qdrant]]: Open-source vector database with HNSW indexes and payload filters
+- [[SageMaker JumpStart]]: AWS templates for launching training jobs and endpoints
+- [[Amazon Bedrock]]: Managed foundation-model APIs with guardrails and agents
+- [[NVIDIA NeMo]]: NVIDIA’s stack for Megatron training, guardrails, and NIM inference
+- [[Hugging Face Autotrain]]: Low-code service for LoRA/QLoRA and dataset-driven tuning
+- [[Transformers Trainer API]]: Hugging Face high-level training loop with PEFT support
+- [[Optimum]]: Hugging Face optimization toolkit targeting ONNX/ORT/TensorRT/etc.
+- [[vLLM]]: Open-source inference engine using PagedAttention for high throughput
+- [[Llama Guard]]: Meta’s safety classifier for prompts/responses
+- [[Shield Gemma]]: Google Gemma-based moderation assistant
+- [[WILDGUARD]]: Adversarially trained safety classifier for jailbreak defense
+- [[Nghi D. Q. Bui]]: Author of Building AI Coding Agents for the Terminal
+- [[Ashish Vaswani]]: Lead author of Attention Is All You Need
+- [[Noam Shazeer]]: Transformer co-author and sparsity researcher
+- [[Niki Parmar]]: Google Research scientist, transformer co-author
+- [[Jakob Uszkoreit]]: Google Translate engineer and transformer co-author
+- [[Llion Jones]]: Transformer co-author focused on attention implementation
+- [[Aidan Gomez]]: Transformer co-author, later founded Cohere
+- [[Lukasz Kaiser]]: Transformer co-author specializing in positional encodings
+- [[Illia Polosukhin]]: Transformer co-author and NEAR Protocol co-founder
 
-## Concepts (77)
+## Concepts (90)
 - [[Data Pipeline]]: Orchestrating data flow from sources to models
 - [[Feature Store]]: Centralized feature definitions and storage
 - [[Data Collection]]: Gathering data for ML training
@@ -90,6 +115,16 @@
 - [[Mixture of Agents]]: Routing outputs among specialized fine-tuned agents
 - [[SOMA Evaluation Framework]]: Subject/Objective/Medium/Audience rubric for prompts
 - [[Adaptive RAG]]: Retrieval pipelines improved via continuous human feedback
+- [[Corrective RAG]]: Critic-driven loop regenerating answers until checks pass
+- [[HyDE]]: Hypothetical document embeddings to improve recall on vague prompts
+- [[Speculative RAG]]: Prefetching likely follow-up contexts for faster answers
+- [[Modular RAG]]: Swappable retrievers/rerankers/generators with clear contracts
+- [[Memory-Augmented RAG]]: Conversations backed by scratchpads and long-term stores
+- [[Branched RAG]]: Parallel evidence gathering across multiple hypotheses
+- [[Rotary Position Embeddings]]: Applies complex rotations to Q/K vectors for relative positions
+- [[Grouped-Query Attention]]: Shares key/value heads across query groups to shrink KV cache
+- [[DoRA]] (Dimension-wise Offset of Residual Adapter): PEFT variant separating direction and magnitude per dimension
+- [[WebGPU]]: Browser/portable compute API enabling client-side inference experiments
 - [[Knowledge-Graph Indexing]]: Augmenting retrieval with graph traversals
 - [[Dynamic RAG Collections]]: Ephemeral vector stores spun up per context
 - [[Graph RAG]]: Knowledge-graph-driven retrieval strategy
@@ -115,6 +150,9 @@
 - [[RAG Evaluation]]: Metrics and workflows for RAG quality control
 - [[Embeddings]]: Dense vector representations capturing semantic meaning in continuous space
 - [[Reranking]]: Two-stage retrieval process using cross-encoders for precise re-ordering
+- [[Vector Database]]: Persistent store for embeddings + metadata powering similarity search
+- [[Simulated Annealing]]: Probabilistic global search accepting uphill moves with decaying temperature
+- [[Genetic Algorithms]]: Evolutionary optimization using selection, crossover, and mutation
 
 ## Sources (15)
 - [[2026-04-12-building-ai-coding-agents-terminal]]: Building AI Coding Agents for the Terminal
@@ -145,7 +183,7 @@
 
 ## Code Examples (6)
 - [[Code Examples Overview]]: Placeholder hub for future runnable snippets
-- [[PyTorch Linear Regression]]: End-to-end tensor/[[autograd]] example fitting a line
+- [[PyTorch Linear Regression]]: End-to-end tensor/[[Autograd]] example fitting a line
 - [[PyTorch Tensor Basics]]: Cheatsheet for creation, indexing, NumPy interop, serialization
 - [[PyTorch TorchScript Export]]: Trace/script a model and load it for deployment
 - [[LangChain Mini RAG Pipeline]]: Minimal ingestion → embedding → retrieval QA workflow

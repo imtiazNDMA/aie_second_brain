@@ -59,7 +59,7 @@ qa_chain = RetrievalQA.from_chain_type(
     chain_type="stuff"
 )
 
-question = "What are the core components of our [[agent memory]] architecture?"
+question = "What are the core components of our [[Agent Memory]] architecture?"
 response = qa_chain.run(question)
 print(response)
 ```

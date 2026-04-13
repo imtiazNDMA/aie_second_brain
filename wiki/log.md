@@ -93,3 +93,24 @@ Found 0 errors, 0 warnings, and 2 info items. Fixed: renamed synthesis files to 
 
 ## [2026-04-13] concepts | Active learning, ensembles & GNNs
 Added mathematical derivations to [[Active Learning]] (uncertainty sampling with entropy, QBC with vote entropy, expected model change, pool-based sampling loop), [[Ensemble Methods]] (bias-variance decomposition, bagging variance reduction, AdaBoost weights and training error bound, stacking, random forest feature importance), and [[Graph Neural Network]] (message passing framework, GCN mean aggregation matrix form, GraphSAGE aggregators, GAT attention weights, spectral convolution with graph Fourier transform).
+
+## [2026-04-13] concepts | RAG variants
+Created concept pages [[Corrective RAG]], [[HyDE]], [[Speculative RAG]], [[Modular RAG]], [[Memory-Augmented RAG]], and [[Branched RAG]] to cover the remaining patterns from [[2026-04-12-14-types-of-rag]]. Updated [[index]] with the new entries.
+
+## [2026-04-13] entities | RAG tooling
+Added entity pages [[Weaviate]], [[Faiss]], and [[Haystack]] to capture the vector search/tooling providers referenced in [[2026-04-12-14-types-of-rag]]. Updated [[index]] accordingly.
+
+## [2026-04-13] concepts | Transformer internals + deployment
+Captured missing internals from [[2026-04-12-build-llm-from-scratch]] by adding [[Rotary Position Embeddings]] and [[Grouped-Query Attention]]. Documented [[TorchServe]] as the deployment runtime stemming from [[2026-04-12-deep-learning-with-pytorch]].
+
+## [2026-04-13] concepts | Fine-tuning safety stack
+Added [[DoRA]] (Dimension-wise Offset of Residual Adapter) and [[WebGPU]] concepts plus classical optimization entries [[Simulated Annealing]] and [[Genetic Algorithms]] to cover references from [[2026-04-12-ultimate-guide-fine-tuning]] and [[2026-04-12-ml-algorithms-in-depth]].
+
+## [2026-04-13] entities | Safety + inference tooling
+Created pages for [[Llama Guard]], [[Shield Gemma]], [[WILDGUARD]], [[vLLM]], and [[Nghi D. Q. Bui]] to complete the safety/evaluation stack cited in [[2026-04-12-ultimate-guide-fine-tuning]] and [[2026-04-12-building-ai-coding-agents-terminal]].
+
+## [2026-04-13] entities | Platforms & authors
+Documented industrial platforms ([[Hugging Face Hub]], [[Qdrant]], [[Hugging Face Autotrain]], [[Transformers Trainer API]], [[Optimum]], [[SageMaker JumpStart]], [[Amazon Bedrock]], [[NVIDIA NeMo]]) and added transformer co-author entities ([[Ashish Vaswani]], [[Noam Shazeer]], [[Niki Parmar]], [[Jakob Uszkoreit]], [[Llion Jones]], [[Aidan Gomez]], [[Lukasz Kaiser]], [[Illia Polosukhin]]).
+
+## [2026-04-13] lint | Wikilink cleanup
+Normalized wikilink casing (e.g., [[AI Engineering]], [[Autograd]]), fixed lower-case references in code examples, removed duplicate root-level `index.md`/`log.md`, and created the [[Vector Database]] concept so all tools mentioned in RAG sources have dedicated pages.

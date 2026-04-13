@@ -82,7 +82,7 @@ Expected output shows the learned slope/intercept converging near 3 and 2 respec
 ```python
 model.eval()
 with torch.no_grad():
-    test_x = torch.tensor([[1.5]], device=device)
+    test_x = torch.tensor([1.5], device=device).unsqueeze(1)
     pred = model(test_x)
 print(f"Prediction for x=1.5: {pred.item():.3f}")
 ```
