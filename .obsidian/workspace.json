@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "dfbc267929cce65c",
+        "id": "db8ac52c1385f4f4",
         "type": "tabs",
         "children": [
           {
-            "id": "d7e3581151d44b13",
+            "id": "ceabba4f334430ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/concepts/Graph Neural Network.md",
+                "file": "wiki/synthesis/RAG Evaluation Playbook.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Graph Neural Network"
+              "title": "RAG Evaluation Playbook"
             }
           }
         ]
@@ -179,8 +179,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -218,43 +218,43 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "d7e3581151d44b13",
+  "active": "7598289e3e50dbc2",
   "lastOpenFiles": [
-    "wiki/concepts/Markov Chain Monte Carlo.md",
-    "wiki/concepts/Mixture Density Network.md",
-    "wiki/concepts/ML Monitoring.md",
-    "wiki/concepts/MLOps.md",
-    "wiki/concepts/Wiki.md",
-    "wiki/concepts/Batch Deployment.md",
-    "wiki/concepts/Continuous Training.md",
-    "wiki/concepts/Generative AI.md",
-    "wiki/concepts/Ensemble Methods.md",
-    "wiki/concepts/Distributed Training.md",
-    "wiki/entities/Luca Antiga.md",
-    "wiki/entities/Maxime Labonne.md",
-    "wiki/entities/Micheal Lanham.md",
-    "wiki/entities/Meilisearch.md",
-    "wiki/entities/Nexus Agent Platform.md",
-    "wiki/concepts/Agent Memory.md",
-    "wiki/concepts/Coordinator-Worker-Delegator Model.md",
-    "wiki/concepts/Data Cleaning.md",
-    "wiki/concepts/Data Labeling.md",
-    "wiki/concepts/Agent Components.md",
-    "wiki/concepts/Autograd.md",
-    "wiki/concepts/Adaptive RAG.md",
-    "raw/source/build-llm-from-scratch.pdf",
-    "raw/source/attention-is-all-you-need.pdf",
-    "raw/source/AI ENGINEERING by Chip Huyen (PDF)(Nonfiction).pdf",
-    "raw/source/A. Pajankar, A. Joshi - Hands-on Machine Learning with Python_ Implement Neural Network Solutions with Scikit-learn and PyTorch.pdf",
+    "wiki/concepts/reranking.md",
+    "wiki/concepts/embeddings.md",
+    "wiki/synthesis/RAG Architecture Decision Guide.md",
+    "wiki/synthesis/Prompt Evaluation Workflows.md",
+    "wiki/synthesis/Parameter-Efficient Fine-Tuning.md",
+    "wiki/synthesis/LLM Ops Toolchain.md",
+    "wiki/synthesis/Agent Trust and Safety Controls.md",
     "wiki/synthesis/Agent Orchestration Platforms.md",
     "wiki/synthesis/Agent Memory Architectures.md",
-    "wiki/index.md",
-    "wiki/sources/2026-04-12-build-llm-from-scratch.md",
+    "wiki/concepts/TorchScript.md",
+    "wiki/entities/LangChain.md",
+    "wiki/entities/AgentOps.md",
+    "wiki/entities/Albert Ziegler.md",
+    "wiki/entities/Anjanava Biswas.md",
+    "wiki/entities/Anthropic.md",
+    "wiki/entities/CrewAI.md",
+    "wiki/entities/Comet ML.md",
+    "wiki/entities/ZenML.md",
+    "wiki/sources/2026-04-12-llm-engineers-handbook.md",
+    "wiki/sources/2026-04-12-designing-ml-systems.md",
+    "wiki/sources/2026-04-12-ml-algorithms-in-depth.md",
+    "wiki/sources/2026-04-12-prompt-engineering-llms.md",
+    "wiki/sources/2026-04-12-rag-driven-generative-ai.md",
+    "wiki/sources/2026-04-12-ultimate-guide-fine-tuning.md",
+    "wiki/sources/2026-04-12-ai-agents-in-action.md",
+    "wiki/sources/2026-04-12-14-types-of-rag.md",
     "raw/source.dvc",
     "wiki/code-examples",
     "raw/source/Deep Learning with PyTorch_ Essential Excerpts 2019.txt",
     "raw/source/Deep Learning with PyTorch_ Essential Excerpts 2019.pdf",
     "raw/source/Validation and Enhancement for Retrieval Augmented systems.pdf",
-    "raw/source/LEARNING TO RETRIEVE, GENERATE, AND Critique Through Self Reflection.pdf"
+    "raw/source/LEARNING TO RETRIEVE, GENERATE, AND Critique Through Self Reflection.pdf",
+    "raw/source/Retrieval-Augmented Generation for Large.pdf",
+    "raw/source/Graph Retrieval-Augmented Generation.pdf",
+    "Clippings/Unconfirmed 384396.crdownload",
+    "Clippings/Unconfirmed 988668.crdownload"
   ]
 }
