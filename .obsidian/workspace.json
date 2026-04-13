@@ -4,67 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "59163e4ce434c544",
+        "id": "dfbc267929cce65c",
         "type": "tabs",
         "children": [
           {
-            "id": "edca3b17e463c9d2",
+            "id": "d7e3581151d44b13",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/concepts/Prompt Engineering.md",
+                "file": "wiki/concepts/Graph Neural Network.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prompt Engineering"
-            }
-          },
-          {
-            "id": "90627398697b3d67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/concepts/Fine-Tuning.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Fine-Tuning"
-            }
-          },
-          {
-            "id": "9cd48a5d39dda948",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/concepts/QLoRA.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "QLoRA"
-            }
-          },
-          {
-            "id": "199d5be48a6c0d64",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/concepts/Attention Mechanism.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Attention Mechanism"
+              "title": "Graph Neural Network"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -261,43 +218,43 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "199d5be48a6c0d64",
+  "active": "d7e3581151d44b13",
   "lastOpenFiles": [
-    "wiki/concepts/Self-Attention.md",
-    "wiki/concepts/Attention Mechanism.md",
-    "wiki/concepts/RLHF.md",
-    "wiki/concepts/Half Fine-Tuning.md",
-    "wiki/concepts/Low-Rank Adaptation.md",
-    "wiki/concepts/QLoRA.md",
-    "wiki/concepts/Fine-Tuning.md",
-    "wiki/concepts/Prompt Engineering.md",
-    "[Adaptive RAG.md",
-    "index.md",
-    "README.md",
-    "log.md",
-    "wiki/concepts/Inference Optimization.md",
-    "wiki/concepts/Dynamic RAG Collections.md",
-    "wiki/concepts/Dirichlet Process K-Means.md",
-    "wiki/concepts/Direct Preference Optimization.md",
+    "wiki/concepts/Markov Chain Monte Carlo.md",
+    "wiki/concepts/Mixture Density Network.md",
+    "wiki/concepts/ML Monitoring.md",
+    "wiki/concepts/MLOps.md",
+    "wiki/concepts/Wiki.md",
+    "wiki/concepts/Batch Deployment.md",
+    "wiki/concepts/Continuous Training.md",
+    "wiki/concepts/Generative AI.md",
+    "wiki/concepts/Ensemble Methods.md",
+    "wiki/concepts/Distributed Training.md",
+    "wiki/entities/Luca Antiga.md",
+    "wiki/entities/Maxime Labonne.md",
+    "wiki/entities/Micheal Lanham.md",
+    "wiki/entities/Meilisearch.md",
+    "wiki/entities/Nexus Agent Platform.md",
+    "wiki/concepts/Agent Memory.md",
+    "wiki/concepts/Coordinator-Worker-Delegator Model.md",
+    "wiki/concepts/Data Cleaning.md",
     "wiki/concepts/Data Labeling.md",
-    "wiki/code-examples/LangChain Mini RAG Pipeline.md",
-    "wiki/concepts/Multi-Agent Systems.md",
-    "wiki/code-examples/Code Examples Overview.md",
-    "wiki/concepts/GPT Assistants.md",
-    "wiki/concepts/Data Collection.md",
     "wiki/concepts/Agent Components.md",
-    "wiki/synthesis/RAG Evaluation Playbook.md",
-    "wiki/synthesis/RAG Architecture Decision Guide.md",
-    "wiki/synthesis/Prompt Evaluation Workflows.md",
+    "wiki/concepts/Autograd.md",
+    "wiki/concepts/Adaptive RAG.md",
+    "raw/source/build-llm-from-scratch.pdf",
+    "raw/source/attention-is-all-you-need.pdf",
+    "raw/source/AI ENGINEERING by Chip Huyen (PDF)(Nonfiction).pdf",
+    "raw/source/A. Pajankar, A. Joshi - Hands-on Machine Learning with Python_ Implement Neural Network Solutions with Scikit-learn and PyTorch.pdf",
+    "wiki/synthesis/Agent Orchestration Platforms.md",
+    "wiki/synthesis/Agent Memory Architectures.md",
+    "wiki/index.md",
+    "wiki/sources/2026-04-12-build-llm-from-scratch.md",
     "raw/source.dvc",
     "wiki/code-examples",
     "raw/source/Deep Learning with PyTorch_ Essential Excerpts 2019.txt",
     "raw/source/Deep Learning with PyTorch_ Essential Excerpts 2019.pdf",
     "raw/source/Validation and Enhancement for Retrieval Augmented systems.pdf",
-    "raw/source/LEARNING TO RETRIEVE, GENERATE, AND Critique Through Self Reflection.pdf",
-    "raw/source/Retrieval-Augmented Generation for Large.pdf",
-    "raw/source/Graph Retrieval-Augmented Generation.pdf",
-    "Clippings/Unconfirmed 384396.crdownload",
-    "Clippings/Unconfirmed 988668.crdownload"
+    "raw/source/LEARNING TO RETRIEVE, GENERATE, AND Critique Through Self Reflection.pdf"
   ]
 }

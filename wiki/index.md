@@ -113,6 +113,8 @@
 - [[LLM Application Loop]]: Feedforward/evaluation framing for prompt-driven apps
 - [[Parameter-Efficient]]: Adapter-based fine-tuning strategies
 - [[RAG Evaluation]]: Metrics and workflows for RAG quality control
+- [[Embeddings]]: Dense vector representations capturing semantic meaning in continuous space
+- [[Reranking]]: Two-stage retrieval process using cross-encoders for precise re-ordering
 
 ## Sources (15)
 - [[2026-04-12-building-ai-coding-agents-terminal]]: Building AI Coding Agents for the Terminal

@@ -70,5 +70,26 @@ Added [[LangChain Mini RAG Pipeline]] (Python ingestion/embedding/retrieval) and
 ## [2026-04-12] synthesis | LLM Ops & RAG Decisions
 Created [[LLM Ops Toolchain]] and [[RAG Architecture Decision Guide]] to map tooling choices and 14-style RAG variants; added supporting pages [[LangChain]] and [[TorchScript]].
 
-## [2026-04-12] lint | Health check
+## [2026-04-13] lint | Health check
+Found 0 errors, 2 warnings, 2 info items. Fixed: created dedicated concept pages [[Embeddings]] and [[Reranking]] with mathematical foundations; added to index.
+
+## [2026-04-13] concepts | Mathematical depth
+Added detailed mathematical derivations to [[Transformer]] (encoder/decoder blocks, FFN, LayerNorm, computational complexity table) and [[Scaled Dot-Product Attention]] (full matrix form, softmax derivation, scaling factor justification).
+
+## [2026-04-13] concepts | Additional mathematical depth
+Added comprehensive mathematical formulations to [[Variational Inference]] (ELBO derivation, mean-field approximation, reparameterization trick, VAE objective), [[Positional Encoding]] (sinusoidal formulas, RoPE rotation matrices), and [[Multi-Head Attention]] (per-head projections, concatenation, parameter budget table).
+
+## [2026-04-13] concepts | Alignment & PEFT mathematical depth
+Added full mathematical derivations to [[RLHF]] (reward model Bradley-Terry loss, PPO clipped objective, KL penalty), [[Low-Rank Adaptation]] (LoRA weight updates, gradient flow, parameter count table, QLoRA), and [[Direct Preference Optimization]] (preference loss with sigmoid, equivalence to RLHF, policy gradient interpretation).
+
+## [2026-04-13] concepts | Quantization, clustering & sampling mathematical depth
+Added full mathematical formulations to [[QLoRA]] (4-bit quantization, dequantization for forward pass, memory analysis table, quantization error), [[Gaussian Mixture Model]] (EM algorithm with E-step responsibilities, M-step parameter updates, likelihood), and [[Markov Chain Monte Carlo]] (Metropolis-Hastings acceptance ratio, detailed balance, Gibbs sampling, ESS diagnostics).
+
+## [2026-04-13] concepts | Tokenization, inference & hyperparameter optimization
+Added mathematical derivations to [[Tokenization]] (BPE algorithm with pair frequency, unigram loss, sequence length comparison table, subword embedding composition), [[Inference Optimization]] (quantization precision table, pruning with threshold, knowledge distillation with KL divergence, KV cache for autoregressive generation, batching throughput), and [[Bayesian Optimization]] (GP posterior formulas, squared exponential and Matern kernels, EI/UCB/PI acquisition functions).
+
+## [2026-04-13] lint | Health check
 Found 0 errors, 0 warnings, and 2 info items. Fixed: renamed synthesis files to match wikilinks and normalized remaining lowercase link variants.
+
+## [2026-04-13] concepts | Active learning, ensembles & GNNs
+Added mathematical derivations to [[Active Learning]] (uncertainty sampling with entropy, QBC with vote entropy, expected model change, pool-based sampling loop), [[Ensemble Methods]] (bias-variance decomposition, bagging variance reduction, AdaBoost weights and training error bound, stacking, random forest feature importance), and [[Graph Neural Network]] (message passing framework, GCN mean aggregation matrix form, GraphSAGE aggregators, GAT attention weights, spectral convolution with graph Fourier transform).
