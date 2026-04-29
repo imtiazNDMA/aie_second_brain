@@ -41,7 +41,7 @@ Rather than relying solely on training data, RAG AI systems use external sources
 
 RAG is crucial today because it reduces AI hallucinations in results. Artificial intelligence systems can access up-to-date information rather than relying solely on static datasets used for training and retraining.
 
-The most common example you see every day is that of [[[adaptive RAG]]](https://www.meilisearch.com/blog/adaptive-rag) in a chatbot. It retrieves answers from a live knowledge base and generates a relevant response for the user.
+The most common example you see every day is that of [[Adaptive RAG]] in a chatbot. It retrieves answers from a live knowledge base and generates a relevant response for the user.
 
 ## What is retrieval-augmented generation in generative AI?
 

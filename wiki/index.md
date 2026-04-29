@@ -1,6 +1,6 @@
 # Index
 
-## Entities (58)
+## Entities (91)
 - [[Chip Huyen]]: Author of [[AI Engineering]] and Designing Machine Learning Systems
 - [[Sebastian Raschka]]: Author of Build a Large Language Model (From Scratch)
 - [[Claude Code]]: [[Anthropic]]'s [[AI Coding Agent]] for terminal
@@ -59,8 +59,41 @@
 - [[Aidan Gomez]]: Transformer co-author, later founded Cohere
 - [[Lukasz Kaiser]]: Transformer co-author specializing in positional encodings
 - [[Illia Polosukhin]]: Transformer co-author and NEAR Protocol co-founder
+- [[Richard Johnson]]: Author of System Design Interview - The Complete Guide to System Design
+- [[Redis]]: In-memory data store used for caching and infrastructure workloads
+- [[Riak]]: Distributed NoSQL key-value database focused on resilience
+- [[Oracle NoSQL Database]]: Key-value NoSQL store with replication and versioned records
+- [[Apache ZooKeeper]]: Coordination service for service discovery and cluster metadata
+- [[Twitter Snowflake]]: Distributed 64-bit ID generation scheme
+- [[Amazon Dynamo]]: Availability-first key-value store design from Amazon
+- [[Apache Cassandra]]: Decentralized wide-column database with tunable consistency
+- [[Apache Kafka]]: Distributed log and messaging platform with partition leaders
+- [[Chubby]]: Distributed lock and coordination service used in Google infrastructure
+- [[Google File System]]: Distributed large-file storage system with chunk replication
+- [[Hadoop Distributed File System]]: GFS-inspired distributed storage layer for Hadoop
+- [[Google Bigtable]]: Distributed wide-column store organized into tablets
+- [[Jayanth Kumar]]: Co-author of System Design on AWS
+- [[Mandeep Singh]]: Co-author of System Design on AWS
+- [[Amazon VPC]]: AWS virtual networking boundary for subnets, routes, and security controls
+- [[Amazon Route 53]]: Managed DNS and policy-based global traffic routing on AWS
+- [[Amazon API Gateway]]: Managed API ingress layer for routing, throttling, and integrations
+- [[Amazon CloudFront]]: Edge CDN for global caching and low-latency delivery
+- [[Amazon S3]]: Durable object storage service for static assets and data lakes
+- [[Amazon EC2]]: Elastic virtual-machine compute platform on AWS
+- [[AWS Lambda]]: Event-driven serverless compute runtime
+- [[Amazon DynamoDB]]: Managed key-value/document database for low-latency scale
+- [[Amazon Kinesis]]: Managed streaming ingestion and processing platform
+- [[AWS Identity and Access Management]]: Policy-based access control system for AWS resources
+- [[Daniel Voigt Godoy]]: Author of Deep Learning with PyTorch Step-by-Step
+- [[TensorBoard]]: Visualization and experiment-tracking toolkit for training runs
+- [[Torchvision]]: PyTorch vision library for datasets, transforms, and pretrained models
+- [[ImageNet]]: Large-scale visual-recognition dataset and transfer-learning benchmark
+- [[AlexNet]]: CNN breakthrough model that won ILSVRC 2012
+- [[VGG]]: Deep small-kernel CNN family used in transfer-learning baselines
+- [[Inception]]: GoogLeNet family using multi-branch convolution modules
+- [[ResNet]]: Residual-network family enabling very deep training
 
-## Concepts (90)
+## Concepts (147)
 - [[Data Pipeline]]: Orchestrating data flow from sources to models
 - [[Feature Store]]: Centralized feature definitions and storage
 - [[Data Collection]]: Gathering data for ML training
@@ -153,8 +186,63 @@
 - [[Vector Database]]: Persistent store for embeddings + metadata powering similarity search
 - [[Simulated Annealing]]: Probabilistic global search accepting uphill moves with decaying temperature
 - [[Genetic Algorithms]]: Evolutionary optimization using selection, crossover, and mutation
+- [[System Design Interviews]]: Structured approach for open-ended architecture interview problems
+- [[High Availability]]: Resilience strategy for keeping systems operational under failure
+- [[Load Balancing]]: Traffic distribution across server pools for scale and stability
+- [[Consistent Hashing]]: Partitioning method minimizing key movement during membership changes
+- [[Rate Limiting]]: Request-throttling controls for fairness and service protection
+- [[Service Discovery]]: Dynamic lookup of healthy service endpoints
+- [[Fanout]]: Push/pull feed distribution pattern for social systems
+- [[Message Ordering]]: Monotonic sequencing guarantees for chats and event streams
+- [[Caching]]: Low-latency data reuse layer to reduce backend load
+- [[Bloom Filters]]: Probabilistic structure to skip most negative lookups cheaply
+- [[Quorum]]: Read/write overlap rule for replica consistency
+- [[Leader-Follower Replication]]: Single-writer replication model with follower failover
+- [[Write-Ahead Log]]: Durability log written before in-memory/index mutation
+- [[Hinted Handoff]]: Temporary write buffering for unavailable replicas
+- [[Read Repair]]: Read-time healing of stale replicas
+- [[Vector Clocks]]: Per-node version vectors for causality and conflict detection
+- [[Merkle Trees]]: Hash trees for efficient replica anti-entropy comparison
+- [[Gossip Protocol]]: Peer-to-peer cluster-state dissemination pattern
+- [[High-Water Mark]]: Safely replicated offset boundary exposed to consumers
+- [[Split Brain]]: Multiple-leader failure mode during partitions/failover
+- [[Fencing]]: Mechanism to isolate stale leaders from shared resources
+- [[Lease]]: Time-bounded lock/ownership grant with renewal semantics
+- [[Checksum]]: Integrity hash for corruption detection
+- [[CAP Theorem]]: Partition-time consistency vs availability tradeoff model
+- [[PACELC Theorem]]: Extends CAP with latency vs consistency tradeoff in healthy networks
+- [[BLEU]]: N-gram overlap metric with brevity penalty for generated text quality
+- [[ROUGE]]: Recall-oriented overlap metric family for generation/summarization evaluation
+- [[Perplexity]]: Language-model uncertainty metric derived from token likelihood
+- [[Blast Radius]]: Failure impact boundary used to constrain outage scope
+- [[Day 0 Architecture]]: Initial launch architecture optimized for speed and clarity
+- [[Day N Architecture]]: Scaled architecture stage focused on resilience and operational maturity
+- [[Choreography]]: Decentralized event-driven service coordination without central control
+- [[Orchestration]]: Central workflow-driven coordination for multi-step service interactions
+- [[Circuit Breaker]]: Resilience pattern that blocks calls to failing dependencies
+- [[CQRS]]: Separates write and read models for independent scaling
+- [[Saga Pattern]]: Distributed transaction coordination with compensating actions
+- [[Fault Tolerance]]: System capability to continue operating under partial failure
+- [[Event-Driven Architecture]]: Asynchronous publish/subscribe coordination style
+- [[Retry with Backoff]]: Retry strategy using increasing delay intervals and jitter
+- [[Transfer Learning]]: Reusing pretrained representations for downstream tasks
+- [[Batch Normalization]]: Mini-batch activation normalization with learnable scale/shift
+- [[Gradient Clipping]]: Bounding gradient magnitude to stabilize updates
+- [[Teacher Forcing]]: Feeding ground-truth previous tokens during decoder training
+- [[Sequence-to-Sequence Learning]]: Mapping input sequences to output sequences via encoder-decoder models
+- [[Learning Rate Scheduling]]: Time- or metric-based adjustment of optimizer step size
+- [[Residual Connections]]: Skip-path additions that preserve gradient flow in deep stacks
+- [[Vision Transformer]]: Transformer encoder architecture over image patches
+- [[Convolution]]: Sliding-kernel operation for local pattern extraction with shared weights
+- [[Recurrent Neural Network]]: Sequence model that carries hidden state across timesteps
+- [[Gated Recurrent Unit]]: Gated recurrent cell balancing memory and efficiency
+- [[Long Short-Term Memory]]: Recurrent architecture with gated long-term memory path
+- [[CUDA]]: GPU acceleration platform used for PyTorch tensor computation
+- [[DataLoader]]: PyTorch batching/iteration utility for mini-batch pipelines
+- [[TensorDataset]]: Lightweight wrapper turning tensors into dataset samples
+- [[Confusion Matrix]]: Class-wise prediction outcome table for classification diagnostics
 
-## Sources (15)
+## Sources (19)
 - [[2026-04-12-building-ai-coding-agents-terminal]]: Building AI Coding Agents for the Terminal
 - [[2026-04-12-building-llms-for-production]]: Building LLMs for Production ([[Chip Huyen]])
 - [[2026-04-12-ai-engineering]]: [[AI Engineering]] ([[Chip Huyen]])
@@ -170,6 +258,26 @@
 - [[2026-04-12-attention-is-all-you-need]]: Attention Is All You Need (Vaswani et al.)
 - [[2026-04-12-14-types-of-rag]]: 14 Types of RAG (Meilisearch)
 - [[2026-04-12-deep-learning-with-pytorch]]: Deep Learning with [[PyTorch]] (Essential Excerpts)
+- [[2026-04-16-system-design-interview-complete-guide]]: System Design Interview - The Complete Guide to System Design
+- [[2026-04-16-grokking-advanced-system-design-interview]]: Grokking the Advanced System Design Interview
+- [[2026-04-16-system-design-on-aws]]: System Design on AWS ([[Jayanth Kumar]] & [[Mandeep Singh]])
+- [[2026-04-16-deep-learning-with-pytorch-step-by-step]]: Deep Learning with PyTorch Step-by-Step ([[Daniel Voigt Godoy]])
+
+## Overviews (14)
+- [[AI Engineer Master Roadmap]]: Phased plan to build a complete AI-engineer second brain
+- [[AI Engineer Career OS]]: Central operating page for goals, planning, and execution cadence
+- [[AI Engineer Skills Matrix]]: Capability scorecard with evidence and upgrade actions
+- [[AI Engineer 90-Day Plan]]: Milestone plan for shipping interview-ready AI projects
+- [[AI Engineer Weekly Review]]: Weekly retrospective and next-week planning template
+- [[AI Engineer Project Tracker]]: End-to-end tracker for flagship project execution
+- [[AI Engineer Learning-to-Build Map]]: Concept-to-project dependency map for focused learning
+- [[AI Engineer Portfolio Blueprint]]: Hiring-oriented proof-of-work publishing standard
+- [[AI Engineer Gap Analysis]]: Biweekly audit template for weakness detection and reprioritization
+- [[RAG Evaluation System]]: Week-1 checklist and project spec template for flagship RAG build
+- [[RAG Evaluation System Read-Implement Tracker]]: Reading-to-implementation checklist for the RAG flagship project
+- [[Agentic Workflow Engine Read-Implement Tracker]]: Reading-to-implementation checklist for the agent systems project
+- [[Fine-Tuning Lab Read-Implement Tracker]]: Reading-to-implementation checklist for PEFT/QLoRA execution
+- [[Inference API and Ops Read-Implement Tracker]]: Reading-to-implementation checklist for serving and operations
 
 ## Syntheses (8)
 - [[Agent Orchestration Platforms]]: Comparison of AutoGen, CrewAI, LangGraph, and Nexus stacks

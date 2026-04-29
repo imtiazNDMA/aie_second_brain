@@ -36,5 +36,7 @@
   "AGENTS.md": "LiFile",
   "wiki": "📁",
   "raw": "📁",
-  "Clippings": "📁"
+  "Clippings": "📁",
+  "wiki/log.md": "LiFile",
+  "wiki/index.md": "LiFile"
 }

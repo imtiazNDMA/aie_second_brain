@@ -128,7 +128,7 @@ Graph RAG is used in fields where the relationships between concepts are crucial
 
 [[Self-RAG]] works by first providing an answer based on the retrieved data, then using specialized evaluation modules to check whether the answer is accurate and supported by the source material. It uses a language model to rewrite the original query, adding missing context and inferred intent from previous conversations.
 
-![[[Self-RAG]].png](https://unable-actionable-car.media.strapiapp.com/Self_RAG_44c6d5034a.png)
+![Self-RAG.png](https://unable-actionable-car.media.strapiapp.com/Self_RAG_44c6d5034a.png)
 
 [[Self-RAG]] is used when questions are incomplete or there is insufficient detail to retrieve the proper documents.
 
@@ -189,9 +189,9 @@ Multimodal RAG is used to analyze files that combine text and other forms of med
 
 ## 8\. [[Adaptive RAG]]
 
-[[[Adaptive RAG]]](https://www.meilisearch.com/blog/adaptive-rag) is a RAG model that learns from experience. It pays attention to what works and what doesn’t, and gradually improves its ability to respond to different kinds of questions.
+[[Adaptive RAG]] is a RAG model that learns from experience. It pays attention to what works and what doesn't, and gradually improves its ability to respond to different kinds of questions.
 
-![[[Adaptive RAG]].png](https://unable-actionable-car.media.strapiapp.com/Adaptive_RAG_60242702c1.png)
+![Adaptive RAG.png](https://unable-actionable-car.media.strapiapp.com/Adaptive_RAG_60242702c1.png)
 
 [[Adaptive RAG]] works by first recognizing the type of question (simple, complex, broad, or narrow) it received, then adjusting its retrieval process and generation style based on the question to provide an accurate answer.
 

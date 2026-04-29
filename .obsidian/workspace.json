@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "wiki/overviews/RAG Evaluation System Read-Implement Tracker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "RAG Evaluation System Read-Implement Tracker"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200.5
+    "width": 352.5
   },
   "right": {
     "id": "6b1a80b43b448400",
@@ -219,34 +219,37 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "48b63c2dfa6339da",
+  "active": "8afa1bf7309dd102",
   "lastOpenFiles": [
+    "wiki/overviews/RAG Evaluation System.md",
+    "wiki/overviews/RAG Evaluation System Read-Implement Tracker.md",
+    "wiki/log.md",
+    "wiki/overviews/Inference API and Ops Read-Implement Tracker.md",
+    "wiki/overviews/Fine-Tuning Lab Read-Implement Tracker.md",
+    "wiki/overviews/Agentic Workflow Engine Read-Implement Tracker.md",
+    "wiki/overviews/AI Engineer 90-Day Plan.md",
+    "wiki/overviews/AI Engineer Career OS.md",
+    "wiki/overviews/AI Engineer Master Roadmap.md",
+    "wiki/overviews/AI Engineer Portfolio Blueprint.md",
+    "wiki/overviews/AI Engineer Project Tracker.md",
+    "wiki/overviews/AI Engineer Skills Matrix.md",
+    "wiki/overviews/AI Engineer Weekly Review.md",
+    "wiki/overviews/AI Engineer Gap Analysis.md",
+    "wiki/index.md",
+    "wiki/overviews/AI Engineer Learning-to-Build Map.md",
+    "wiki/overviews",
+    "wiki/graphics/2026-04-16-deep-learning-with-pytorch-step-by-step-figures.md",
+    "wiki/graphics/2026-04-16-grokking-advanced-system-design-interview-figures.md",
+    "wiki/graphics/2026-04-16-system-design-interview-figures.md",
+    "wiki/graphics/2026-04-16-system-design-on-aws-figures.md",
+    "wiki/concepts/Dynamic RAG Collections.md",
+    "wiki/entities/ResNet.md",
+    "wiki/entities/Inception.md",
+    "wiki/entities/VGG.md",
+    "wiki/entities/AlexNet.md",
+    "wiki/entities/ImageNet.md",
+    "wiki/graphics",
     "Untitled.canvas",
-    "README.md",
-    "wiki/concepts/AI Engineering.md",
-    "wiki/sources/2026-04-12-ai-engineering.md",
-    "AGENTS.md",
-    "AI ENGINEERING.md",
-    "wiki/concepts/Simulated Annealing.md",
-    "wiki/concepts/DoRA.md",
-    "wiki/concepts/Ensemble Methods.md",
-    "wiki/concepts/Feature Store.md",
-    "wiki/concepts/Feature-Training-Inference Architecture.md",
-    "wiki/concepts/Vector Database.md",
-    "wiki/concepts/WebGPU.md",
-    "wiki/concepts/RLHF.md",
-    "wiki/concepts/RAG Evaluation.md",
-    "wiki/concepts/Reasoning Strategies.md",
-    "wiki/concepts/Rotary Position Embeddings.md",
-    "wiki/concepts/Self-RAG.md",
-    "wiki/concepts/Transformer.md",
-    "wiki/concepts/TorchScript.md",
-    "wiki/concepts/Variational Inference.md",
-    "wiki/concepts/Self-Attention.md",
-    "wiki/concepts/HyDE.md",
-    "wiki/concepts/Inference Optimization.md",
-    "wiki/concepts/Knowledge-Graph Indexing.md",
-    "wiki/concepts/LLM Application Loop.md",
     "raw/source.dvc",
     "wiki/code-examples",
     "raw/source/Deep Learning with PyTorch_ Essential Excerpts 2019.txt",
@@ -254,8 +257,6 @@
     "raw/source/Validation and Enhancement for Retrieval Augmented systems.pdf",
     "raw/source/LEARNING TO RETRIEVE, GENERATE, AND Critique Through Self Reflection.pdf",
     "raw/source/Retrieval-Augmented Generation for Large.pdf",
-    "raw/source/Graph Retrieval-Augmented Generation.pdf",
-    "Clippings/Unconfirmed 384396.crdownload",
-    "Clippings/Unconfirmed 988668.crdownload"
+    "raw/source/Graph Retrieval-Augmented Generation.pdf"
   ]
 }

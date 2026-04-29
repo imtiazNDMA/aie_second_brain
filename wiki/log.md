@@ -114,3 +114,49 @@ Documented industrial platforms ([[Hugging Face Hub]], [[Qdrant]], [[Hugging Fac
 
 ## [2026-04-13] lint | Wikilink cleanup
 Normalized wikilink casing (e.g., [[AI Engineering]], [[Autograd]]), fixed lower-case references in code examples, removed duplicate root-level `index.md`/`log.md`, and created the [[Vector Database]] concept so all tools mentioned in RAG sources have dedicated pages.
+
+## [2026-04-13] lint | Health check
+Found 0 errors, 2 warnings, 2 info items. Flagged the orphan `log.md` page and the mismatched entity count in `wiki/index.md`; identified cross-reference opportunities for [[Vector Database]] and highlighted coverage gaps around safety evaluation benchmarks. No fixes applied yet.
+
+## [2026-04-16] ingest | System Design Interview - The Complete Guide to System Design
+Processed SYSTEM DESIGN INTERVIEW_ The Complete Guide to System Design.pdf. Created 18 new pages, updated 2 existing pages.
+New entities: [[Richard Johnson]], [[Redis]], [[Riak]], [[Oracle NoSQL Database]], [[Apache ZooKeeper]], [[Twitter Snowflake]].
+New concepts: [[System Design Interviews]], [[High Availability]], [[Load Balancing]], [[Consistent Hashing]], [[Rate Limiting]], [[Service Discovery]], [[Fanout]], [[Message Ordering]], [[Caching]].
+Added a graphics catalog for this source (removed on 2026-04-16 during graphics-folder cleanup).
+
+## [2026-04-16] ingest | Grokking the Advanced System Design Interview
+Processed Grokking the Advanced System Design Interview.pdf. Created 25 new pages, updated 4 existing pages.
+New entities: [[Amazon Dynamo]], [[Apache Cassandra]], [[Apache Kafka]], [[Chubby]], [[Google File System]], [[Hadoop Distributed File System]], [[Google Bigtable]].
+New concepts: [[Bloom Filters]], [[Quorum]], [[Leader-Follower Replication]], [[Write-Ahead Log]], [[Hinted Handoff]], [[Read Repair]], [[Vector Clocks]], [[Merkle Trees]], [[Gossip Protocol]], [[High-Water Mark]], [[Split Brain]], [[Fencing]], [[Lease]], [[Checksum]], [[CAP Theorem]], [[PACELC Theorem]].
+Added a graphics catalog for this source (removed on 2026-04-16 during graphics-folder cleanup).
+
+## [2026-04-16] lint | Graph/link hygiene + eval metrics
+Fixed malformed triple-bracket wikilinks in clippings that could create stray graph nodes (e.g., `[adaptive rag`). Added evaluation metric concepts [[BLEU]], [[ROUGE]], and [[Perplexity]], and linked them from [[Model Evaluation]] / [[RAG Evaluation]]. Updated [[index]] counts.
+
+## [2026-04-16] ingest | System Design on AWS
+Processed system design on aws.pdf. Created 25 new pages, updated 7 existing pages.
+New entities: [[Jayanth Kumar]], [[Mandeep Singh]], [[Amazon VPC]], [[Amazon Route 53]], [[Amazon API Gateway]], [[Amazon CloudFront]], [[Amazon S3]], [[Amazon EC2]], [[AWS Lambda]], [[Amazon DynamoDB]], [[Amazon Kinesis]], [[AWS Identity and Access Management]].
+New concepts: [[Blast Radius]], [[Day 0 Architecture]], [[Day N Architecture]], [[Choreography]], [[Orchestration]], [[Circuit Breaker]], [[CQRS]], [[Saga Pattern]], [[Fault Tolerance]], [[Event-Driven Architecture]], [[Retry with Backoff]].
+Added a graphics catalog for this source (removed on 2026-04-16 during graphics-folder cleanup). Media attachments were omitted by design.
+
+## [2026-04-16] ingest | Deep Learning with PyTorch Step-by-Step
+Processed Deep learning with pytorch step by step.pdf. Created 26 new pages, updated 7 existing pages.
+New entities: [[Daniel Voigt Godoy]], [[TensorBoard]], [[Torchvision]], [[ImageNet]], [[AlexNet]], [[VGG]], [[Inception]], [[ResNet]].
+New concepts: [[Transfer Learning]], [[Batch Normalization]], [[Gradient Clipping]], [[Teacher Forcing]], [[Sequence-to-Sequence Learning]], [[Learning Rate Scheduling]], [[Residual Connections]], [[Vision Transformer]], [[Convolution]], [[Recurrent Neural Network]], [[Gated Recurrent Unit]], [[Long Short-Term Memory]], [[CUDA]], [[DataLoader]], [[TensorDataset]], [[Confusion Matrix]].
+Added a graphics catalog for this source (removed on 2026-04-16 during graphics-folder cleanup). Media attachments were omitted by design.
+
+## [2026-04-16] cleanup | Remove graphics folder
+Removed `wiki/graphics/` and deleted all graphics index pages. Updated source pages, `wiki/index.md`, and `wiki/log.md` to remove links to graphics pages.
+
+## [2026-04-16] planning | AI Engineer second-brain roadmap
+Created a phased execution system for building a complete AI-engineer second brain.
+Added overview pages: [[AI Engineer Master Roadmap]], [[AI Engineer Career OS]], [[AI Engineer Skills Matrix]], [[AI Engineer 90-Day Plan]], [[AI Engineer Weekly Review]], [[AI Engineer Project Tracker]], [[AI Engineer Learning-to-Build Map]], [[AI Engineer Portfolio Blueprint]], and [[AI Engineer Gap Analysis]].
+Updated `wiki/index.md` with a new Overviews section.
+
+## [2026-04-16] planning | RAG project week-1 execution
+Created [[RAG Evaluation System]] with an 8-hour week-1 checklist, weekly time-boxing, and a concrete project-spec template.
+Updated [[AI Engineer Project Tracker]] to mark the RAG project as In Progress.
+
+## [2026-04-16] planning | Read-implement trackers for all flagship projects
+Created execution trackers: [[RAG Evaluation System Read-Implement Tracker]], [[Agentic Workflow Engine Read-Implement Tracker]], [[Fine-Tuning Lab Read-Implement Tracker]], and [[Inference API and Ops Read-Implement Tracker]].
+Updated [[AI Engineer Project Tracker]] evidence links to these trackers and expanded `wiki/index.md` Overviews.

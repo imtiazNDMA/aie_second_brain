@@ -14,7 +14,7 @@ Frameworks and metrics for validating retrieval-augmented generation (RAG) syste
 ## Metrics
 
 - **Retriever quality** — Cosine similarity, recall@k, coverage of ground-truth answers.
-- **Generator quality** — BLEU, ROUGE, factual alignment, latency.
+- **Generator quality** — [[BLEU]], [[ROUGE]], factual alignment, latency.
 - **Human/Expert Review** — Ratings captured via dashboards (e.g., Pinecone/Deep Lake workflows) feeding [[Adaptive RAG]] loops.
 
 ## Best Practices

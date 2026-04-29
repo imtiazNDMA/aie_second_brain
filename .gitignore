@@ -7,6 +7,7 @@ Thumbs.db
 .vscode/
 __pycache__/
 .env
+.env.local
 .venv/
 env/
 venv/
@@ -16,7 +17,21 @@ node_modules/
 *.pyd
 .mypy_cache/
 .pytest_cache/
+.ruff_cache/
 .coverage
 dist/
 build/
 *.egg-info/
+
+# Next.js
+.next/
+out/
+next-env.d.ts
+
+# App data (local file storage, evals, sqlite scratch, etc.)
+data/
+
+# Misc
+.turbo/
+.cache/
+*.tsbuildinfo

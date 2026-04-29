@@ -1,8 +1,8 @@
 ---
 tags: [pytorch, neural-networks, module]
-sources: [2026-04-12-deep-learning-with-pytorch]
+sources: [2026-04-12-deep-learning-with-pytorch, 2026-04-16-deep-learning-with-pytorch-step-by-step]
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-04-16
 ---
 
 # Torch NN Module
