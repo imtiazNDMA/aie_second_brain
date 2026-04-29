@@ -72,10 +72,32 @@ where $\mu = \frac{1}{d} \sum_i x_i$ and $\sigma^2 = \frac{1}{d} \sum_i (x_i - \
 where $n$ is sequence length, $d$ is dimension, $k$ is kernel size.
 
 ## Variants
-
 - **Encoder-only (BERT):** Masked language modeling [[Pretraining]]
 - **Decoder-only (GPT):** Autoregressive next-token prediction
 - **Encoder-Decoder (T5, BART):** Seq2seq tasks
+
+## LLM Architecture Context
+From [[Hands-On Large Language Models]]:
+- **Tokenizers**: BPE, WordPiece, SentencePiece convert text to subword units
+- **Embedding Layer**: Maps token IDs to dense vectors $\mathbf{v} \in \mathbb{R}^d$
+- **Stack of N layers**: Each with multi-head attention + feed-forward + layer norm
+- **Output Head**: Linear + softmax for next token probabilities
+
+### Popular LLM Architectures
+| Model | Parameters | Architecture | Use Case |
+|-------|-------------|--------------|----------|
+| GPT-3 | 175B | Decoder-only | Text generation |
+| GPT-4 | Unknown | Decoder-only | Advanced reasoning |
+| LLaMA | 7B-70B | Decoder-only | Open-source LLM |
+| BERT | 110M-340M | Encoder-only | Understanding tasks |
+
+## Connections
+- [[LLM Architecture]] — full LLM structural design
+- [[Tokenization]] — input processing (BPE, WordPiece, SentencePiece)
+- [[Embeddings]] — token representations
+- [[Multi-Head Attention]] — core mechanism
+- [[Pretraining]] — initial training (next token prediction, masked LM)
+- [[RLHF]] — alignment training
 
 ## Related Concepts
 

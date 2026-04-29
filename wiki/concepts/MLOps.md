@@ -2,9 +2,9 @@
 title: MLOps
 type: concept
 tags: [ml, devops, operations]
-sources: [2026-04-12-ai-engineering]
+sources: [2026-04-12-ai-engineering, 2026-04-29-llmops-managing-large-language-models-in-production.md]
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-04-29
 ---
 
 # MLOps
@@ -21,7 +21,9 @@ Practices for deploying, monitoring, and maintaining ML models in production. In
 - [[Feature Store]]
 - [[ML Monitoring]]
 - [[Continuous Training]]
+- [[LLMOps]] — Extension of MLOps practices for Large Language Models
 
 ## Sources
 
 - [[2026-04-12-ai-engineering]] — Chapter 16
+- [[2026-04-29-llmops-managing-large-language-models-in-production.md]] — Describes LLMOps as extension of MLOps

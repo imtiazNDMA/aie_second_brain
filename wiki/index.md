@@ -1,11 +1,11 @@
 # Index
 
-## Entities (33)
+## Entities (53)
 - [[Chip Huyen]]: Author of [[AI Engineering]] and Designing Machine Learning Systems
 - [[Sebastian Raschka]]: Author of Build a Large Language Model (From Scratch)
 - [[Claude Code]]: [[Anthropic]]'s [[AI Coding Agent]] for terminal
 - [[Anthropic]]: AI research company behind Claude
-- [[Micheal Lanham]]: Author of AI Agents in Action
+- [[Michael Lanham]]: Author of AI Agents in Action
 - [[LM Studio]]: Desktop tool for downloading and hosting local LLMs
 - [[AutoGen]]: Microsoft multi-agent conversation framework
 - [[CrewAI]]: Role- and task-based agent orchestration framework
@@ -15,7 +15,7 @@
 - [[Nexus Agent Platform]]: Streamlit-based agent platform bundling personas, tools, and memory
 - [[Anjanava Biswas]]: AWS AI specialist and co-author of Building Agentic AI Systems
 - [[Wrick Talukdar]]: AI solutions leader focused on agentic workflows and safety
-- [[Paul Iusztin]]: Co-author of LLM Engineer’s Handbook, data/inference specialist
+- [[Paul Iusztin]]: Co-author of LLM Engineer's Handbook, data/inference specialist
 - [[Maxime Labonne]]: Co-author emphasizing tooling and democratization of LLMs
 - [[Vadim Smolyakov]]: Author covering Bayesian-to-deep learning algorithms
 - [[John Berryman]]: GitHub Copilot engineer documenting [[Prompt Engineering]]
@@ -34,8 +34,35 @@
 - [[Eli Stevens]]: Co-author of Deep Learning with [[PyTorch]] and longtime CTO
 - [[Luca Antiga]]: [[PyTorch]] contributor and co-author of Deep Learning with [[PyTorch]]
 - [[LangChain]]: LLM orchestration framework for loaders, splitters, retrievers, and agents
+- [[Abi Aryan]]: Author of [[LLMOps]] and LLM operations expert
+- [[O'Reilly Media]]: Publisher of technical books including [[LLMOps]]
+- [[EDT&Partners]]: Consulting firm where Ammar Mohanna provides AI consulting
+- [[Microsoft]]: Technology company where Nirmal Budhathoki works as senior data scientist
+- [[UCLA Cognitive Systems Lab]]: Research lab where Abi Aryan studied under [[Judea Pearl]]
+- [[Judea Pearl]]: Turing Award winner for work on [[Causality]] and Bayesian networks
+- [[vLLM]]: High-throughput LLM serving engine with PagedAttention
+- [[Semantic Kernel]]: Microsoft SDK for composing AI agents and semantic functions
+- [[Jenkins]]: Automation server for CI/CD pipelines in LLM deployment
+- [[ZeRO]]: Microsoft's Zero Redundancy Optimizer for training large models
+- [[DeepSpeed]]: Microsoft's deep learning optimization library
+- [[Nirmal Budhathoki]]: Senior data scientist at [[Microsoft]]
+- [[Ammar Mohanna]]: Lead AI consultant at [[EDT&Partners]]
+- [[Ashwin Pajankar]]: Co-author of Hands-on Machine Learning with Python (PyTorch, scikit-learn)
+- [[Aditya Joshi]]: Co-author of Hands-on Machine Learning with Python
+- [[Jay Alammar]]: Author of Hands-On Large Language Models, creator of Transformer Explainer
+- [[Maarten Grootendorst]]: Co-author of Hands-On LLMs, creator of Sentence-BERT
+- [[Luis Serrano]]: Author of Grokking Machine Learning, popular ML educator on YouTube
+- [[Mayo Oshin]]: Co-author of Learning LangChain, early LangChain advocate
+- [[Nuno Campos]]: Co-author of Learning LangChain, founding engineer at LangChain
+- [[LangSmith]]: Platform for debugging, testing, deploying, and monitoring AI workflows
+- [[Akari Asai]]: Researcher at UW/Allen AI, lead contributor to Self-RAG
+- [[Hannaneh Hajishirzi]]: Professor at UW, senior researcher at Allen Institute for AI
+- [[Boci Peng]]: Researcher at Peking University, lead author of Graph RAG Survey
+- [[Siliang Tang]]: Professor at Zhejiang University, co-author of Graph RAG Survey
+- [[Yunfan Gao]]: Researcher at Fudan/Tongji University, lead author of RAG Survey
+- [[Haofen Wang]]: Professor at Tongji University, co-author of RAG Survey
 
-## Concepts (77)
+## Concepts (107)
 - [[Data Pipeline]]: Orchestrating data flow from sources to models
 - [[Feature Store]]: Centralized feature definitions and storage
 - [[Data Collection]]: Gathering data for ML training
@@ -51,7 +78,7 @@
 - [[Continuous Training]]: Automated retraining pipelines
 - [[Real-Time Deployment]]: Low-latency online inference
 - [[Batch Deployment]]: Offline batch predictions
-- [[Tokenization]]: Converting text to numerical tokens
+- [[Tokenization]]: Converting text to numerical tokens (BPE, WordPiece, SentencePiece)
 - [[Attention Mechanism]]: Dynamic focus on relevant input parts
 - [[Transformer]]: Attention-only deep learning architecture
 - [[Positional Encoding]]: Injecting sequence order information
@@ -81,7 +108,7 @@
 - [[Agentic Systems]]: Architectures that combine reasoning, planning, and action
 - [[Coordinator-Worker-Delegator Model]]: Role-based collaboration for agent crews
 - [[Agent Trust and Safety]]: Transparency, explainability, and guardrails for autonomous agents
-- [[LLM Twin]]: Personalized assistant blueprint from LLM Engineer’s Handbook
+- [[LLM Twin]]: Personalized assistant blueprint from LLM Engineer's Handbook
 - [[Feature-Training-Inference Architecture]]: Modular system design separating data, training, and serving
 - [[Direct Preference Optimization]]: Alignment technique using ranked completions
 - [[Low-Rank Adaptation]]: [[Parameter-Efficient]] [[Fine-Tuning]] via low-rank updates
@@ -109,22 +136,54 @@
 - [[Ensemble Methods]]: Combining models (bagging, boosting, stacking) for robustness
 - [[Graph Neural Network]]: Neural architectures operating on graph-structured data
 - [[Mixture Density Network]]: Neural nets emitting mixture distribution parameters
+- [[Knowledge Graphs]]: Structured representations of entities and relationships as (subject, predicate, object) triples
+- [[Machine Translation]]: Sequence-to-sequence task that motivated the original Transformer architecture
+- [[Encoder]]: Transformer component processing input sequences via self-attention stacks
+- [[Decoder]]: Transformer component generating outputs autoregressively with encoder-decoder attention
+- [[Tool Use]]: LLM capability to invoke external functions and APIs
+- [[Reflection]]: AI systems evaluating and refining their own outputs
+- [[Overfitting]]: Model learns training noise, fails to generalize to new data
 - [[Seven-Stage Fine-Tuning Pipeline]]: Lifecycle covering data through monitoring
 - [[LLM Application Loop]]: Feedforward/evaluation framing for prompt-driven apps
 - [[Parameter-Efficient]]: Adapter-based fine-tuning strategies
 - [[RAG Evaluation]]: Metrics and workflows for RAG quality control
 - [[Embeddings]]: Dense vector representations capturing semantic meaning in continuous space
 - [[Reranking]]: Two-stage retrieval process using cross-encoders for precise re-ordering
+- [[LLMOps]]: Managing Large Language Models in Production as a specialized discipline
+- [[LLMSecOps]]: Security operations specifically for LLM systems
+- [[Causality]]: Study of cause-and-effect relationships in AI systems
+- [[Reflective Intelligence]]: AI systems that reason about their own reasoning
+- [[LLM Architecture]]: Structural design of LLMs based on Transformer (tokenizer, embedding, attention, output head)
+- [[Logistic Regression]]: Probabilistic classifier using sigmoid function for binary classification
+- [[Naive Bayes]]: Probabilistic classifier with conditional independence assumption
+- [[Remember-Formulate-Predict Framework]]: Human-inspired cognitive framework: remember data, formulate rules, predict outcomes
+- [[Runnable Interface]]: LangChain's unified API for composable components (invoke, batch, stream)
+- [[Advanced RAG]]: Second RAG paradigm with pre/post-retrieval optimizations (query rewriting, reranking)
+- [[Modular RAG]]: Advanced RAG with swappable modules (search, memory, adapter) and flexible orchestration
+- [[Adaptive Retrieval]]: RAG strategy using LLM-generated tokens (Self-RAG) or signals to autonomously control retrieval
+- [[Reflection Tokens]]: Special tokens (Retrieve, ISREL, ISSUP, ISUSE) for self-assessment in Self-RAG
+- [[VERA]]: Validation and Enhancement system for RAG with context/response evaluation
+- [[Response Adherence]]: Metric measuring extent to which LLM response is grounded in provided context
+- [[Context Relevance]]: Metric measuring amount of retrieved context pertinent to query
+- [[Response Relevance]]: Metric measuring amount of response information relevant to query
+- [[Linear Regression]]: Fits line to minimize MSE, predicts continuous values
+- [[Decision Trees]]: Split-based models using entropy/gini impurity for classification/regression
+- [[Support Vector Machines]]: Finds optimal hyperplane with kernel trick for nonlinear boundaries
+- [[Knowledge Graphs]]: Structured representations of entities and relationships as (subject, predicate, object) triples
+- [[Graph Neural Network]]: Neural networks that learn representations by passing messages between graph nodes
+- [[Machine Translation]]: Sequence-to-sequence task that motivated the original Transformer architecture
+- [[Encoder]]: Transformer component that processes input sequences into continuous representations via self-attention
+- [[Decoder]]: Transformer component that generates output sequences autoregressively using encoder representations
 
-## Sources (15)
+## Sources (24)
 - [[2026-04-12-building-ai-coding-agents-terminal]]: Building AI Coding Agents for the Terminal
 - [[2026-04-12-building-llms-for-production]]: Building LLMs for Production ([[Chip Huyen]])
 - [[2026-04-12-ai-engineering]]: [[AI Engineering]] ([[Chip Huyen]])
 - [[2026-04-12-designing-ml-systems]]: Designing Machine Learning Systems ([[Chip Huyen]])
 - [[2026-04-12-build-llm-from-scratch]]: Build a Large Language Model (From Scratch) ([[Sebastian Raschka]])
-- [[2026-04-12-ai-agents-in-action]]: AI Agents in Action ([[Micheal Lanham]])
+- [[2026-04-12-ai-agents-in-action]]: AI Agents in Action ([[Michael Lanham]])
 - [[2026-04-12-building-agentic-ai-systems]]: Building Agentic AI Systems ([[Anjanava Biswas]] & [[Wrick Talukdar]])
-- [[2026-04-12-llm-engineers-handbook]]: LLM Engineer’s Handbook ([[Paul Iusztin]] & [[Maxime Labonne]])
+- [[2026-04-12-llm-engineers-handbook]]: LLM Engineer's Handbook ([[Paul Iusztin]] & [[Maxime Labonne]])
 - [[2026-04-12-ml-algorithms-in-depth]]: Machine Learning Algorithms in Depth ([[Vadim Smolyakov]])
 - [[2026-04-12-prompt-engineering-llms]]: [[Prompt Engineering]] for LLMs ([[John Berryman]] & [[Albert Ziegler]])
 - [[2026-04-12-rag-driven-generative-ai]]: RAG-Driven Generative AI ([[Denis Rothman]])
@@ -132,6 +191,15 @@
 - [[2026-04-12-attention-is-all-you-need]]: Attention Is All You Need (Vaswani et al.)
 - [[2026-04-12-14-types-of-rag]]: 14 Types of RAG (Meilisearch)
 - [[2026-04-12-deep-learning-with-pytorch]]: Deep Learning with [[PyTorch]] (Essential Excerpts)
+- [[2026-04-29-llmops-managing-large-language-models-in-production]]: LLMOps: Managing Large Language Models in Production
+- [[2026-04-29-hands-on-ml-python]]: Hands-on Machine Learning with Python ([[Ashwin Pajankar]] & [[Aditya Joshi]])
+- [[2026-04-29-hands-on-llms]]: Hands-On Large Language Models ([[Jay Alammar]] & [[Maarten Grootendorst]])
+- [[2026-04-29-grokking-ml]]: Grokking Machine Learning ([[Luis Serrano]])
+- [[2026-04-29-learning-langchain]]: Learning LangChain ([[Mayo Oshin]] & [[Nuno Campos]])
+- [[2026-04-29-self-rag]]: Self-RAG: Learning to Retrieve, Generate, and Critique ([[Akari Asai]] et al.)
+- [[2026-04-29-graph-rag-survey]]: Graph Retrieval-Augmented Generation Survey ([[Boci Peng]] et al.)
+- [[2026-04-29-rag-survey]]: RAG Survey for Large Language Models ([[Yunfan Gao]] et al.)
+- [[2026-04-29-vera]]: VERA: Validation and Enhancement for RAG (Nitin Birur et al.)
 
 ## Syntheses (8)
 - [[Agent Orchestration Platforms]]: Comparison of AutoGen, CrewAI, LangGraph, and Nexus stacks

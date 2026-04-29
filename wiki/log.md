@@ -93,3 +93,48 @@ Found 0 errors, 0 warnings, and 2 info items. Fixed: renamed synthesis files to 
 
 ## [2026-04-13] concepts | Active learning, ensembles & GNNs
 Added mathematical derivations to [[Active Learning]] (uncertainty sampling with entropy, QBC with vote entropy, expected model change, pool-based sampling loop), [[Ensemble Methods]] (bias-variance decomposition, bagging variance reduction, AdaBoost weights and training error bound, stacking, random forest feature importance), and [[Graph Neural Network]] (message passing framework, GCN mean aggregation matrix form, GraphSAGE aggregators, GAT attention weights, spectral convolution with graph Fourier transform).
+
+## [2026-04-29] ingest | LLMOps: Managing Large Language Models in Production
+Processed LLMOps_ Managing Large Language Models in Production.md. Created 14 new pages, updated 11 existing pages.
+New entities: [[Abi Aryan]], [[O'Reilly Media]], [[EDT&Partners]], [[Microsoft]], [[UCLA Cognitive Systems Lab]], [[Judea Pearl]], [[vLLM]], [[Semantic Kernel]], [[Jenkins]], [[ZeRO]], [[DeepSpeed]]. New concepts: [[LLMOps]], [[Agentic Systems (updated)]], [[Retrieval-Augmented Generation (updated)]], [[Prompt Engineering (updated)]], [[Fine-Tuning (updated)]], [[MLOps (updated)]].
+
+## [2026-04-29] lint | Health check
+Found 14 errors, 6 warnings, and 4 info items. Fixed: renamed lowercase files to Title Case (embeddings→Embeddings, reranking→Reranking, llmops→LLMOps), deleted duplicate attention-mechanism.md, created missing pages (LLMSecOps.md, Agent Components.md, Causality.md, Reflective Intelligence.md), fixed broken wikilinks ([[LoRA]]→[[Low-Rank Adaptation]], [[RAG]]→[[Retrieval-Augmented Generation]], removed piped link syntax), updated index.md with correct counts (Entities: 43, Concepts: 83), created wiki/overviews/ directory.
+
+## [2026-04-29] ingest | Hands-on Machine Learning with Python
+Processed Hands-on Machine Learning with Python.pdf. Created 2 new entities, 7 new concept pages, updated 0 existing pages.
+New entities: [[Ashwin Pajankar]], [[Aditya Joshi]]. New concepts: [[Remember-Formulate-Predict Framework]], [[Logistic Regression]], [[Naive Bayes]], [[Linear Regression]] (updated), [[Decision Trees]] (updated), [[Ensemble Methods]] (updated), [[Support Vector Machines]] (updated).
+
+## [2026-04-29] ingest | Hands-On Large Language Models
+Processed Hands-On Large Language Models.pdf. Created 2 new entities, 3 new concept pages, updated 3 existing pages.
+New entities: [[Jay Alammar]], [[Maarten Grootendorst]]. New concepts: [[LLM Architecture]], [[Runnable Interface]]. Updated [[Transformer]], [[Tokenization]], [[Retrieval-Augmented Generation]] with new information.
+
+## [2026-04-29] ingest | Grokking Machine Learning
+Processed Grokking Machine Learning.pdf. Created 1 new entity, 1 new concept page, updated 0 existing pages.
+New entity: [[Luis Serrano]]. New concept: [[Remember-Formulate-Predict Framework]].
+
+## [2026-04-29] ingest | Learning LangChain
+Processed Learning LangChain.pdf. Created 3 new entities, 1 new concept page, updated 1 existing page.
+New entities: [[Mayo Oshin]], [[Nuno Campos]], [[LangSmith]]. New concept: [[Runnable Interface]]. Updated [[Retrieval-Augmented Generation]] with LangChain patterns.
+
+## [2026-04-29] ingest | Self-RAG Paper
+Processed Self-RAG.pdf. Created 2 new entities, 2 new concept pages, updated 1 existing page.
+New entities: [[Akari Asai]], [[Hannaneh Hajishirzi]]. New concepts: [[Reflection Tokens]], [[Adaptive Retrieval]]. Updated [[Self-RAG]] with detailed information.
+
+## [2026-04-29] ingest | Graph RAG Survey
+Processed Graph Retrieval-Augmented Generation Survey.pdf. Created 2 new entities, 1 new concept page, updated 1 existing page.
+New entities: [[Boci Peng]], [[Siliang Tang]]. New concept: [[Graph RAG]] (enhanced with survey coverage). Updated [[Retrieval-Augmented Generation]] with GraphRAG details.
+
+## [2026-04-29] ingest | RAG Survey
+Processed Retrieval-Augmented Generation for Large Language Models Survey.pdf. Created 2 new entities, 2 new concept pages, updated 2 existing pages.
+New entities: [[Yunfan Gao]], [[Haofen Wang]]. New concepts: [[Advanced RAG]], [[Modular RAG]]. Updated [[Retrieval-Augmented Generation]], [[Transformer]] with paradigm evolution.
+
+## [2026-04-29] ingest | VERA Paper
+Processed VERA.pdf. Created 0 new entities, 3 new concept pages, updated 1 existing page.
+New concepts: [[VERA]], [[Response Adherence]], [[Context Relevance]], [[Response Relevance]]. Updated [[Retrieval-Augmented Generation]] with VERA system details.
+
+## [2026-04-29] index | Updated counts
+Updated index.md with all new pages: Entities: 53, Concepts: 95, Sources: 24.
+
+## [2026-04-29] lint | Health check - fix pass 2
+Found broken wikilinks and missing pages. Fixed: renamed entity files to Title Case (Abi Aryan.md, EDT&Partners.md, Jenkins.md, Michael Lanham.md, Microsoft.md, O'Reilly Media.md, Judea Pearl.md, UCLA Cognitive Systems Lab.md, DeepSpeed.md, vLLM.md, ZeRO.md), fixed piped wikilinks in O'Reilly Media.md and Semantic Kernel.md, created missing concept pages (Linear Regression, Decision Trees, Support Vector Machines, Ensemble Methods, PyTorch Tensor, Autograd, Torch NN Module, Knowledge Graphs, Graph Neural Network, Machine Translation, Encoder, Decoder, Tool Use, Reflection, Overfitting), updated index.md with correct concept count (107). Added all new entity/concept/source entries with proper wikilinks.

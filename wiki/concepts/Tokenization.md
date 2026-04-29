@@ -62,11 +62,35 @@ $$\mathbf{e}_w = \frac{1}{k} \sum_{i=1}^{k} \mathbf{e}_{s_i}$$
 This allows OOV handling through composition.
 
 ## Methods
-
 - **Word-level:** Split on whitespace/punctuation. Simple but large vocabularies.
 - **Character-level:** Individual characters as tokens. Small vocabulary, but longer sequences.
 - **Byte Pair Encoding (BPE):** Greedy merge algorithm starting from characters. Balances vocabulary size and subword meaning.
-- **SentencePiece:** Language-agnostic tokenizer that learns vocabulary from raw text.
+- **WordPiece:** Used by BERT, similar to BPE but uses likelihood-based merge selection.
+- **SentencePiece:** Language-agnostic tokenizer that learns vocabulary from raw text. Used by T5, LLaMA.
+
+## LLM Tokenization (from [[Hands-On Large Language Models]])
+### Token Types
+Tokens can represent:
+- Individual characters
+- Words
+- Subwords (most common in modern LLMs)
+- Larger linguistic units
+
+### Example: cl100k Tokenizer (GPT-3.5)
+The phrase "good morning dearest friend" → 5 tokens:
+- `Good` (ID: 19045)
+- `_morning` (ID: 6693)
+- `_de` (ID: 409)
+- `arest` (ID: 15795)
+- `_friend` (ID: 4333)
+
+Average: ~1.3-1.5 tokens per word for English.
+
+### Tokenization in LLM Training
+- **Next token prediction**: $P(x_t | x_{<t})$ trained on token sequences
+- **Masked language modeling**: Predict masked tokens (BERT)
+- **Instruction tuning**: (instruction, response) pairs with tokenization
+- **RLHF**: Reinforcement learning with token-level policy gradients
 
 ## Key Considerations
 

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "dfbc267929cce65c",
+        "id": "9b7688a0e9cc214b",
         "type": "tabs",
         "children": [
           {
-            "id": "d7e3581151d44b13",
+            "id": "f8459161d20e1659",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/concepts/Graph Neural Network.md",
+                "file": "CLAUDE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Graph Neural Network"
+              "title": "CLAUDE"
             }
           }
         ]
@@ -218,43 +218,43 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "d7e3581151d44b13",
+  "active": "7598289e3e50dbc2",
   "lastOpenFiles": [
-    "wiki/concepts/Markov Chain Monte Carlo.md",
-    "wiki/concepts/Mixture Density Network.md",
-    "wiki/concepts/ML Monitoring.md",
-    "wiki/concepts/MLOps.md",
-    "wiki/concepts/Wiki.md",
-    "wiki/concepts/Batch Deployment.md",
-    "wiki/concepts/Continuous Training.md",
-    "wiki/concepts/Generative AI.md",
-    "wiki/concepts/Ensemble Methods.md",
-    "wiki/concepts/Distributed Training.md",
-    "wiki/entities/Luca Antiga.md",
-    "wiki/entities/Maxime Labonne.md",
-    "wiki/entities/Micheal Lanham.md",
-    "wiki/entities/Meilisearch.md",
-    "wiki/entities/Nexus Agent Platform.md",
-    "wiki/concepts/Agent Memory.md",
-    "wiki/concepts/Coordinator-Worker-Delegator Model.md",
-    "wiki/concepts/Data Cleaning.md",
-    "wiki/concepts/Data Labeling.md",
-    "wiki/concepts/Agent Components.md",
-    "wiki/concepts/Autograd.md",
-    "wiki/concepts/Adaptive RAG.md",
+    "wiki/concepts/Overfitting.md",
+    "wiki/concepts/Decoder.md",
+    "wiki/concepts/Encoder.md",
+    "wiki/concepts/Machine Translation.md",
+    "wiki/concepts/Knowledge Graphs.md",
+    "wiki/concepts/Support Vector Machines.md",
+    "wiki/concepts/Decision Trees.md",
+    "wiki/concepts/Linear Regression.md",
+    "wiki/entities/ZeRO.md",
+    "wiki/entities/vLLM.md",
+    "wiki/entities/DeepSpeed.md",
+    "wiki/entities/UCLA Cognitive Systems Lab.md",
+    "wiki/entities/Judea Pearl.md",
+    "wiki/entities/O'Reilly Media.md",
+    "wiki/entities/Microsoft.md",
+    "wiki/entities/Michael Lanham.md",
+    "wiki/entities/Jenkins.md",
+    "wiki/entities/EDT&Partners.md",
+    "wiki/entities/Abi Aryan.md",
+    "wiki/entities/ucla-cognitive-systems-lab.md",
+    "wiki/entities/vllm.md",
+    "wiki/entities/deepspeed.md",
+    "wiki/entities/zero.md",
+    "wiki/entities/jenkins.md",
+    "wiki/entities/microsoft.md",
+    "wiki/entities/edt-partners.md",
+    "wiki/all_pages.txt",
+    "raw/source/Chip Huyen - AI Engineering.pdf",
     "raw/source/build-llm-from-scratch.pdf",
     "raw/source/attention-is-all-you-need.pdf",
     "raw/source/AI ENGINEERING by Chip Huyen (PDF)(Nonfiction).pdf",
     "raw/source/A. Pajankar, A. Joshi - Hands-on Machine Learning with Python_ Implement Neural Network Solutions with Scikit-learn and PyTorch.pdf",
-    "wiki/synthesis/Agent Orchestration Platforms.md",
-    "wiki/synthesis/Agent Memory Architectures.md",
-    "wiki/index.md",
-    "wiki/sources/2026-04-12-build-llm-from-scratch.md",
     "raw/source.dvc",
     "wiki/code-examples",
     "raw/source/Deep Learning with PyTorch_ Essential Excerpts 2019.txt",
-    "raw/source/Deep Learning with PyTorch_ Essential Excerpts 2019.pdf",
-    "raw/source/Validation and Enhancement for Retrieval Augmented systems.pdf",
-    "raw/source/LEARNING TO RETRIEVE, GENERATE, AND Critique Through Self Reflection.pdf"
+    "raw/source/Deep Learning with PyTorch_ Essential Excerpts 2019.pdf"
   ]
 }

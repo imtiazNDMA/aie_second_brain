@@ -1,30 +1,41 @@
-tags: [ai, agent, tool-use, execution]
-sources: [Building AI Coding Agents for the Terminal.pdf, AI Agents in Action.pdf]
-created: 2026-04-12
-updated: 2026-04-12
+---
+title: Tool Use
+type: concept
+tags: [agent-capabilities, function-calling, actions]
+sources: [2026-04-12-building-ai-coding-agents-terminal.md, 2026-04-12-prompt-engineering-llms.md]
+created: 2026-04-29
+updated: 2026-04-29
 ---
 
 # Tool Use
 
+The capability of AI agents and LLMs to execute external tools, APIs, and functions to extend their capabilities beyond text generation.
+
 ## Definition
 
-The capability of AI agents to execute commands, interact with external systems, and perform file operations. Enables agents to take actions beyond text generation.
+Tool use allows LLMs to interact with external systems by selecting and invoking defined functions with appropriate parameters. This extends model capabilities to tasks like searching the web, querying databases, executing code, or controlling applications.
 
-## Patterns
+## Key Concepts
 
-- **Function calling** — Use OpenAI’s JSON-described functions so LLMs deterministically invoke APIs.
-- **Semantic Kernel plugins** — Combine semantic prompts and native code to expose reusable skills to agents.
-- **GPT [[Custom Actions]]** — FastAPI/ngrok endpoints registered in GPT Assistants for domain-specific tasks.
-- **Command runners** — Behavior trees or Nexus actions run shell commands or scripts with guardrails.
+- **Function Calling**: Structured JSON schema describing available tools
+- **Tool Selection**: Model decides which tool to use based on user intent
+- **Parameter Extraction**: Model extracts required arguments from context
+- **Tool Response Processing**: Incorporating tool outputs into ongoing conversation
+- **Multi-step Tool Use**: Chaining multiple tool calls to complete complex tasks
 
 ## Related Concepts
 
-- [[AI Coding Agent]] — Context for tool use
-- [[Agent Memory]] — Storing results of tool execution
-- [[OpenAI Function Calling]] — Specific API feature powering tool invocation
-- [[Custom Actions]] — GPT-specific extension mechanism
+- [[OpenAI Function Calling]] — Specific implementation by OpenAI
+- [[Agentic Systems]] — Tool use enables agentic behavior
+- [[AI Coding Agent]] — Heavy users of tool use for coding tasks
+- [[Custom Actions]] — Tools exposed to GPT Assistants
 
 ## Sources
 
-- [[2026-04-12-building-ai-coding-agents-terminal]] — Primary source
-- [[2026-04-12-ai-agents-in-action]] — Details function calling, Semantic Kernel, and GPT actions
+- [[2026-04-12-building-ai-coding-agents-terminal.md]]: Tool use as core capability of AI coding agents like Claude Code
+- [[2026-04-12-prompt-engineering-llms.md]]: Discussed as key LLM capability alongside reflection
+
+## Open Questions
+
+- How to handle tool errors and retries gracefully?
+- What's the best way to describe complex tools to LLMs?

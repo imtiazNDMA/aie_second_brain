@@ -13,11 +13,11 @@ Maps the full Feature → Training → Inference lifecycle to concrete tools hig
 
 ## 1. Feature/Data Layer
 
-| Task | Tooling | Notes |
-| --- | --- | --- |
-| Data ingestion + transformation | [[ZenML]] stacks (orchestrators, artifact stores) | Bridges raw scrapers (LinkedIn, Medium, GitHub) into structured corpora for the [[LLM Twin]]. |
-| Embedding/RAG prep | [[LangChain]] loaders, chunkers, rerankers; Chroma/Pinecone/Deep Lake | Aligns with the workflows in [[LangChain Mini RAG Pipeline]] and [[RAG Evaluation Playbook]]. |
-| Experiment tracking | [[Comet ML]] | Stores datasets, pipeline metadata, and evaluation metrics; referenced heavily in [[2026-04-12-llm-engineers-handbook]]. |
+| Task                            | Tooling                                                               | Notes                                                                                                                    |
+| ------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Data ingestion + transformation | [[ZenML]] stacks (orchestrators, artifact stores)                     | Bridges raw scrapers (LinkedIn, Medium, GitHub) into structured corpora for the [[LLM Twin]].                            |
+| Embedding/RAG prep              | [[LangChain]] loaders, chunkers, rerankers; Chroma/Pinecone/Deep Lake | Aligns with the workflows in [[LangChain Mini RAG Pipeline]] and [[RAG Evaluation Playbook]].                            |
+| Experiment tracking             | [[Comet ML]]                                                          | Stores datasets, pipeline metadata, and evaluation metrics; referenced heavily in [[2026-04-12-llm-engineers-handbook]]. |
 
 ## 2. Training / Adaptation
 
