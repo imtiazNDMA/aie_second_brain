@@ -64,8 +64,24 @@ This means DPO can be applied after SFT without additional data collection.
 | Stability | Requires KL clipping | More stable |
 | Memory | 3 models (actor, ref, critic) | 2 models |
 
+## Alignment-algorithm family
+
+DPO sits within a broader family of alignment techniques that bypass explicit reward models. Notable cousins and successors:
+
+- **[[ORPO]]** — single-stage SFT + odds-ratio penalty; even simpler than DPO
+- **[[KTO]]** — Kahneman-Tversky preference optimization; accepts unpaired thumbs-up/thumbs-down rather than ranked pairs
+- **[[GRPO]]** — Group Relative Policy Optimization; for verifiable rewards rather than preference pairs (used in [[DeepSeek-R1]])
+- **[[RLVR]]** — paradigm-level shift from preference to verifiable correctness; targets [[Reasoning Models]]
+
+DPO's contribution was to show preference alignment can be done without a reward model. GRPO extends the same insight to verifiable correctness without a reward model. Together with ORPO/KTO, they form the post-RLHF alignment toolkit.
+
 ## Related Concepts
 
 - [[Fine-Tuning]]
 - [[RLHF]]
+- [[ORPO]]
+- [[KTO]]
+- [[GRPO]]
+- [[RLVR]]
+- [[Reasoning Models]]
 - [[Mixture of Agents]]

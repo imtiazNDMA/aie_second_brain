@@ -17,7 +17,7 @@ Facebook AI Similarity Search (Faiss) is a C++/Python library optimized for fast
 
 - Frequently embedded inside custom retrievers built with [[LangChain]] or bespoke pipelines.
 - Complements lightweight stores such as [[Chroma]] by enabling offline training of compressed indexes that later ship into production.
-- Mentioned in [[2026-04-12-14-types-of-rag]] as part of the modular tooling stack alongside Weaviate and Haystack.
+- Mentioned in [[2026-04-12-14-types-of-rag]] as part of the modular tooling stack alongside [[Weaviate]] and [[Haystack]].
 
 ## Sources
 

@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "1d145049c8433a24",
+    "id": "13fdbab1b6888c73",
     "type": "split",
     "children": [
       {
-        "id": "700c821ea07c4e51",
+        "id": "eb6aa3a6bf782f24",
         "type": "tabs",
         "children": [
           {
-            "id": "8afa1bf7309dd102",
+            "id": "afd674b5752d7f13",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/overviews/RAG Evaluation System Read-Implement Tracker.md",
+                "file": "wiki/model-architectures/GPT-2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RAG Evaluation System Read-Implement Tracker"
+              "title": "GPT-2"
             }
           }
         ]
@@ -27,28 +27,28 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "01a27b3e13d5a257",
+    "id": "8daaede058cd05f4",
     "type": "split",
     "children": [
       {
-        "id": "fe3c0ab02e62bfd7",
+        "id": "1e1a33eb174c65e1",
         "type": "tabs",
         "children": [
           {
-            "id": "48b63c2dfa6339da",
+            "id": "08a6e1c03df029da",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
           },
           {
-            "id": "c4e561cc54340e87",
+            "id": "11d6c83e09269a2c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "544b59044c671f29",
+            "id": "2be6b55af87f4e67",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,37 +78,36 @@
       }
     ],
     "direction": "horizontal",
-    "width": 352.5
+    "width": 300
   },
   "right": {
-    "id": "6b1a80b43b448400",
+    "id": "856ce996f71475e7",
     "type": "split",
     "children": [
       {
-        "id": "092974db266e463f",
+        "id": "65210055db6c1a0f",
         "type": "tabs",
         "children": [
           {
-            "id": "2341ef645ebbf392",
+            "id": "b310a90eb6a07f31",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/synthesis/RAG Evaluation Playbook.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": false
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for RAG Evaluation Playbook"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "8c5c57307e57c9f6",
+            "id": "219c08418985cd9e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -121,7 +120,7 @@
             }
           },
           {
-            "id": "7e2f51b51d1745ab",
+            "id": "d8062eb74bfe3675",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -136,7 +135,7 @@
             }
           },
           {
-            "id": "11c93fe514b25020",
+            "id": "7468c0370a739e8d",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -150,32 +149,21 @@
             }
           },
           {
-            "id": "87662ba972640944",
+            "id": "8a6b94086c02cfaf",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline"
             }
           },
           {
-            "id": "21a6ef3c83797b27",
-            "type": "leaf",
-            "state": {
-              "type": "footnotes",
-              "state": {},
-              "icon": "lucide-file-signature",
-              "title": "Footnotes"
-            }
-          },
-          {
-            "id": "0256345a3efa1acb",
+            "id": "13dff5104b079a0a",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -183,23 +171,13 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
-          },
-          {
-            "id": "7598289e3e50dbc2",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,54 +187,55 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
       "markdown-importer:Open format converter": false,
+      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-kanban:Create new board": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "8afa1bf7309dd102",
+  "active": "afd674b5752d7f13",
   "lastOpenFiles": [
-    "wiki/overviews/RAG Evaluation System.md",
-    "wiki/overviews/RAG Evaluation System Read-Implement Tracker.md",
-    "wiki/log.md",
-    "wiki/overviews/Inference API and Ops Read-Implement Tracker.md",
-    "wiki/overviews/Fine-Tuning Lab Read-Implement Tracker.md",
-    "wiki/overviews/Agentic Workflow Engine Read-Implement Tracker.md",
-    "wiki/overviews/AI Engineer 90-Day Plan.md",
-    "wiki/overviews/AI Engineer Career OS.md",
-    "wiki/overviews/AI Engineer Master Roadmap.md",
-    "wiki/overviews/AI Engineer Portfolio Blueprint.md",
-    "wiki/overviews/AI Engineer Project Tracker.md",
-    "wiki/overviews/AI Engineer Skills Matrix.md",
-    "wiki/overviews/AI Engineer Weekly Review.md",
-    "wiki/overviews/AI Engineer Gap Analysis.md",
-    "wiki/index.md",
-    "wiki/overviews/AI Engineer Learning-to-Build Map.md",
-    "wiki/overviews",
-    "wiki/graphics/2026-04-16-deep-learning-with-pytorch-step-by-step-figures.md",
-    "wiki/graphics/2026-04-16-grokking-advanced-system-design-interview-figures.md",
-    "wiki/graphics/2026-04-16-system-design-interview-figures.md",
-    "wiki/graphics/2026-04-16-system-design-on-aws-figures.md",
-    "wiki/concepts/Dynamic RAG Collections.md",
-    "wiki/entities/ResNet.md",
-    "wiki/entities/Inception.md",
-    "wiki/entities/VGG.md",
-    "wiki/entities/AlexNet.md",
-    "wiki/entities/ImageNet.md",
-    "wiki/graphics",
-    "Untitled.canvas",
-    "raw/source.dvc",
-    "wiki/code-examples",
-    "raw/source/Deep Learning with PyTorch_ Essential Excerpts 2019.txt",
-    "raw/source/Deep Learning with PyTorch_ Essential Excerpts 2019.pdf",
-    "raw/source/Validation and Enhancement for Retrieval Augmented systems.pdf",
-    "raw/source/LEARNING TO RETRIEVE, GENERATE, AND Critique Through Self Reflection.pdf",
-    "raw/source/Retrieval-Augmented Generation for Large.pdf",
-    "raw/source/Graph Retrieval-Augmented Generation.pdf"
+    "CLAUDE.md.tmp.29896.b03e6cea0c74",
+    "CLAUDE.md.tmp.29896.923368872daa",
+    "wiki/model-architectures/GLM-5.md",
+    "wiki/model-architectures/GPT-2.md",
+    "wiki/model-architectures/OLMo 2.md.tmp.29896.9b2dc0f9a5b7",
+    "wiki/model-architectures/Kimi K2.md.tmp.29896.6de7311a38b7",
+    "wiki/model-architectures/GLM-5.md.tmp.29896.6151b248c4b9",
+    "wiki/model-architectures/DeepSeek-V3.md.tmp.29896.90730ca6ac90",
+    "wiki/model-architectures/Gemma 4.md.tmp.29896.295d08a37f27",
+    "wiki/model-architectures/Qwen3.md.tmp.29896.d1da65200177",
+    "wiki/model-architectures/Mixtral.md.tmp.29896.845cdf680c3b",
+    "wiki/model-architectures/GPT-2.md.tmp.29896.0771c78b5585",
+    "wiki/concepts/Linear Attention.md.tmp.29896.72b5f748696a",
+    "wiki/model-architectures/Command A.md",
+    "wiki/model-architectures/DeepSeek-V3.md",
+    "wiki/concepts/Retrieval-Augmented Generation.md",
+    "wiki/synthesis/Self-Correcting RAG Patterns.md",
+    "wiki/model-architectures/Gemma 4.md",
+    "wiki/model-architectures/Gemma 3.md",
+    "wiki/model-architectures/GLM-4.5.md",
+    "wiki/model-architectures/Mistral Small 3.md",
+    "wiki/model-architectures/xLSTM.md",
+    "wiki/model-architectures/OLMo 3.md",
+    "wiki/model-architectures/OLMo 2.md",
+    "wiki/model-architectures/Nemotron 3.md",
+    "wiki/model-architectures/Mixtral.md",
+    "wiki/model-architectures/MiniMax-M2.md",
+    "wiki/model-architectures/Llama 4.md",
+    "wiki/model-architectures/Llama 3.md",
+    "wiki/model-architectures/Kimi K2.md",
+    "wiki/model-architectures/Grok 2.5.md",
+    "wiki/model-architectures/Granite 4.1.md",
+    "wiki/model-architectures/GPT-OSS.md",
+    "wiki/synthesis/LLM Architecture Landscape 2026.md",
+    "wiki/model-architectures/Phi-4.md",
+    "wiki/model-architectures/Qwen3.md"
   ]
 }

@@ -2,9 +2,9 @@
 title: RAG Architecture Decision Guide
 type: synthesis
 tags: [rag, architecture, decision]
-sources: [2026-04-12-14-types-of-rag, 2026-04-12-rag-driven-generative-ai]
+sources: [2026-04-12-14-types-of-rag, 2026-04-12-rag-driven-generative-ai, 2026-05-09-cache-augmented-generation]
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-05-09
 ---
 
 # RAG Architecture Decision Guide
@@ -39,3 +39,23 @@ Chooses the right retrieval-augmented generation (RAG) flavor by matching busine
 2. **Instrument everything** – apply the [[RAG Evaluation Playbook]] metrics (retriever/generator/evaluator/HF) regardless of architecture.
 3. **Hot-swap components** – keep embeddings, rerankers, and prompt templates versioned so you can move between Naïve ↔ Advanced RAG without rewriting the pipeline.
 4. **Blend variants** – it’s common to start with Simple RAG serving a subset of intents and route ambiguous queries to Self/Agentic branches.
+
+## Decision criterion: corpus size threshold (RAG vs CAG)
+
+Per [[2026-05-09-cache-augmented-generation]] (Chan et al., WWW 2025), [[Cache-Augmented Generation]] is the right choice when the entire corpus fits in a [[Long Context Models|long-context model]]'s window:
+
+| Corpus property | Choose RAG | Choose CAG | Choose hybrid |
+|---|---|---|---|
+| Size | exceeds context window | fits in context window (≤2M tokens) | mostly stable + tail dynamic |
+| Stability | dynamic, frequent updates | stable, batch-rebuildable | mixed |
+| Query volume | low to moderate | high (amortizes prefill cost) | high |
+| Tenancy | multi-tenant, varied scopes | single-tenant or shared scope | mixed |
+| Sensitivity to retrieval errors | acceptable | low (CAG eliminates them) | depends |
+
+Hybrid: preload core docs into [[KV Cache]] (CAG); fall back to RAG for tail topics. This is increasingly the production default for medium-scale knowledge bases.
+
+## Related pages
+
+- [[Cache-Augmented Generation]] — paradigm-level alternative for bounded corpora
+- [[KV Cache]] — substrate for CAG
+- [[Long Context Models]] — enabling assumption

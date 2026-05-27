@@ -1,8 +1,8 @@
 ---
 tags: [rag, knowledge-graph, retrieval]
-sources: [2026-04-12-14-types-of-rag]
+sources: [2026-04-12-14-types-of-rag, 2026-04-29-graph-rag-survey, 2026-04-29-building-llm-agents-rag-knowledge-graphs-reflection]
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-04-29
 ---
 
 # Graph RAG
@@ -22,7 +22,15 @@ Retrieval-augmented generation pattern that overlays a knowledge graph on source
 - Requires upfront investment to curate/maintain the graph.
 - Slightly slower than naïve vector search but provides richer, more explainable context.
 
+## Practical Integration Pattern
+- Use vector retrieval to gather relevant passages quickly.
+- Use graph traversal for multi-hop relationship context and disambiguation.
+- Fuse both contexts in generation prompts with source attribution.
+- Add evaluator loops to check whether graph-derived claims are grounded.
+
 ## Related Concepts
 
 - [[Retrieval-Augmented Generation]]
 - [[Knowledge-Graph Indexing]]
+- [[Knowledge Graphs]]
+- [[R3A Loop]]

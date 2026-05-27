@@ -9,7 +9,7 @@ updated: 2026-04-12
 # AI Agents in Action
 
 **Source:** AI Agents in Action.pdf
-**Author:** [[Micheal Lanham]]
+**Author:** [[Michael Lanham]]
 **Date ingested:** 2026-04-12
 **Type:** book
 
@@ -28,7 +28,7 @@ Comprehensive field guide to building and operating AI agents. The book starts b
 
 ## Structure
 
-- **Chapter 1 — Introduction to agents and their world:** Defines agents, components, and the emerging interface paradigm.
+- **Chapter 1 — Introduction to agents and their world:** Defines agents, components, and the emerging [[AI Interface]] paradigm.
 - **Chapter 2 — Harnessing the power of large language models:** Covers OpenAI APIs, [[LM Studio]], and model selection.
 - **Chapter 3 — Engaging GPT assistants:** Builds GPTs with personas, files, store publishing, and [[Custom Actions]].
 - **Chapter 4 — Exploring [[Multi-Agent Systems]]:** Dives into [[AutoGen]], CrewAI, and observability with [[AgentOps]].
@@ -41,7 +41,7 @@ Comprehensive field guide to building and operating AI agents. The book starts b
 
 ## Entities Mentioned
 
-- [[Micheal Lanham]] — Author and practitioner focusing on autonomous agents
+- [[Michael Lanham]] — Author and practitioner focusing on autonomous agents
 - [[LM Studio]] — Desktop app for downloading, running, and serving open-source LLMs
 - [[AutoGen]] — Framework for scripting multi-agent conversations with skills, critics, and caching
 - [[CrewAI]] — Platform for defining agent crews with roles, goals, and sequential or hierarchical execution

@@ -1,8 +1,8 @@
 ---
 tags: [ai, agent, memory, context]
-sources: [Building AI Coding Agents for the Terminal.pdf, AI Agents in Action.pdf, 2026-04-12-rag-driven-generative-ai]
+sources: [Building AI Coding Agents for the Terminal.pdf, AI Agents in Action.pdf, 2026-04-12-rag-driven-generative-ai, 2026-04-29-building-llm-agents-rag-knowledge-graphs-reflection, 2026-04-29-building-applications-with-ai-agents]
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-04-29
 ---
 
 # Agent Memory
@@ -18,13 +18,21 @@ The capability of AI agents to retain context across sessions and maintain state
 - **Semantic/Episodic/Procedural stores** — Nexus platform exposes specialized stores; semantic memory summarizes facts, episodic memory records session transcripts, procedural memory captures how-tos.
 - **Compression** — Periodic k-means clustering or summarizers keep vector stores small while preserving coverage.
 
+## Operational Guidance
+- Separate short-term working context from long-term stores.
+- Persist reflections and error patterns so future loops start with prior lessons.
+- Keep memory write paths permissioned and auditable for production settings.
+
 ## Related Concepts
 
 - [[AI Coding Agent]] — Context for memory capability
 - [[Tool Use]] — Memory stores results of tool execution
 - [[Retrieval-Augmented Generation]] — Primary technique for long-term knowledge
 - [[Agent Components]] — Memory is one of the five pillars described in *AI Agents in Action*
+- [[R3A Loop]] — Reflection and action outcomes should feed memory updates
 
 - [[2026-04-12-building-ai-coding-agents-terminal]] — Primary source
 - [[2026-04-12-ai-agents-in-action]] — Extends memory design to RAG, Nexus stores, and compression pipelines
 - [[2026-04-12-rag-driven-generative-ai]] — Demonstrates multimodal stores, adaptive feedback, and dynamic collections
+- [[2026-04-29-building-llm-agents-rag-knowledge-graphs-reflection]] — Adds short-term vs long-term memory and reflection-driven updates
+- [[2026-04-29-building-applications-with-ai-agents]] — Frames memory as part of the full application lifecycle

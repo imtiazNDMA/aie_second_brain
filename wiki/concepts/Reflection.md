@@ -1,20 +1,46 @@
 ---
-tags: [ai, agent, reflection, self-evaluation]
-sources: [Building AI Coding Agents for the Terminal.pdf]
-created: 2026-04-12
-updated: 2026-04-12
+title: Reflection
+type: concept
+tags: [agent-capabilities, self-improvement, meta-cognition]
+sources: [2026-04-12-building-ai-coding-agents-terminal.md, 2026-04-12-prompt-engineering-llms.md, 2026-04-29-self-rag.md, 2026-04-29-building-llm-agents-rag-knowledge-graphs-reflection]
+created: 2026-04-29
+updated: 2026-04-29
 ---
 
 # Reflection
 
+The capability of AI systems to evaluate their own outputs, identify errors or improvements, and refine their responses accordingly.
+
 ## Definition
 
-The capability of AI agents to evaluate their own outputs and decision-making process. Enables self-correction and improvement during task execution.
+Reflection in AI systems refers to the process where models assess their own reasoning or outputs against criteria, then use that assessment to improve subsequent attempts. This meta-cognitive capability enables self-correction and iterative refinement.
+
+## Key Concepts
+
+- **Self-Evaluation**: Model grades its own output quality
+- **Reflection Tokens**: Special tokens (like in Self-RAG) for self-assessment
+- **Iterative Refinement**: Using reflection to produce improved responses
+- **Critique and Revise**: Generate output, critique it, then revise
+- **Confidence Estimation**: Model assesses its own uncertainty
+- **Critic Loop Contracts**: Structured critique output (e.g., JSON issues/fixes/verdict) enables deterministic revise cycles
 
 ## Related Concepts
 
-- [[AI Coding Agent]] — Context for reflection capability
+- [[Self-RAG]] — Uses reflection tokens for retrieval and generation assessment
+- [[Reasoning Strategies]] — Chain-of-thought, self-consistency build on reflection
+- [[VERA]] — External validation system that complements self-reflection
+- [[Agentic Systems]] — Reflection enables more sophisticated agent behavior
+- [[R3A Loop]] — Reflection is a first-class phase between reasoning and action
+- [[Planner-Executor-Evaluator Pattern]] — Evaluator role operationalizes reflection in multi-agent workflows
 
 ## Sources
 
-- [[2026-04-12-building-ai-coding-agents-terminal]] — Primary source
+- [[2026-04-12-building-ai-coding-agents-terminal]]: Reflection as key capability for AI coding agents
+- [[2026-04-12-prompt-engineering-llms]]: Listed alongside tool use as key LLM capability
+- [[2026-04-29-self-rag]]: Self-RAG's reflection tokens for critique
+- [[2026-04-29-building-llm-agents-rag-knowledge-graphs-reflection]]: Adds explicit draft -> critique -> revise loop patterns
+
+## Open Questions
+
+- How reliable is LLM self-evaluation compared to external validation?
+- Can reflection lead to overconfidence or circular reasoning?

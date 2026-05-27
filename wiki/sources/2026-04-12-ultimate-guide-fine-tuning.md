@@ -37,7 +37,7 @@ Exhaustive survey of LLM [[Fine-Tuning]], spanning history, theory, pipeline des
 - **Chapter 7 — Evaluation & validation:** Defines metrics, validation suites, benchmarking, safety testing, and tools (Llama Guard, Shield Gemma, WILDGUARD).
 - **Chapter 8 — Deployment:** Discusses rollout pipelines, cloud platforms, inference optimization (quantization, WebGPU, vLLM), and reliability.
 - **Chapter 9 — Monitoring & maintenance:** Establishes telemetry, alerting, prompt/response audits, knowledge refresh.
-- **Chapter 10 — Industrial platforms:** Reviews Autotrain, Transformers Trainer API, Optimum, SageMaker JumpStart, Amazon Bedrock, OpenAI API, NVIDIA NeMo.
+- **Chapter 10 — Industrial platforms:** Reviews [[Hugging Face Autotrain|Autotrain]], [[Transformers Trainer API]], [[Optimum]], [[SageMaker JumpStart]], [[Amazon Bedrock]], OpenAI API, [[NVIDIA NeMo]].
 - **Chapter 11 — Multimodal [[Fine-Tuning]]:** Covers VLMs, medical imaging, audio/speech (Whisper), and case studies.
 - **Chapter 12 — Open challenges:** Addresses ethics, privacy, accountability, integration hurdles; glossary closes the report.
 

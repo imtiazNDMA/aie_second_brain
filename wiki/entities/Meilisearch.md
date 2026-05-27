@@ -15,7 +15,7 @@ Open-source search engine offering fast keyword + vector retrieval, frequently c
 
 - Publishes guidance on RAG architectures and tooling (e.g., “14 types of RAG”).
 - Supports hybrid retrieval, filters, and embedding ingestion via a simple API.
-- Often paired with LangChain, Weaviate, Faiss, or Haystack in modular RAG stacks.
+- Often paired with [[LangChain]], [[Weaviate]], [[Faiss]], or [[Haystack]] in modular RAG stacks.
 
 ## Connections
 

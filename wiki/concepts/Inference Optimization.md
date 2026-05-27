@@ -2,9 +2,9 @@
 title: Inference Optimization
 type: concept
 tags: [ml, deployment, performance]
-sources: [2026-04-12-ai-engineering]
+sources: [2026-04-12-ai-engineering, 2026-05-09-s1-test-time-scaling]
 created: 2026-04-12
-updated: 2026-04-13
+updated: 2026-05-09
 ---
 
 # Inference Optimization
@@ -88,13 +88,30 @@ $$\text{Throughput} = \frac{\text{total tokens}}{\text{total time}} = \frac{B \c
 
 Methods: quantization (reduce precision), pruning (remove weights), knowledge distillation (train smaller student), caching, batching. Critical for deployment.
 
+## The Other Direction: Test-Time Compute Scaling
+
+Inference optimization classically aims to **reduce** compute per query. The 2024–2025 reasoning-model wave (s1, DeepSeek-R1, OpenAI o-series) introduces an opposite discipline: deliberately **increasing** test-time compute to raise accuracy on hard tasks.
+
+- [[Test-Time Compute Scaling]] — empirical regularity: accuracy rises log-linearly with thinking-token budget for [[Reasoning Models]]
+- [[Budget Forcing]] — the simplest control mechanism (force end / force continue with literal `Wait`)
+- [[Cache-Augmented Generation]] — orthogonal: spends compute *once* (preload corpus into KV cache), reuses across queries
+
+Production systems increasingly choose between these two regimes per query — fast classical inference for easy paths, deliberate compute spending for hard ones. See [[Compound AI Systems]].
+
 ## Related Concepts
 
 - [[Batch Deployment]]
 - [[Real-Time Deployment]]
 - [[QLoRA]]
 - [[Low-Rank Adaptation]]
+- [[KV Cache]] — key memory structure
+- [[Paged Attention]] — KV-cache management
+- [[FlashAttention]] — IO-aware attention kernel
+- [[Speculative Decoding]] — draft + verify acceleration
+- [[Test-Time Compute Scaling]] — opposite-direction compute spending
+- [[Cache-Augmented Generation]] — amortized prefill
 
 ## Sources
 
 - [[2026-04-12-ai-engineering]] — Chapter 13
+- [[2026-05-09-s1-test-time-scaling]] — Muennighoff et al., EMNLP 2025; the test-time-compute counterpoint

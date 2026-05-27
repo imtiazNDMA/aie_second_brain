@@ -32,3 +32,9 @@ updated: 2026-04-12
 - Use [[Knowledge-Graph Indexing]] visualizations to explain to stakeholders how answers were assembled.
 - Capture evaluator rationales alongside scores to train future judge models or to seed RLHF-style critics.
 - Document metric thresholds (e.g., recall@10 ≥ 0.85, response latency < 3s) so product teams know when to block a release.
+
+## Operations bridge
+
+- Pair RAG quality thresholds with AIOps incident thresholds so retrieval regressions trigger the same escalation paths as reliability incidents.
+- Recommended shared scorecard: recall@k, citation coverage, response latency, MTTR for LLM incidents, and incident recurrence by failure mode.
+- Use [[AIOps-LLMOps Convergence for Agent Operations]] as the reference model for integrating evaluator signals into runbook-driven remediation.

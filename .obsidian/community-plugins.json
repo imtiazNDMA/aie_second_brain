@@ -9,5 +9,9 @@
   "mermaid-tools",
   "obsidian-plugin-toc",
   "obsidian-epub-plugin",
-  "epub-importer"
+  "epub-importer",
+  "obsidian-linter",
+  "obsidian-kanban",
+  "templater-obsidian",
+  "mehrmaid"
 ]

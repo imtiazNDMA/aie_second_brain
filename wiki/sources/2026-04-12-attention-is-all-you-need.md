@@ -9,7 +9,7 @@ updated: 2026-04-12
 
 # Attention Is All You Need
 
-**Authors:** Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin  
+**Authors:** [[Ashish Vaswani]], [[Noam Shazeer]], [[Niki Parmar]], [[Jakob Uszkoreit]], [[Llion Jones]], [[Aidan Gomez|Aidan N. Gomez]], [[Lukasz Kaiser|Łukasz Kaiser]], [[Illia Polosukhin]]  
 **Venue:** NeurIPS 2017  
 **Date ingested:** 2026-04-12  
 **Type:** research paper
@@ -41,7 +41,7 @@ Introduces the [[Transformer]], the first sequence-to-sequence architecture buil
 ## Entities Mentioned
 
 - [[Transformer]] — Architecture introduced in the paper.
-- Google Brain/Research authors (Ashish Vaswani et al.) — architects of the [[Transformer]] (see paper for attribution).
+- Google Brain/Research authors ([[Ashish Vaswani]] et al., [[Noam Shazeer]], [[Niki Parmar]], [[Jakob Uszkoreit]], [[Llion Jones]], [[Aidan Gomez]], [[Lukasz Kaiser]], [[Illia Polosukhin]]) — architects of the [[Transformer]].
 
 ## Concepts Covered
 

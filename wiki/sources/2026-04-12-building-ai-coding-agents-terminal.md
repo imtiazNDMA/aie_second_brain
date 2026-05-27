@@ -8,7 +8,7 @@ updated: 2026-04-12
 
 # Building AI Coding Agents for the Terminal
 
-**Author:** Nghi D. Q. Bui
+**Author:** [[Nghi D. Q. Bui]]
 **Source:** Building AI Coding Agents for the Terminal.pdf
 **Date ingested:** 2026-04-12
 **Type:** technical report

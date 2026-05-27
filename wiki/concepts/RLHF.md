@@ -2,9 +2,9 @@
 title: RLHF
 type: concept
 tags: [alignment, training, llm]
-sources: [2026-04-12-build-llm-from-scratch, 2026-04-12-prompt-engineering-llms, 2026-04-12-ultimate-guide-fine-tuning]
+sources: [2026-04-12-build-llm-from-scratch, 2026-04-12-prompt-engineering-llms, 2026-04-12-ultimate-guide-fine-tuning, 2026-05-09-deepseek-r1]
 created: 2026-04-12
-updated: 2026-04-13
+updated: 2026-05-09
 ---
 
 # RLHF
@@ -64,10 +64,29 @@ The clipped objective prevents catastrophic policy updates.
 ## Variants
 
 - **DPO ([[Direct Preference Optimization]]):** Simpler — directly optimizes on preference pairs without reward model
+- **[[ORPO]]** / **[[KTO]]**: alignment without separate reward model
 - **Constitutional AI:** Uses AI feedback instead of human feedback
+- **[[RLVR]] (Reinforcement Learning from Verifiable Rewards):** paradigm-level counterpart that replaces the learned reward model with rule-based verification (math correctness, code unit tests). Per [[2026-05-09-deepseek-r1]] (Nature 2025), RLVR + [[GRPO]] is the recipe behind reasoning models like [[DeepSeek-R1]]. Where RLHF optimizes for *preference*, RLVR optimizes for *correctness* — they target distinct alignment goals and are complementary, not competing.
+
+## RLHF vs. RLVR
+
+| Property | RLHF | RLVR |
+|----------|------|------|
+| Reward source | learned reward model | rule-based verifier |
+| Best for | subjective alignment (helpful/harmless) | objective correctness (math, code) |
+| Annotation | preference pairs | none required |
+| Reward hacking | endemic | rare |
+| Production role | tone, safety, format | reasoning, code, math |
+
+In practice, frontier reasoning models like DeepSeek-R1 use a **four-stage pipeline** combining both: cold-start SFT → RLVR (reasoning) → rejection sampling → RLHF/DPO (helpfulness). See [[GRPO]] for the algorithm DeepSeek-R1 uses.
 
 ## Related Concepts
 
 - [[Pretraining]]
 - [[Fine-Tuning]]
 - [[Direct Preference Optimization]]
+- [[ORPO]]
+- [[KTO]]
+- [[RLVR]]
+- [[GRPO]]
+- [[Reasoning Models]]
