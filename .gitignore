@@ -35,3 +35,22 @@ data/
 .turbo/
 .cache/
 *.tsbuildinfo
+
+# Agent skills
+# Canonical skill content lives in .agents/skills/ and IS tracked.
+# .claude/skills/ is a generated discovery layer: `npx skills add` writes
+# symlinks/junctions there pointing back at .agents/skills/. Those links don't
+# reproduce on a fresh clone (Windows needs Developer Mode for symlinks), so
+# ignore them and let the installer regenerate. The dirs re-included below are
+# real, self-contained skills that predate that layout.
+.claude/skills/*
+!.claude/skills/caveman/
+!.claude/skills/grill-me/
+!.claude/skills/grill-with-docs/
+!.claude/skills/handoff/
+!.claude/skills/second-brain/
+!.claude/skills/second-brain-ingest/
+!.claude/skills/second-brain-lint/
+!.claude/skills/second-brain-query/
+!.claude/skills/setup-matt-pocock-skills/
+!.claude/skills/to-prd/
