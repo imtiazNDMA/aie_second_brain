@@ -1,7 +1,7 @@
 ---
 title: Mixture of Experts
 type: concept
-tags: [moe, mixture-of-experts, sparse-models, llm-architecture, scaling]
+tags: [moe, mixture-of-experts, sparse-models, llm-architecture, scaling, cluster/transformer-architecture]
 sources: [2026-05-28-mixture-of-experts-2026]
 created: 2026-05-28
 updated: 2026-05-28

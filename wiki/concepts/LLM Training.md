@@ -1,7 +1,7 @@
 ---
 title: LLM Training
 type: concept
-tags: [stub]
+tags: [stub, cluster/training-alignment]
 sources: [2026-04-29-llmops-managing-large-language-models-in-production]
 created: 2026-04-29
 updated: 2026-04-29

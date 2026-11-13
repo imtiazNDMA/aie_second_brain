@@ -1,22 +1,156 @@
 {
   "collapse-filter": true,
-  "search": "",
+  "search": "path:wiki -file:index -file:log -file:portfolio",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
-  "showOrphans": true,
+  "hideUnresolved": true,
+  "showOrphans": false,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "path:wiki/clusters",
+      "color": {
+        "a": 1,
+        "rgb": 16765286
+      }
+    },
+    {
+      "query": "path:wiki/synthesis",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
+    },
+    {
+      "query": "tag:#cluster/transformer-architecture",
+      "color": {
+        "a": 1,
+        "rgb": 6193652
+      }
+    },
+    {
+      "query": "path:wiki/model-architectures",
+      "color": {
+        "a": 1,
+        "rgb": 3835647
+      }
+    },
+    {
+      "query": "tag:#cluster/training-alignment",
+      "color": {
+        "a": 1,
+        "rgb": 15884124
+      }
+    },
+    {
+      "query": "tag:#cluster/serving-inference",
+      "color": {
+        "a": 1,
+        "rgb": 16752412
+      }
+    },
+    {
+      "query": "tag:#cluster/rag-retrieval",
+      "color": {
+        "a": 1,
+        "rgb": 3065014
+      }
+    },
+    {
+      "query": "tag:#cluster/agents",
+      "color": {
+        "a": 1,
+        "rgb": 10182117
+      }
+    },
+    {
+      "query": "tag:#cluster/reasoning-prompting",
+      "color": {
+        "a": 1,
+        "rgb": 15817653
+      }
+    },
+    {
+      "query": "tag:#cluster/evaluation",
+      "color": {
+        "a": 1,
+        "rgb": 16704576
+      }
+    },
+    {
+      "query": "tag:#cluster/generative-models",
+      "color": {
+        "a": 1,
+        "rgb": 48121
+      }
+    },
+    {
+      "query": "tag:#cluster/vision-multimodal",
+      "color": {
+        "a": 1,
+        "rgb": 62932
+      }
+    },
+    {
+      "query": "tag:#cluster/knowledge-graphs",
+      "color": {
+        "a": 1,
+        "rgb": 9095462
+      }
+    },
+    {
+      "query": "tag:#cluster/mlops-llmops",
+      "color": {
+        "a": 1,
+        "rgb": 14711391
+      }
+    },
+    {
+      "query": "tag:#cluster/distributed-systems",
+      "color": {
+        "a": 1,
+        "rgb": 10536191
+      }
+    },
+    {
+      "query": "tag:#cluster/ml-foundations",
+      "color": {
+        "a": 1,
+        "rgb": 16756141
+      }
+    },
+    {
+      "query": "tag:#cluster/security-ethics",
+      "color": {
+        "a": 1,
+        "rgb": 6966419
+      }
+    },
+    {
+      "query": "path:wiki/sources",
+      "color": {
+        "a": 1,
+        "rgb": 6055805
+      }
+    },
+    {
+      "query": "path:wiki/entities",
+      "color": {
+        "a": 1,
+        "rgb": 13217191
+      }
+    }
+  ],
   "collapse-display": false,
-  "showArrow": true,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "showArrow": false,
+  "textFadeMultiplier": -1.5,
+  "nodeSizeMultiplier": 1.3,
+  "lineSizeMultiplier": 0.45,
   "collapse-forces": false,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.13168724279835325,
-  "close": true
+  "centerStrength": 0.35,
+  "repelStrength": 14,
+  "linkStrength": 0.6,
+  "linkDistance": 160,
+  "scale": 0.25883865621816116,
+  "close": false
 }

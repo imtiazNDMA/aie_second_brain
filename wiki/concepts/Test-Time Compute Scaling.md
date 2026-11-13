@@ -1,7 +1,7 @@
 ---
 title: Test-Time Compute Scaling
 type: concept
-tags: [reasoning-models, test-time-compute, inference, scaling-laws]
+tags: [reasoning-models, test-time-compute, inference, scaling-laws, cluster/reasoning-prompting]
 sources: [2026-05-09-s1-test-time-scaling, 2026-05-09-deepseek-r1, 2026-11-13-build-a-reasoning-model-from-scratch]
 created: 2026-05-09
 updated: 2026-11-13

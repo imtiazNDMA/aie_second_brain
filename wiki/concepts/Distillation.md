@@ -1,7 +1,7 @@
 ---
 title: Distillation
 type: concept
-tags: [training, compression, distillation, llm]
+tags: [training, compression, distillation, llm, cluster/training-alignment]
 sources: [2026-04-12-ai-engineering, 2026-05-09-deepseek-r1, 2026-05-09-s1-test-time-scaling, 2026-11-13-build-a-reasoning-model-from-scratch]
 created: 2026-05-09
 updated: 2026-11-13

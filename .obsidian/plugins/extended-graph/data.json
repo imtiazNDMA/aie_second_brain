@@ -1,0 +1,20 @@
+{
+  "enableFeatures": {
+    "graph": {
+      "auto-enabled": true,
+      "elements-stats": true,
+      "linksSameColorAsNode": true
+    },
+    "localgraph": {
+      "auto-enabled": true,
+      "elements-stats": true,
+      "linksSameColorAsNode": true
+    }
+  },
+  "nodesSizeFunction": "backlinksCount",
+  "nodesSizeRange": {
+    "min": 0.6,
+    "max": 2.6
+  },
+  "curvedLinks": true
+}

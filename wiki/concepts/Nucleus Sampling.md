@@ -1,7 +1,7 @@
 ---
 title: Nucleus Sampling
 type: concept
-tags: [decoding, sampling, inference, llm, cluster/llm-serving]
+tags: [decoding, sampling, inference, llm, cluster/serving-inference]
 sources: [2026-11-13-build-a-reasoning-model-from-scratch]
 created: 2026-11-13
 updated: 2026-11-13

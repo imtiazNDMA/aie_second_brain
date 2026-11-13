@@ -1,4 +1,5 @@
 # Visual Tokens
+tags: [cluster/vision-multimodal]
 ---
 tags: [concept, cluster/vision-multimodal]
 created: 2026-09-12

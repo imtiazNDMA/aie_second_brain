@@ -743,3 +743,20 @@ Every `sources:` reference and every `Processed …` log line that named an old 
 - `systems-architecture/Fundamentals of Software Architecture.pdf`
 - `systems-architecture/Software Architecture - The Hard Parts.pdf`
 - `ml-foundations/Hands-On Machine Learning with Scikit-Learn and PyTorch.pdf`
+
+## [2026-11-13] maintenance | Removed insta/ and overviews/, cluster-tag backfill, graph styling
+- **Removed folders.** The user deleted `wiki/insta/` (13 pages) and `wiki/overviews/` (18 pages) as unwanted and redundant. I removed both sections from `index.md` to match.
+- **Cluster tags.** Added a `cluster/…` tag to the 11 concept pages that lacked one, chosen by the clusters of the pages they link to, with manual tie-breaks:
+  - [[Direct Preference Optimization]], [[Distillation]], [[LLM Training]] → training-alignment
+  - [[Leader-Follower Replication]], [[Vector Clocks]], [[Asset Administration Shell]] → distributed-systems
+  - [[Mixture of Experts]] → transformer-architecture
+  - [[Test-Time Compute Scaling]] → reasoning-prompting
+  - [[Graph RAG]] → rag-retrieval
+  - [[Feature-Training-Inference Architecture]] → mlops-llmops
+  - [[Visual Tokens]] → vision-multimodal
+
+  Also fixed [[Nucleus Sampling]]: `cluster/llm-serving` → `cluster/serving-inference`.
+- **Obsidian graph appearance** (vault config, not wiki content):
+  - `.obsidian/graph.json`: 19 color groups (14 clusters plus folders), with index, log and portfolio hidden, and layout forces adjusted.
+  - `.obsidian/snippets/graph-glow.css`: gradient background, node glow, gold hover highlight.
+  - Installed the Extended Graph 2.7.7 plugin. Node size follows backlink count, links take their node's color, and links are curved.

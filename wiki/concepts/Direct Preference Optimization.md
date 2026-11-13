@@ -1,7 +1,7 @@
 ---
 title: Direct Preference Optimization
 type: concept
-tags: [alignment, fine-tuning, preference]
+tags: [alignment, fine-tuning, preference, cluster/training-alignment]
 sources: [2026-04-12-llm-engineers-handbook, 2026-04-12-ultimate-guide-fine-tuning]
 created: 2026-04-12
 updated: 2026-04-13

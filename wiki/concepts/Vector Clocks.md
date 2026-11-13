@@ -1,7 +1,7 @@
 ---
 title: Vector Clocks
 type: concept
-tags: [causality, consistency, distributed-systems]
+tags: [causality, consistency, distributed-systems, cluster/distributed-systems]
 sources: [2026-04-16-grokking-advanced-system-design-interview]
 created: 2026-04-16
 updated: 2026-04-16

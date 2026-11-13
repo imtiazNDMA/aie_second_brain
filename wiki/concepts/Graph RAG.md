@@ -1,5 +1,5 @@
 ---
-tags: [rag, knowledge-graph, retrieval]
+tags: [rag, knowledge-graph, retrieval, cluster/rag-retrieval]
 sources: [2026-04-12-14-types-of-rag, 2026-04-29-graph-rag-survey, 2026-04-29-building-llm-agents-rag-knowledge-graphs-reflection, 2026-07-07-building-ai-agents-with-llms-rag-knowledge-graphs, 2026-09-12-knowledge-graphs-and-llms-in-action]
 created: 2026-04-12
 updated: 2026-09-12

@@ -1,5 +1,5 @@
 ---
-tags: [concept, digital-twin, industry-40, standard]
+tags: [concept, digital-twin, industry-40, standard, cluster/distributed-systems]
 sources: ["2026-09-12-digital-twins-in-action"]
 created: 2026-09-12
 updated: 2026-09-12
