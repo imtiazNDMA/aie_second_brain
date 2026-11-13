@@ -1,11 +1,13 @@
 ---
+
 title: Remember-Formulate-Predict Framework
 type: concept
-tags: [machine-learning, framework, reasoning]
+tags: [machine-learning, framework, reasoning, cluster/reasoning-prompting]
 sources: [2026-04-29-grokking-ml]
 created: 2026-04-29
 updated: 2026-04-29
 ---
+
 
 # Remember-Formulate-Predict Framework
 

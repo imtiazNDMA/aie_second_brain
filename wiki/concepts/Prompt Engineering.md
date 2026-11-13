@@ -1,9 +1,11 @@
 ---
-tags: [llm, prompting, engineering]
+
+tags: [llm, prompting, engineering, cluster/reasoning-prompting]
 sources: [2026-04-12-prompt-engineering-llms, 2026-04-29-llmops-managing-large-language-models-in-production]
 created: 2026-04-12
 updated: 2026-04-29
 ---
+
 
 # Prompt Engineering
 

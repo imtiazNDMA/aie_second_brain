@@ -1,9 +1,11 @@
 ---
-tags: [rag, reflection, evaluation]
+
+tags: [rag, reflection, evaluation, cluster/rag-retrieval]
 sources: [2026-04-12-14-types-of-rag]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # Self-RAG
 

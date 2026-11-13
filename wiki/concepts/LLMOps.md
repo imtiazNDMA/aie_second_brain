@@ -1,9 +1,11 @@
 ---
-tags: [llmops, ai-engineering, mlops, production, llm-deployment]
-sources: [2026-04-29-llmops-managing-large-language-models-in-production]
+
+tags: [llmops, ai-engineering, mlops, production, llm-deployment, cluster/mlops-llmops]
+sources: [2026-04-29-llmops-managing-large-language-models-in-production, 2026-07-07-building-ai-agents-with-llms-rag-knowledge-graphs]
 created: 2026-04-29
-updated: 2026-04-29
+updated: 2026-07-07
 ---
+
 
 # LLMOps
 
@@ -35,6 +37,16 @@ LLMOps (Large Language Model Operations) is a specialized discipline focused on 
 5. **Governance**: LLMSecOps practices for monitoring, privacy, and security
 6. **Infrastructure**: Parallelism strategies (data, model, pipeline) and frameworks like ZeRO and DeepSpeed
 7. **Future Trends**: Hybrid architectures, mixture-of-experts, memory-augmented models, and comprehensive evaluation frameworks
+
+## Agent Application Deployment
+
+[[2026-07-07-building-ai-agents-with-llms-rag-knowledge-graphs]] extends the LLMOps view into concrete agent applications:
+
+- prototype the user-facing workflow with [[Streamlit]] before scaling
+- evaluate the whole product, not only the base model, when the system includes RAG, tools, or agents
+- optimize inference with KV cache, [[Continuous Batching]], [[Speculative Decoding]], [[Paged Attention]], [[FlashAttention]], and serving-aware attention variants
+- handle production concerns such as errors, async execution, security, [[Docker]] packaging, and [[Kubernetes]] orchestration
+- treat container and orchestration configuration as part of the security surface, not just deployment plumbing
 
 ## Sources
 

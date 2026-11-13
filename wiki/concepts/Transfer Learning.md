@@ -1,11 +1,13 @@
 ---
+
 title: Transfer Learning
 type: concept
-tags: [deep-learning, representation-learning, pytorch]
+tags: [deep-learning, representation-learning, pytorch, cluster/training-alignment]
 sources: [2026-04-16-deep-learning-with-pytorch-step-by-step]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # Transfer Learning
 

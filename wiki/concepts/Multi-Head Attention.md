@@ -1,11 +1,13 @@
 ---
+
 title: Multi-Head Attention
 type: concept
-tags: [attention, transformer, nlp]
+tags: [attention, transformer, nlp, cluster/transformer-architecture]
 sources: [2026-04-12-attention-is-all-you-need]
 created: 2026-04-12
 updated: 2026-04-13
 ---
+
 
 # Multi-Head Attention
 

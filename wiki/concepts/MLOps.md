@@ -1,11 +1,13 @@
 ---
+
 title: MLOps
 type: concept
-tags: [ml, devops, operations]
+tags: [ml, devops, operations, cluster/mlops-llmops]
 sources: [2026-04-12-ai-engineering, 2026-04-29-llmops-managing-large-language-models-in-production.md]
 created: 2026-04-12
 updated: 2026-04-29
 ---
+
 
 # MLOps
 

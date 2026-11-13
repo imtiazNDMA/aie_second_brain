@@ -1,11 +1,13 @@
 ---
+
 title: Circuit Breaker
 type: concept
-tags: [resilience, fault-tolerance, distributed-systems]
+tags: [resilience, fault-tolerance, distributed-systems, cluster/distributed-systems]
 sources: [2026-04-16-system-design-on-aws]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # Circuit Breaker
 

@@ -1,11 +1,13 @@
 ---
+
 title: Compound AI Systems
 type: concept
-tags: [agents, architecture, systems, production]
+tags: [agents, architecture, systems, production, cluster/agents]
 sources: [2026-04-12-building-ai-coding-agents-terminal, 2026-04-29-building-applications-with-ai-agents]
 created: 2026-04-30
 updated: 2026-04-30
 ---
+
 
 # Compound AI Systems
 

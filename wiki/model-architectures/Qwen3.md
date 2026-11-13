@@ -2,9 +2,9 @@
 title: Qwen3
 type: model-architecture
 tags: [llm, qwen, alibaba, dense, moe, qk-norm, broad-family]
-sources: [2026-05-28-raschka-llm-architecture-gallery]
+sources: [2026-05-28-raschka-llm-architecture-gallery, 2026-11-13-build-a-reasoning-model-from-scratch]
 created: 2026-05-28
-updated: 2026-05-28
+updated: 2026-11-13
 ---
 
 # Qwen3 — Architecture
@@ -135,6 +135,51 @@ The Gated DeltaNet layers are linear-time; Gated Attention layers preserve in-co
 
 Qwen3's distinguishing choices: ubiquitous **QK-Norm**, **no shared expert** in 235B MoE, and aggressive **hybrid/linear-attention experimentation** in later releases.
 
+## Qwen3 0.6B as a teaching model
+
+The 0.6B model is the base model throughout *Build a Reasoning Model (From Scratch)* (Raschka 2026). The book reimplements it in pure PyTorch, compatible with the official weights.
+
+**Why this model** (p29). It is the smallest model in the family and runs on consumer hardware. It ships as both a **base** and an official **reasoning** variant, so the reasoning variant can serve as a reference.
+
+**`QWEN_CONFIG_06_B`** (Listing C.7, p351):
+
+| Setting | Value |
+|---|---|
+| Vocabulary | 151,936 |
+| Context length | 40,960 |
+| Embedding dim | 1,024 |
+| Layers | 28 |
+| Query heads | 16 |
+| KV groups | 8 |
+| Head dim | 128 |
+| FFN hidden dim | 3,072 |
+| QK-Norm | on |
+| RoPE base | 1,000,000 |
+| dtype | bfloat16 |
+
+**Context budget** (p351–352). The model was trained with 32,768 tokens of context. The 40,960 default reserves 32,768 tokens for output and 8,192 for the prompt. The Qwen developers advise against YaRN context extension unless the average context regularly exceeds about 32,000 tokens, because it can slightly hurt performance on shorter inputs.
+
+**Hybrid thinking.** The non-base 0.6B model supports both thinking and non-thinking modes. With thinking off, the chat template inserts an empty `<think>
+
+</think>` block (p354–355).
+
+**Larger dense variants.** The same code loads the bigger dense checkpoints (Table D.1/D.2, Fig. D.1, p358–360). bf16 memory figures are lower bounds for the weights alone:
+
+| Model | Embedding dim | FFN hidden dim | bf16 weights |
+|---|---|---|---|
+| 1.7B | 2,048 | 6,144 | ~3.4 GB |
+| 4B | 2,560 | 9,728 | ~8 GB |
+| 8B | 4,096 | 12,288 | ~16 GB |
+| 14B | 5,120 | 17,408 | ~28 GB |
+| 32B | 5,120 | 25,600 | ~64 GB |
+
+Notes on the larger variants:
+- **1.7B** is missing from the variant table above.
+- **Hub IDs.** Base and reasoning checkpoints have different Hugging Face IDs, for example `Qwen/Qwen3-4B-Base` vs `Qwen/Qwen3-4B` (p361–363).
+- **MoE variants** are not supported by the book's code.
+
+**[[MATH-500]] scores of the 0.6B models** from the book are in [[Reasoning Models]]. The headline numbers: base 15.2%, reasoning 48.2%. Distillation results with Qwen3 235B-A22B as teacher are in [[Distillation]]. That teacher scores 92.4% on MATH-500 (p300).
+
 ## Connections
 
 - [[Grouped-Query Attention]], [[QK-Norm]], [[RMSNorm]], [[SwiGLU]], [[Rotary Position Embeddings]]
@@ -145,6 +190,8 @@ Qwen3's distinguishing choices: ubiquitous **QK-Norm**, **no shared expert** in 
 - [[LLM Architecture]] — hub
 - [[LLM Architecture Landscape 2026]] — comparative synthesis
 - [[2026-05-28-raschka-llm-architecture-gallery]] — source
+- [[2026-11-13-build-a-reasoning-model-from-scratch]] — from-scratch Qwen3 0.6B implementation, configs for larger dense variants
+- [[Reasoning Models]], [[GRPO]], [[Distillation]] — book experiments built on Qwen3 0.6B
 
 ## Open Questions
 

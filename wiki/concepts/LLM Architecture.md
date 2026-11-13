@@ -1,11 +1,13 @@
 ---
+
 title: LLM Architecture
 type: concept
-tags: [llm, transformer, architecture, hub]
+tags: [llm, transformer, architecture, hub, cluster/transformer-architecture]
 sources: [2026-04-29-hands-on-llms, 2026-05-28-raschka-llm-architecture-gallery, 2026-05-28-mixture-of-experts-2026]
 created: 2026-04-29
 updated: 2026-05-28
 ---
+
 
 # LLM Architecture
 

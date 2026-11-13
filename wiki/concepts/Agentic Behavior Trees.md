@@ -1,9 +1,11 @@
 ---
-tags: [behavior-tree, autonomy, orchestration]
+
+tags: [behavior-tree, autonomy, orchestration, cluster/agents]
 sources: [2026-04-12-ai-agents-in-action]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # Agentic Behavior Trees
 

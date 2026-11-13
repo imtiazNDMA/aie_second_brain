@@ -1,11 +1,13 @@
 ---
+
 title: Continuous Batching
 type: concept
-tags: [inference-optimization, serving, throughput, llm]
-sources: []
+tags: [inference-optimization, serving, throughput, llm, cluster/serving-inference]
+sources: [2026-09-12-hands-on-llm-serving-optimization]
 created: 2026-05-10
-updated: 2026-05-10
+updated: 2026-09-12
 ---
+
 
 # Continuous Batching
 
@@ -53,7 +55,7 @@ llama.cpp / Ollama do **not** implement continuous batching by default — they'
 
 ## Interactions with other optimizations
 
-- **[[Paged Attention]]** — required substrate; without paged KV management, continuous batching can't admit/evict requests cleanly
+- **[[Paged Attention]]** — complementary; they compose well for high-throughput serving but are separable techniques
 - **[[Speculative Decoding]]** — composes; speculate K tokens per request per step
 - **Prefix sharing** — composes; common system prompts share KV cache across batch slots
 - **[[Grouped-Query Attention]]** — reduces per-slot KV memory, allowing larger batch size
@@ -66,6 +68,10 @@ llama.cpp / Ollama do **not** implement continuous batching by default — they'
 - [[vLLM]] — reference engine
 - [[LLM Inference Optimization Stack]] — synthesis where this slots in
 - [[Inference Optimization]] — broader hub
+
+## Sources
+
+- [[2026-09-12-hands-on-llm-serving-optimization]]
 
 ## Open Questions
 

@@ -1,9 +1,11 @@
 ---
-tags: [knowledge-graph, rag, retrieval]
+
+tags: [knowledge-graph, rag, retrieval, cluster/knowledge-graphs]
 sources: [2026-04-12-rag-driven-generative-ai]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # Knowledge-Graph Indexing
 

@@ -2,9 +2,9 @@
 title: LLM Inference Optimization Stack
 type: synthesis
 tags: [inference, optimization, serving, deployment, kv-cache, attention]
-sources: [2026-05-09-cache-augmented-generation, 2026-04-12-attention-is-all-you-need, 2026-04-12-deep-learning-with-pytorch]
+sources: [2026-05-09-cache-augmented-generation, 2026-04-12-attention-is-all-you-need, 2026-04-12-deep-learning-with-pytorch, 2026-09-12-hands-on-llm-serving-optimization]
 created: 2026-05-09
-updated: 2026-05-09
+updated: 2026-09-12
 ---
 
 # LLM Inference Optimization Stack
@@ -151,3 +151,9 @@ Pair quantization with the right inference engine: GPTQ/AWQ for vLLM/TGI, GGUF f
 - [[RAG Architecture Decision Guide]] — where prefix-sharing / CAG decisions land in product
 - [[Compound AI Systems]] — routing and tiering pattern
 - [[Reliability for LLM Systems]] — latency-tier SLOs and cost circuit-breakers built on this stack
+
+## Sources
+- [[2026-05-09-cache-augmented-generation]]
+- [[2026-04-12-attention-is-all-you-need]]
+- [[2026-04-12-deep-learning-with-pytorch]]
+- [[2026-09-12-hands-on-llm-serving-optimization]]

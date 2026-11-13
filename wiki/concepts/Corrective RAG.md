@@ -1,11 +1,13 @@
 ---
+
 title: Corrective RAG
 type: concept
-tags: [rag, evaluation, self-reflection]
+tags: [rag, evaluation, self-reflection, cluster/rag-retrieval]
 sources: [2026-04-12-14-types-of-rag]
 created: 2026-04-13
 updated: 2026-04-13
 ---
+
 
 # Corrective RAG
 

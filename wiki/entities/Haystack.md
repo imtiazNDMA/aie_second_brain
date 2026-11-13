@@ -2,9 +2,9 @@
 title: Haystack
 type: entity
 tags: [framework, rag, pipelines]
-sources: [2026-04-12-14-types-of-rag]
+sources: [2026-04-12-14-types-of-rag, 2026-07-07-building-ai-agents-with-llms-rag-knowledge-graphs]
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-07-07
 ---
 
 # Haystack

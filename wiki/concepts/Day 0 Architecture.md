@@ -1,11 +1,13 @@
 ---
+
 title: Day 0 Architecture
 type: concept
-tags: [system-design, mvp, architecture]
+tags: [system-design, mvp, architecture, cluster/distributed-systems]
 sources: [2026-04-16-system-design-on-aws]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # Day 0 Architecture
 

@@ -1,11 +1,13 @@
 ---
+
 title: Choreography
 type: concept
-tags: [distributed-systems, event-driven, architecture]
+tags: [distributed-systems, event-driven, architecture, cluster/distributed-systems]
 sources: [2026-04-16-system-design-on-aws]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # Choreography
 

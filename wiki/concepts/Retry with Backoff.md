@@ -1,11 +1,13 @@
 ---
+
 title: Retry with Backoff
 type: concept
-tags: [resilience, reliability, distributed-systems]
+tags: [resilience, reliability, distributed-systems, cluster/distributed-systems]
 sources: [2026-04-16-system-design-on-aws]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # Retry with Backoff
 

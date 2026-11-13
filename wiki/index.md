@@ -1,6 +1,62 @@
 # Index
 
-## Entities (149)
+## Clusters (14)
+- [[A - Transformer and LLM Architecture]]: Attention variants, normalization, activations, encoder-decoder (30 concepts)
+- [[B - LLM Training and Alignment]]: Pretraining, fine-tuning, RLHF/DPO, data pipeline (30 concepts)
+- [[C - LLM Serving and Inference]]: KV-cache, batching, speculative decoding, serving engines (18 concepts)
+- [[D - RAG and Retrieval]]: Naive through advanced RAG, vector search, graph-augmented (30 concepts)
+- [[E - Agents and Agentic Systems]]: Agent architectures, orchestration, multi-agent, tool use (29 concepts)
+- [[F - Reasoning and Prompting]]: CoT, tree-of-thought, prompt engineering (14 concepts)
+- [[G - Evaluation and Benchmarks]]: Benchmarks, metrics, scoring rubrics (18 concepts)
+- [[H - Generative Models]]: GANs, diffusion, flow matching, U-Net (11 concepts)
+- [[I - Vision Multimodal and Audio]]: VLMs, CLIP, voice agents, multimodal (7 concepts)
+- [[J - Knowledge Graphs]]: KGs, graph RAG, GNNs, Cypher (6 concepts)
+- [[K - MLOps LLMOps and AIOps]]: Operations, monitoring, deployment, model registry (14 concepts)
+- [[L - Distributed Systems]]: Consensus, storage engines, distributed transactions (43 concepts)
+- [[M - Classical ML and DL Foundations]]: Classical algorithms, DL fundamentals, frameworks (39 concepts)
+- [[N - Security Ethics and Governance]]: Adversarial, deepfake ethics, hallucination, safety (5 concepts)
+
+## Entities (204)
+- [[Alessandro Negro]]: Co-author of *Knowledge Graphs and LLMs in Action*, focused on practical KG+LLM integration.
+- [[Andrea De Mauro]]: Author of *Grokking AI Applications*, illustrator-driven technical guide for AI application engineering.
+- [[Andrés Marafioti]]: Co-author of *Vision Language Models: Building VLMs with Hugging Face*.
+- [[Chi Wang]]: Co-author of *Hands-On LLM Serving and Optimization*, focused on production LLM inference systems.
+- [[ColPali]]: Visual late-interaction retrieval model replacing OCR pipelines with per-patch visual embeddings.
+- [[Composio]]: Tool integration platform for connecting LLM applications to external services.
+- [[Fabio Montagna]]: Co-author of *Knowledge Graphs and LLMs in Action*.
+- [[Giuseppe Futia]]: Co-author of *Knowledge Graphs and LLMs in Action*.
+- [[GR00T N1.5]]: NVIDIA's humanoid robot foundation model for physical AI.
+- [[Greg Biegel]]: Author of *Digital Twins in Action*, AWS Solution Architect focused on IoT and simulation.
+- [[Idefics 2]]: VLM with cross-attention and unified-sequence variants for visual question answering.
+- [[Indrajit Kar]]: Co-author of *Practical LLM Evaluation for Production Systems*, MD and Head of AI-native Business.
+- [[Jakub Langr]]: Co-author of *GANs in Action*, practical guide to generative adversarial networks.
+- [[Jesus Barrasa]]: Co-author of *Building Knowledge Graphs: A Practitioner's Guide*, Neo4j graph database expert.
+- [[Jim Webber]]: Co-author of *Building Knowledge Graphs: A Practitioner's Guide*, Neo4j Chief Scientist.
+- [[KNIME]]: Data analytics platform providing visual workflow builder for ETL and LLM integration.
+- [[Langfuse]]: Open-source LLM observability platform for tracing, evaluating, and monitoring.
+- [[LangWatch]]: LLM observability platform for tracing and monitoring AI applications.
+- [[LMCache]]: Tiered KV-cache storage system extending cache capacity into CPU, SSD, and distributed storage.
+- [[Merve Noyan]]: Co-author of *Vision Language Models: Building VLMs with Hugging Face*, Hugging Face AI advocate.
+- [[Miquel Farré]]: Co-author of *Vision Language Models: Building VLMs with Hugging Face*.
+- [[Neo4j Graph Data Science]]: Graph analytics library for projections, algorithms, and ML pipelines on Neo4j.
+- [[Orr Zohar]]: Co-author of *Vision Language Models: Building VLMs with Hugging Face*.
+- [[Peiheng Hu]]: Co-author of *Hands-On LLM Serving and Optimization*.
+- [[SGLang]]: Structured generation serving engine optimized for constrained output formats.
+- [[SmolVLM]]: Compact vision-language model from Hugging Face using unified-sequence architecture.
+- [[SmolVLA]]: Vision-Language-Action model extending VLMs to robot control with flow-matching action heads.
+- [[spaCy]]: Industrial-strength NLP library for preprocessing, NER, and pattern matching.
+- [[Vlastimil Kůs]]: Co-author of *Knowledge Graphs and LLMs in Action*.
+- [[Vladimir Bok]]: Co-author of *GANs in Action*.
+- [[WordNet]]: Lexical database for semantic similarity, path similarity, and Wu-Palmer measures.
+- [[Zonunfeli Ralte]]: Co-author of *Practical LLM Evaluation for Production Systems*, AI entrepreneur at RastrAI.
+- [[ChemCrow]]: Chemistry-focused LLM agent example where a model coordinates scientific tools for domain tasks.
+- [[Docker]]: Container packaging layer for reproducible AI-agent application environments.
+- [[Gabriele Iuculano]]: Co-author of *Building AI Agents with LLMs, RAG, and Knowledge Graphs*.
+- [[HuggingGPT]]: LLM-controller pattern that plans tasks, selects expert models, executes them, and synthesizes results.
+- [[Kubernetes]]: Container orchestration platform for deploying, scaling, networking, and managing agent services.
+- [[Salvatore Raieli]]: Co-author of *Building AI Agents with LLMs, RAG, and Knowledge Graphs*.
+- [[Streamlit]]: Python framework for rapidly building interactive data and AI-agent web apps.
+- [[Toolformer]]: Self-supervised LLM tool-use approach where API calls become a general model skill.
 - [[Abi Aryan]]: Entity Type: Person
 - [[Abide]]: Placeholder entity page created during lint repair.
 - [[Aditya Joshi]]: Co-author of Hands-on Machine Learning with Python (Apress, 2022), focusing on practical neu...
@@ -112,6 +168,7 @@
 - [[NVIDIA NeMo]]: NVIDIA’s framework for building, fine-tuning, and serving foundation models with GPU-optimiz...
 - [[OpenAI Realtime API]]: OpenAI's native speech-to-speech endpoint; gpt-realtime-1.5 with 0.82s TTFT, function calling, SIP telephony support.
 - [[O'Reilly Media]]: Entity Type: Organization
+- [[OpenModelica]]: Open-source modeling and simulation environment for acausal (equation-based) modeling of physical systems, used in digital twin applications.
 - [[Opik]]: Prompt and evaluation monitoring tool used to trace LLM interactions, detect regressions, an...
 - [[Optimum]]: Hugging Face’s toolkit for optimizing and deploying models to ONNX Runtime, TensorRT, OpenVI...
 - [[Oracle NoSQL Database]]: Key-value NoSQL database cited for versioned key-value records and replicated storage in dis...
@@ -150,8 +207,30 @@
 - [[Yunfan Gao]]: Researcher at Fudan University and Tongji University. Leading author of the comprehensive Re...
 - [[ZenML]]: Open-source MLOps orchestrator used in *LLM Engineer’s Handbook* to manage pipelines, stacks...
 - [[ZeRO]]: Entity Type: Framework, Technology
+- [[Ollama]]: Open-source local LLM runtime wrapping llama.cpp; inference-only REST server on localhost:11434.
 
-## Concepts (279)
+## Concepts (311)
+- [[Adversarial Examples]]: Inputs crafted to cause ML models to produce incorrect outputs with high confidence; small perturbations causing confident failures.
+- [[Any-to-Any Generation]]: Multimodal architecture taking any modality as input and producing any modality as output — text, images, audio, video, actions.
+- [[Asset Administration Shell]]: Industry 4.0 standard for representing digital assets in a unified, interoperable format.
+- [[CycleGAN]]: GAN architecture for unpaired image-to-image translation using cycle consistency loss.
+- [[Deepfake Ethics]]: Governance concerns arising from generative models' ability to create convincing synthetic media.
+- [[Digital Twin]]: Bidirectional data synchronization between physical and virtual systems; distinct from digital model and digital shadow.
+- [[Factorized Temporal Attention]]: Decomposing joint spatial-temporal attention into separate components for efficient video processing.
+- [[Fréchet Inception Distance]]: Distribution-based metric measuring distance between generated and real image distributions.
+- [[Inception Score]]: Metric evaluating GAN quality by measuring fidelity and diversity using Inception-v3 features.
+- [[Knowledge Lakes]]: Federated pattern connecting multiple knowledge graphs without requiring a single unified ontology.
+- [[Mode Collapse]]: GAN failure mode where generator produces limited variety of outputs, failing to capture full distribution.
+- [[Multimodal RAG]]: RAG extended to visual documents using visual embeddings instead of OCR + text embedding pipelines.
+- [[Prefill-Decode Disaggregation]]: Separating compute-bound prefill and memory-bound decode onto different hardware.
+- [[Process Validity]]: Evaluation of whether intermediate reasoning steps are logically sound, independent of final answer.
+- [[Reduced-Order Models]]: Lightweight approximations of complex simulation models preserving essential behavior.
+- [[Semi-Supervised Learning]]: Training paradigm leveraging both labeled and unlabeled data; GAN-based discriminator extension.
+- [[Slice-Based Evaluation]]: Production evaluation tagging test cases by intent, risk tier, locale, and user segment.
+- [[Text-to-Cypher]]: Natural language to Cypher query translation for knowledge graph question answering.
+- [[Agent Deployment]]: Production process for moving an LLM agent from prototype to reliable user-facing application.
+- [[Brain-Perception-Action Agent Model]]: Agent architecture split into LLM brain, perception modules, and tool/action layer.
+- [[Reinforcement Learning]]: Learning paradigm where agents optimize behavior through rewards from environment interaction.
 - [[Active Learning]]: Strategy where a model queries an oracle (human annotator) for labels on the most informativ...
 - [[Adaptive RAG]]: Retrieval-augmented generation pipelines that loop human/expert feedback into retriever, gen...
 - [[AlpacaEval]]: Automated chat benchmark using LLM-as-judge to compute win-rate vs reference model; v2 adds length-controlled scoring to neutralize judge length bias.
@@ -159,6 +238,8 @@
 - [[Advanced RAG]]: The second paradigm of Retrieval-Augmented Generation that introduces specific optimizations...
 - [[Agent Components]]: The five core pillars that define an AI agent's architecture and capabilities: Profiles, Act...
 - [[Agent Memory]]: The capability of AI agents to retain context across sessions and maintain stateful conversa...
+- [[Agent Failure Taxonomy]]: Structured classification of how AI agents fail across reasoning, tools, memory, loops, safety, and ops.
+- [[Agent Operations]]: Operational discipline for deploying, observing, evaluating, and controlling AI agents in production.
 - [[Agent Trust and Safety]]: Practices that make autonomous agents trustworthy: transparency, explainability, uncertainty...
 - [[Agentic Behavior Trees]]: Behavior trees adapted for AI agents, combining selector/sequence nodes with LLM-driven work...
 - [[Agentic Systems]]: AI systems that can perceive, reason, plan, and act with varying degrees of autonomy—ranging...
@@ -234,6 +315,7 @@
 - [[Encoder]]: A component of sequence-to-sequence architectures that processes input sequences into contin...
 - [[Ensemble Methods]]: Techniques that combine multiple machine learning models to produce a more accurate and robu...
 - [[Error Budget]]: Quantified amount of unreliability that an SLO permits in a given window — turns reliability from perpetual emergency into a deliberately-spent resource.
+- [[Event Correlation]]: Groups related operational signals into one incident or probable failure chain to cut alert noise.
 - [[Eventual Consistency]]: Replicas converge to the same value if updates stop, with no real-time guarantee in the meantime; substrate of DNS, edge caches, Dynamo, Cassandra. PA/EL in PACELC.
 - [[Evaluation]]: Placeholder concept page created during lint repair.
 - [[Event-Driven Architecture]]: Architecture style where services publish and consume events to coordinate behavior asynchro...
@@ -318,6 +400,7 @@
 - [[MLOps]]: Machine Learning Operations — applying DevOps practices to ML systems.
 - [[Model Context Protocol]]: Open protocol from Anthropic standardizing tool / resource / prompt interfaces between LLM agents and external services; de facto AI-agent integration standard.
 - [[Model Evaluation]]: Assessing model performance on held-out data to estimate generalization.
+- [[Model Registry]]: System of record for trained models, their lineage, evaluations, approvals, and deployment states.
 - [[Modular RAG]]: An architectural style that decomposes retrieval-augmented generation into swappable compone...
 - [[MT-Bench]]: 80-question multi-turn chat benchmark across 8 categories, evaluated by GPT-4-as-judge on a 1–10 scale; standard quick-iteration benchmark for chat capability.
 - [[Multi-Agent Collaboration]]: Five-axis taxonomy (Actors × Types × Structures × Strategies × Coordination) for LLM-based multi-agent systems, per Tran et al. 2025.
@@ -345,6 +428,7 @@
 - [[Process Reward Model]]: Reward model that scores each step of a reasoning chain rather than only the final answer; per-step supervision for reasoning models.
 - [[Prompt Engineering]]: The practice of crafting effective inputs (prompts) to get better and more reliable outputs...
 - [[Prompt Flow]]: Microsoft’s workflow tooling (VS Code extension + CLI) for designing, testing, and deploying...
+- [[Prompt Versioning]]: Treating prompts, few-shot examples, and related config as versioned production artifacts.
 - [[PyTorch]]: Python-first deep learning library featuring dynamic (“define-by-run”) computation graphs, e...
 - [[PyTorch Tensor]]: A multi-dimensional array class in PyTorch that provides GPU-accelerated computing and autom...
 - [[QLoRA]]: Quantized Low-Rank Adaptation that combines 4-bit quantization with low-rank adapters, enabl...
@@ -375,6 +459,7 @@
 - [[Response Relevance]]: A metric measuring the amount of information in an LLM's response that is relevant to helpin...
 - [[Retrieval-Augmented Generation]]: A pattern for grounding LLM responses in external knowledge sources. RAG combines retrieval...
 - [[Retry with Backoff]]: Failure-handling strategy that retries transient errors with increasing wait intervals, ofte...
+- [[Root Cause Analysis for AIOps]]: Uses telemetry, correlation, and topology context to rank probable causes of incidents.
 - [[Reward Modeling]]: Training a separate network to predict scalar reward from preference pairs; central piece of RLHF; deprecated by DPO/ORPO/KTO in most open-source pipelines.
 - [[RLHF]]: Reinforcement Learning from Human Feedback — alignment technique to make models follow instr...
 - [[RLVR]]: Reinforcement Learning from Verifiable Rewards — paradigm using rule-based correctness checks instead of learned reward models. Enables reasoning models.
@@ -413,6 +498,7 @@
 - [[Technology Publishing]]: Placeholder concept page created during lint repair.
 - [[TensorDataset]]: Lightweight PyTorch dataset wrapper that packs tensors into indexable samples for use with [...
 - [[Test-Time Compute Scaling]]: Empirical regularity that accuracy on hard tasks rises log-linearly with thinking-token budget; the third axis of LLM scaling alongside pretraining and post-training compute.
+- [[Train-Serving Skew]]: Mismatch between training-time and inference-time feature generation that causes silent regressions.
 - [[Tokenization]]: The process of converting raw text into numerical tokens that models can process. Tokenizati...
 - [[Tool Use]]: The capability of AI agents and LLMs to execute external tools, APIs, and functions to exten...
 - [[Torch NN Module]]: PyTorch's base class for all neural network modules, providing a standardized interface for...
@@ -431,8 +517,21 @@
 - [[Vision Transformer]]: Computer-vision architecture that applies transformer encoders to image patches treated as t...
 - [[WebGPU]]: Modern graphics/compute API for browsers and native apps that exposes low-level GPU features...
 - [[Write-Ahead Log]]: Durability pattern where mutations are appended to a persistent log before in-memory/indexed...
+- [[Self-Refinement]]: Inference-time loop of answer → critique → revise; heuristic vs logprob scorers; MATH-500 evidence.
+- [[Nucleus Sampling]]: Top-p decoding with temperature scaling and top-k; controls diversity, not accuracy, on its own.
+- [[MATH-500]]: 500-problem MATH subset scored by a deterministic SymPy verifier; standard reasoning-model benchmark.
+- [[Elo Rating]]: Pairwise-vote ranking behind LLM leaderboards; order effects; Arena's move to Bradley–Terry.
 
-## Sources (42)
+## Sources (52)
+- [[2026-09-12-practical-llm-evaluation-production-systems]]: Mohanna, Kar, Ralte (Packt 2026) — production evaluation as decision system with Q/S/C/R framework and slice-based gating.
+- [[2026-09-12-digital-twins-in-action]]: Greg Biegel (Manning 2026) — digital twins with bidirectional sync, knowledge graphs, and simulation.
+- [[2026-09-12-building-knowledge-graphs-practitioners-guide]]: Barrasa, Webber (O'Reilly 2023) — Neo4j-focused KG construction, entity resolution, and LLM+KG integration.
+- [[2026-09-12-knowledge-graphs-and-llms-in-action]]: Negro, Futia, Kůs, Montagna (Manning 2025) — KG+LLM integration across 15 chapters.
+- [[2026-09-12-hands-on-llm-serving-optimization]]: Wang, Hu (O'Reilly 2026) — production LLM inference, KV-cache management, and serving architecture.
+- [[2026-09-12-grokking-ai-applications]]: Andrea De Mauro (Manning 2026) — illustrated guide to AI application engineering with RAG and agents.
+- [[2026-09-12-vision-language-models-building-vlms]]: Noyan, Farré, Marafioti, Zohar (O'Reilly 2026) — VLM architecture, training, and production deployment.
+- [[2026-09-12-gans-in-action]]: Langr, Bok (Manning 2019) — GAN fundamentals, training stability, and architectural innovations.
+- [[2026-07-07-building-ai-agents-with-llms-rag-knowledge-graphs]]: Packt 2025 practical guide connecting LLM agents, RAG, GraphRAG, multi-agent systems, and deployment.
 - [[2026-04-12-14-types-of-rag]]: Author: Meilisearch content team
 - [[2026-04-12-ai-agents-in-action]]: Source: AI Agents in Action.pdf
 - [[2026-04-12-ai-engineering]]: Author: [[Chip Huyen]]
@@ -452,7 +551,7 @@
 - [[2026-04-16-grokking-advanced-system-design-interview]]: Author/Publisher: Educative (course material)
 - [[2026-04-16-system-design-interview-complete-guide]]: Author: [[Richard Johnson]]
 - [[2026-04-16-system-design-on-aws]]: Author/Publisher: Jayanth Kumar and Mandeep Singh (O'Reilly)
-- [[2026-04-29-building-applications-with-ai-agents]]: Source: building applications with AI agents.pdf
+- [[2026-04-29-building-applications-with-ai-agents]]: Source: Building Applications with AI Agents.pdf
 - [[2026-04-29-building-llm-agents-rag-knowledge-graphs-reflection]]: authors: [Mira S. Devlin]
 - [[2026-04-29-graph-rag-survey]]: authors: [Boci Peng, Yun Zhu, Yongchao Liu, Xiaohe Bo, Haizhou Shi, Chuntao Hong, Yan Zhang,...
 - [[2026-04-29-grokking-ml]]: authors: [Luis Serrano]
@@ -475,6 +574,7 @@
 - [[2026-05-28-mixture-of-experts-2026]]: 2026 MoE compilation centered on DeepSeek-V3 (fine-grained experts, shared experts, aux-loss-free balancing, MLA, FP8).
 - [[2026-05-28-raschka-llm-architecture-gallery]]: Sebastian Raschka's continuously-updated visual gallery of LLM architectures GPT-2 through 2026 — recipe-diff atlas across ~72 models.
 - [[nips-2017-attention-is-all-you-need-Paper]]: Source: NIPS-2017-attention-is-all-you-need-Paper.pdf
+- [[2026-11-13-build-a-reasoning-model-from-scratch]]: Raschka (Manning 2026) — CoT, self-consistency, self-refinement, RLVR/GRPO, distillation on Qwen3 0.6B.
 
 ## Syntheses (25)
 - [[AI Coding Agents]]: Maps Claude Code / OpenDev / Cursor across terminal-native, IDE-native, and API-driven surfaces; tool design, memory, blast-radius, and SWE-bench evaluation.
@@ -527,7 +627,10 @@
 - [[Qwen3]]: Alibaba's broadest 2025 open family (0.6B–235B); GQA + QK-Norm + RMSNorm + SwiGLU + RoPE; dense + MoE variants; later Qwen3 Next / 3.5 adopt Gated DeltaNet hybrid.
 - [[xLSTM]]: Sepp Hochreiter's recurrent mLSTM 7B revival; non-transformer alternative competing with Mamba.
 
-## Overviews (15)
+## Overviews (18)
+- [[AI Engineering Ingest Checklist]]: Priority reading and source-ingest checklist for deepening the AI Engineering branch of the wiki.
+- [[AI Engineering Wiki Plan]]: Production-focused plan for extending the wiki from an AI atlas into a full-stack AI engineering second brain.
+- [[AI Operations Priorities]]: Priority roadmap for deepening the wiki around LLMOps, AIOps, MLOps, and AgentOps.
 - [[Agentic Workflow Engine Read-Implement Tracker]]: Execution rule: read one block, implement one block, and capture one evidence artifact.
 - [[AI Engineer 90-Day Plan]]: - Ship 4 portfolio-grade AI projects.
 - [[AI Engineer Career OS]]: Central operating page for career goals, execution rhythm, and review loops.
@@ -551,3 +654,18 @@
 - [[PyTorch Linear Regression]]: Hands-on notebook-style walkthrough showing how to use [[PyTorch]] tensors, [[Autograd]], an...
 - [[PyTorch Tensor Basics]]: Quick reference notebook for creating/manipulating tensors, moving them across devices, inte...
 - [[PyTorch TorchScript Export]]: Demonstrates tracing/scripting a simple `nn.Module`, saving it to disk, and loading it in a...
+
+## Instagram Content (13)
+- [[Instagram Content OS]]: Operating system for turning the AI engineering wiki into rigorous educational carousels.
+- [[Instagram Audience and Positioning]]: Audience, differentiation, voice, and authority strategy for aspiring AI engineers.
+- [[AI Engineering Content Curriculum]]: Progressive curriculum from foundations through production AI systems.
+- [[Carousel Writing Standard]]: Copy structure, technical teaching patterns, and quality gates for carousel scripts.
+- [[Carousel Production Workflow]]: Copy-first, visual-anchor workflow for producing consistent 4:5 carousel decks.
+- [[AI Engineering Carousel Backlog]]: Prioritized 60-post seed queue linked to source concepts and syntheses.
+- [[Instagram Carousel Template]]: Reusable brief, slide script, visual-anchor, review, and retrospective template.
+- [[Instagram Publishing Log]]: Publishing metrics and learning loop for improving future posts.
+- [[calander|30-Day AI Engineering Content Calendar]]: Dated campaign plan with 30 copy-ready carousel briefs and performance tracking.
+- [[analytics-report|Instagram Analytics Report - Baseline]]: Baseline reach, interaction, follow, and growth-strategy analysis.
+- [[001 - What AI Engineering Actually Is]]: Launch carousel defining AI engineering as a production system discipline.
+- [[002 - RAG Is a System, Not a Feature]]: Launch carousel tracing RAG stages and their distinct failure modes.
+- [[003 - Why AI Agents Fail in Production]]: Launch carousel diagnosing the seven classes in the agent failure taxonomy.

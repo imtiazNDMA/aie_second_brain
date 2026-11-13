@@ -1,11 +1,13 @@
 ---
+
 title: Gaussian Mixture Model
 type: concept
-tags: [clustering, probabilistic]
+tags: [clustering, probabilistic, cluster/ml-foundations]
 sources: [2026-04-12-ml-algorithms-in-depth]
 created: 2026-04-12
 updated: 2026-04-13
 ---
+
 
 # Gaussian Mixture Model
 

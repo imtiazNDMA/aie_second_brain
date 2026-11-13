@@ -1,11 +1,13 @@
 ---
+
 title: Cache-Augmented Generation
 type: concept
-tags: [cag, rag, kv-cache, long-context, inference-optimization]
+tags: [cag, rag, kv-cache, long-context, inference-optimization, cluster/rag-retrieval]
 sources: [2026-05-09-cache-augmented-generation]
 created: 2026-05-09
 updated: 2026-05-09
 ---
+
 
 # Cache-Augmented Generation
 

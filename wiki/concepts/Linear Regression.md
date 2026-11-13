@@ -1,11 +1,13 @@
 ---
+
 title: Linear Regression
 type: concept
-tags: [machine-learning, supervised-learning, regression]
+tags: [machine-learning, supervised-learning, regression, cluster/ml-foundations]
 sources: [2026-04-29-grokking-ml.md, 2026-04-29-hands-on-ml-python.md]
 created: 2026-04-29
 updated: 2026-04-29
 ---
+
 
 # Linear Regression
 

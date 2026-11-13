@@ -1,11 +1,13 @@
 ---
+
 title: Rate Limiting
 type: concept
-tags: [api, distributed-systems, reliability]
+tags: [api, distributed-systems, reliability, cluster/distributed-systems]
 sources: [2026-04-16-system-design-interview-complete-guide]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # Rate Limiting
 

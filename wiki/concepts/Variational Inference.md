@@ -1,11 +1,13 @@
 ---
+
 title: Variational Inference
 type: concept
-tags: [bayesian, optimization, inference]
+tags: [bayesian, optimization, inference, cluster/ml-foundations]
 sources: [2026-04-12-ml-algorithms-in-depth]
 created: 2026-04-12
 updated: 2026-04-13
 ---
+
 
 # Variational Inference
 

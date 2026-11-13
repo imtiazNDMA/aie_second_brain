@@ -1,11 +1,13 @@
 ---
+
 title: Active Learning
 type: concept
-tags: [supervised-learning, efficiency]
+tags: [supervised-learning, efficiency, cluster/training-alignment]
 sources: [2026-04-12-ml-algorithms-in-depth]
 created: 2026-04-12
 updated: 2026-04-13
 ---
+
 
 # Active Learning
 

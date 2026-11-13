@@ -1,11 +1,13 @@
 ---
+
 title: Model Evaluation
 type: concept
-tags: [ml, evaluation, metrics]
+tags: [ml, evaluation, metrics, cluster/mlops-llmops]
 sources: [2026-04-12-ai-engineering, 2026-04-16-deep-learning-with-pytorch-step-by-step]
 created: 2026-04-12
 updated: 2026-04-16
 ---
+
 
 # Model Evaluation
 

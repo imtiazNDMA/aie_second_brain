@@ -1,11 +1,13 @@
 ---
+
 title: Feature Store
 type: concept
-tags: [ml, infrastructure, features]
+tags: [ml, infrastructure, features, cluster/training-alignment]
 sources: [2026-04-12-ai-engineering]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # Feature Store
 

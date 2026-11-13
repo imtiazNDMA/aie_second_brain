@@ -1,11 +1,13 @@
 ---
+
 title: MMLU
 type: concept
-tags: [evaluation, benchmark, knowledge, llm]
-sources: [2026-04-12-build-llm-from-scratch, 2026-04-12-llm-engineers-handbook]
+tags: [evaluation, benchmark, knowledge, llm, cluster/evaluation]
+sources: [2026-04-12-build-llm-from-scratch, 2026-04-12-llm-engineers-handbook, 2026-11-13-build-a-reasoning-model-from-scratch]
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-11-13
 ---
+
 
 # MMLU
 
@@ -169,6 +171,16 @@ def mmlu_5shot(model):
     }
 ```
 
+## Notes from *Build a Reasoning Model (From Scratch)*
+
+Raschka (2026, Appendix F, p377–383):
+
+- **What's in it.** MMLU covers 57 subjects with about 16,000 multiple-choice questions, scored by accuracy. It comes from Hendrycks et al., arXiv 2009.03300.
+- **Two ways to score.** The simple way compares the generated letter with the answer key. Log-probability scoring of each option is a common alternative.
+- **Few-shot is optional now.** 5-shot MMLU puts five solved examples in the prompt. Current base models are capable enough that this isn't required.
+- **What it does and doesn't measure.** MMLU only measures choosing among fixed options. It doesn't capture free-form writing, practical usefulness or reasoning ability. Its main use is as a diagnostic for knowledge a model has forgotten relative to its base model. "A high MMLU score doesn't necessarily mean the model is strong in practical use, but a low score can highlight potential knowledge gaps."
+- **For reasoning evaluation,** verifier-based benchmarks such as [[MATH-500]] are used instead.
+
 ## Connections
 
 - [[Model Evaluation]] — broader umbrella
@@ -180,3 +192,4 @@ def mmlu_5shot(model):
 - [[Pretraining]] — what MMLU primarily measures
 - [[Fine-Tuning]] — MMLU is a regression check post-fine-tuning
 - [[LLM-as-Judge]] — *not* used by MMLU (it's exact-match on letter); contrasts with chat benchmarks
+- [[2026-11-13-build-a-reasoning-model-from-scratch]] — Raschka 2026; MMLU's role and limits (Appendix F)

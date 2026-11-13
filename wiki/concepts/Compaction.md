@@ -1,11 +1,13 @@
 ---
+
 title: Compaction
 type: concept
-tags: [storage, lsm-tree, distributed-systems, databases]
+tags: [storage, lsm-tree, distributed-systems, databases, cluster/distributed-systems]
 sources: [2026-04-16-system-design-interview-complete-guide, 2026-04-16-grokking-advanced-system-design-interview]
 created: 2026-05-10
 updated: 2026-05-10
 ---
+
 
 # Compaction
 

@@ -1,7 +1,7 @@
 title: Build a Large Language Model (From Scratch)
 type: source
 tags: [book, llm, deep-learning, from-scratch]
-sources: [build-llm-from-scratch.pdf]
+sources: [Build a Large Language Model (From Scratch).pdf]
 created: 2026-04-12
 updated: 2026-04-12
 ---
@@ -10,7 +10,7 @@ updated: 2026-04-12
 
 **Author:** [[Sebastian Raschka]]  
 **Published:** 2024  
-**Source:** build-llm-from-scratch.pdf  
+**Source:** Build a Large Language Model (From Scratch).pdf  
 **Date ingested:** 2026-04-12  
 **Type:** book
 

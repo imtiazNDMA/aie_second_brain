@@ -1,11 +1,13 @@
 ---
+
 title: Reranking
 type: concept
-tags: [retrieval, ranking, rag]
+tags: [retrieval, ranking, rag, cluster/rag-retrieval]
 sources: [2026-04-12-rag-driven-generative-ai, 2026-04-12-14-types-of-rag]
 created: 2026-04-13
 updated: 2026-04-13
 ---
+
 
 # Reranking
 

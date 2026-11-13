@@ -1,11 +1,13 @@
 ---
+
 title: Fine-Tuning
 type: concept
-tags: [ml, training, transfer-learning]
+tags: [ml, training, transfer-learning, cluster/training-alignment]
 sources: [2026-04-12-ai-engineering, 2026-04-12-ultimate-guide-fine-tuning, 2026-04-12-llm-engineers-handbook, 2026-04-29-llmops-managing-large-language-models-in-production.md]
 created: 2026-04-12
 updated: 2026-04-29
 ---
+
 
 # Fine-Tuning
 

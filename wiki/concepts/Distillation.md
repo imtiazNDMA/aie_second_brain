@@ -2,9 +2,9 @@
 title: Distillation
 type: concept
 tags: [training, compression, distillation, llm]
-sources: [2026-04-12-ai-engineering, 2026-05-09-deepseek-r1, 2026-05-09-s1-test-time-scaling]
+sources: [2026-04-12-ai-engineering, 2026-05-09-deepseek-r1, 2026-05-09-s1-test-time-scaling, 2026-11-13-build-a-reasoning-model-from-scratch]
 created: 2026-05-09
-updated: 2026-05-09
+updated: 2026-11-13
 ---
 
 # Distillation
@@ -47,6 +47,54 @@ The recipe shifted from "match teacher logits" to "fine-tune on teacher's reason
 - **Sequence distillation** — teacher generates target text; student is fine-tuned to match. Standard for reasoning/code transfer.
 - **Self-distillation** — student is the same architecture as teacher; iteratively improve via self-generated targets
 
+## Hard vs. soft distillation: *Build a Reasoning Model (From Scratch)*
+
+Raschka (2026, chapter 8) names the two approaches:
+
+| | Hard distillation | Soft distillation |
+|---|---|---|
+| Student learns from | The teacher's generated **text** (tokens are the targets) | The teacher's full per-token **distribution** over the vocabulary, by minimizing KL divergence |
+| Also known as | "Supervised fine-tuning on synthetic data" | — |
+| What it needs | Only the teacher's text, no logits | Teacher logits or log-probabilities |
+| Strength | Simple and cheap; used for the DeepSeek-R1 distilled models | Richer signal about plausible alternatives |
+
+Sources: p269–270. Combining both terms gives classic knowledge distillation (Hinton, Vinyals & Dean, arXiv 1503.02531).
+
+**Why hard distillation dominates for LLMs** (p270):
+- **Access.** Proprietary systems expose text, not distributions.
+- **Tokenizers.** Soft distillation usually requires the same tokenizer, which is easiest within one model family.
+- **Storage.** Keeping full distributions for long traces is expensive; plain text is cheap.
+
+**Legal caveat.** Reusing generated text for distillation may be restricted by provider terms of service, including OpenAI's and Anthropic's (p270).
+
+**Why distill at all.** The strongest reasoners are too big for many uses; DeepSeek-R1 has 671B parameters (p268). The DeepSeek-R1 paper found that small distilled variants beat comparable models trained with RL alone (p268–269).
+
+**The book's recipe:**
+1. **Data.** DeepSeek-R1 (671B) answered 12,000 MATH training problems via OpenRouter for about $50 (p272–273). Teacher accuracy was 90.6% on the training set (p276).
+2. **Target format.** Each target is `<think>{trace}</think>\n\n{answer}` (p275).
+3. **Length filter.** Traces averaged 2,946 tokens, with a maximum of 42,005. Keeping only those of 2,048 tokens or fewer left 6,695 examples (p283): "controlling sequence length is one of the main steps that makes distillation feasible on smaller hardware."
+4. **Loss.** Cross-entropy, i.e. the negative mean log-probability of the teacher's next tokens, computed **only over answer tokens**; prompt tokens are excluded (p286–289).
+5. **Signal to watch.** Validation loss, which is "more reliable" than the noisier training loss (p291).
+6. **Training run.** 3 epochs, learning rate 1e-5, about 3 h 05 min and about 15 GB on a DGX Spark (p297). The chapter 6 GRPO runs took about 12 h and 70 GB (p268).
+7. **Iteration speed.** Data is pre-tokenized once and reused across epochs. This is one reason distillation is easier to iterate on than RLVR, which samples during training (p276–277).
+
+**Results on [[MATH-500]], student [[Qwen3]] 0.6B base (Table 8.1, p299–300):**
+
+| Teacher | Epoch 1 | Epoch 2 | Epoch 3 |
+|---|---|---|---|
+| DeepSeek-R1 (671B) | 30.6% | 32.4% | 33.6% |
+| Qwen3 235B-A22B | 45.0% | 43.8% | 44.2% |
+
+For reference, the base model scores 15.2% and the official Qwen3 0.6B reasoning model scores 48.2%.
+
+- **Same-family teacher wins.** The same-family teacher did much better. "One likely reason" is that the tokenizer, prompting conventions and response style are more closely aligned (p300).
+- **The official reasoning model is itself distilled,** from a much larger Qwen3 235B-A22B dataset (p300).
+- **Students stay below their teachers:** the teachers score 92.4% (Qwen3 235B-A22B) and 91.2% (R1) on MATH-500 (p300).
+- **Dropping `<think>` tags** lowered validation loss for the Qwen teacher but slightly reduced accuracy in almost all cases (Table B.6, p334–335).
+- **Inconsistency in the book.** The validation losses for the think-token runs differ between Table 8.1 (for example 0.5436) and Table B.6 (0.5404). Cite the accuracies, which agree.
+
+**Outlook** (p301–302). The broad pattern is RLVR for flagship models and distillation for small ones. Distillation also stays important for moving richer agentic behaviors (tool use, retrieval) into local, cost-effective models.
+
 ## Limitations
 
 - **Capability ceiling** — students cannot exceed their teacher (without RL or additional supervision)
@@ -68,3 +116,4 @@ The recipe shifted from "match teacher logits" to "fine-tune on teacher's reason
 - [[2026-04-12-ai-engineering]] — Chip Huyen on classical KD for deployment
 - [[2026-05-09-deepseek-r1]] — six-model R1 distill family; reasoning distillation at scale
 - [[2026-05-09-s1-test-time-scaling]] — 1,000-sample SFT distillation of reasoning traces
+- [[2026-11-13-build-a-reasoning-model-from-scratch]] — Raschka 2026; hard vs. soft distillation, from-scratch R1/Qwen3-235B → Qwen3 0.6B runs

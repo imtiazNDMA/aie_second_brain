@@ -11,11 +11,11 @@ updated: 2026-04-13
 
 ## Summary
 
-Open-source vector database (Rust core, REST/gRPC APIs) with managed cloud offering. Used in the LLM Twin pipeline for storing embeddings and powering [[Adaptive RAG]] queries.
+Open-source [[Vector Database]] (Rust core, REST/gRPC APIs) with managed cloud offering. Used in the LLM Twin pipeline for storing [[Embeddings]] and powering [[Adaptive RAG]] queries.
 
 ## Capabilities
 
-- HNSW-based indexes with payload filters.
+- [[HNSW]]-based indexes with payload filters.
 - Snapshot/replication for reliability.
 - Integration SDKs for Python, JS, Go.
 

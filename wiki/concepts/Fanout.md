@@ -1,11 +1,13 @@
 ---
+
 title: Fanout
 type: concept
-tags: [social-systems, feed, scalability]
+tags: [social-systems, feed, scalability, cluster/distributed-systems]
 sources: [2026-04-16-system-design-interview-complete-guide]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # Fanout
 

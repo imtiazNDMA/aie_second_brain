@@ -1,11 +1,13 @@
 ---
+
 title: Tokenization
 type: concept
-tags: [nlp, preprocessing, text]
+tags: [nlp, preprocessing, text, cluster/serving-inference]
 sources: [2026-04-12-build-llm-from-scratch]
 created: 2026-04-12
 updated: 2026-04-13
 ---
+
 
 # Tokenization
 

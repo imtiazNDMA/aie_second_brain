@@ -1,11 +1,13 @@
 ---
+
 title: Data Collection
 type: concept
-tags: [ml, data, infrastructure]
+tags: [ml, data, infrastructure, cluster/training-alignment]
 sources: [2026-04-12-ai-engineering]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # Data Collection
 

@@ -1,11 +1,13 @@
 ---
+
 title: Torch NN Module
 type: concept
-tags: [pytorch, neural-networks, module]
+tags: [pytorch, neural-networks, module, cluster/ml-foundations]
 sources: [2026-04-12-deep-learning-with-pytorch, 2026-04-16-deep-learning-with-pytorch-step-by-step, 2026-04-29-hands-on-ml-python]
 created: 2026-04-12
 updated: 2026-04-29
 ---
+
 
 # Torch NN Module
 

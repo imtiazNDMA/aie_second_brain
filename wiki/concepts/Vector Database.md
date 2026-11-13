@@ -1,17 +1,19 @@
 ---
+
 title: Vector Database
 type: concept
-tags: [rag, storage, infrastructure]
+tags: [rag, storage, infrastructure, cluster/rag-retrieval]
 sources: [2026-04-12-rag-driven-generative-ai, 2026-04-12-llm-engineers-handbook, 2026-04-12-14-types-of-rag]
 created: 2026-04-13
 updated: 2026-04-13
 ---
 
+
 # Vector Database
 
 ## Definition
 
-Purpose-built storage layer for dense embeddings and metadata. Vector databases power [[Retrieval-Augmented Generation]] by indexing semantic vectors (FAISS, [[Weaviate]], [[Qdrant]], [[Pinecone]], [[Chroma]]) and executing similarity search, filtering, and lifecycle management (ingest, update, delete).
+Purpose-built storage layer for dense embeddings and metadata. Vector databases power [[Retrieval-Augmented Generation]] by indexing semantic vectors ([[FAISS]], [[Weaviate]], [[Qdrant]], [[Pinecone]], [[Chroma]]) and executing similarity search, filtering, and lifecycle management (ingest, update, delete).
 
 ## Core Capabilities
 

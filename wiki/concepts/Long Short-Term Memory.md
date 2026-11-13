@@ -1,11 +1,13 @@
 ---
+
 title: Long Short-Term Memory
 type: concept
-tags: [sequence-modeling, recurrent, deep-learning]
+tags: [sequence-modeling, recurrent, deep-learning, cluster/transformer-architecture]
 sources: [2026-04-16-deep-learning-with-pytorch-step-by-step]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # Long Short-Term Memory
 

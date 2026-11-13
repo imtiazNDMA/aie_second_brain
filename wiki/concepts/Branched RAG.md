@@ -1,11 +1,13 @@
 ---
+
 title: Branched RAG
 type: concept
-tags: [rag, planning, branching]
+tags: [rag, planning, branching, cluster/rag-retrieval]
 sources: [2026-04-12-14-types-of-rag]
 created: 2026-04-13
 updated: 2026-04-13
 ---
+
 
 # Branched RAG
 

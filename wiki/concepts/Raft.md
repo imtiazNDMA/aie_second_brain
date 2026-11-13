@@ -1,11 +1,13 @@
 ---
+
 title: Raft
 type: concept
-tags: [distributed-systems, consensus, replication, leader-election]
+tags: [distributed-systems, consensus, replication, leader-election, cluster/distributed-systems]
 sources: [2026-04-16-grokking-advanced-system-design-interview, 2026-04-16-system-design-on-aws]
 created: 2026-05-10
 updated: 2026-05-10
 ---
+
 
 # Raft
 

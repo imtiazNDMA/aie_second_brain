@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "eb6aa3a6bf782f24",
+        "id": "2de71a0d5f9a5537",
         "type": "tabs",
         "children": [
           {
-            "id": "afd674b5752d7f13",
+            "id": "29fac6cd4a46a858",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/model-architectures/GPT-2.md",
+                "file": "wiki/overviews/AI Engineer Skills Matrix.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GPT-2"
+              "title": "AI Engineer Skills Matrix"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -187,7 +189,6 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false,
@@ -199,43 +200,53 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "afd674b5752d7f13",
+  "active": "08a6e1c03df029da",
   "lastOpenFiles": [
-    "CLAUDE.md.tmp.29896.b03e6cea0c74",
-    "CLAUDE.md.tmp.29896.923368872daa",
-    "wiki/model-architectures/GLM-5.md",
-    "wiki/model-architectures/GPT-2.md",
-    "wiki/model-architectures/OLMo 2.md.tmp.29896.9b2dc0f9a5b7",
-    "wiki/model-architectures/Kimi K2.md.tmp.29896.6de7311a38b7",
-    "wiki/model-architectures/GLM-5.md.tmp.29896.6151b248c4b9",
-    "wiki/model-architectures/DeepSeek-V3.md.tmp.29896.90730ca6ac90",
-    "wiki/model-architectures/Gemma 4.md.tmp.29896.295d08a37f27",
-    "wiki/model-architectures/Qwen3.md.tmp.29896.d1da65200177",
-    "wiki/model-architectures/Mixtral.md.tmp.29896.845cdf680c3b",
-    "wiki/model-architectures/GPT-2.md.tmp.29896.0771c78b5585",
-    "wiki/concepts/Linear Attention.md.tmp.29896.72b5f748696a",
-    "wiki/model-architectures/Command A.md",
-    "wiki/model-architectures/DeepSeek-V3.md",
-    "wiki/concepts/Retrieval-Augmented Generation.md",
-    "wiki/synthesis/Self-Correcting RAG Patterns.md",
-    "wiki/model-architectures/Gemma 4.md",
-    "wiki/model-architectures/Gemma 3.md",
-    "wiki/model-architectures/GLM-4.5.md",
-    "wiki/model-architectures/Mistral Small 3.md",
-    "wiki/model-architectures/xLSTM.md",
-    "wiki/model-architectures/OLMo 3.md",
-    "wiki/model-architectures/OLMo 2.md",
-    "wiki/model-architectures/Nemotron 3.md",
-    "wiki/model-architectures/Mixtral.md",
-    "wiki/model-architectures/MiniMax-M2.md",
-    "wiki/model-architectures/Llama 4.md",
-    "wiki/model-architectures/Llama 3.md",
-    "wiki/model-architectures/Kimi K2.md",
-    "wiki/model-architectures/Grok 2.5.md",
-    "wiki/model-architectures/Granite 4.1.md",
-    "wiki/model-architectures/GPT-OSS.md",
-    "wiki/synthesis/LLM Architecture Landscape 2026.md",
-    "wiki/model-architectures/Phi-4.md",
-    "wiki/model-architectures/Qwen3.md"
+    "raw/source/rag-knowledge-graphs/RAG-Driven Generative AI.pdf",
+    "raw/source/rag-knowledge-graphs/Knowledge Graphs and LLMs in Action.pdf",
+    "raw/source/rag-knowledge-graphs/Building Knowledge Graphs - A Practitioner's Guide.pdf",
+    "raw/source/rag-knowledge-graphs",
+    "raw/source/systems-architecture/rag-knowledge-graphs/RAG-Driven Generative AI.pdf",
+    "raw/source/systems-architecture/rag-knowledge-graphs/Knowledge Graphs and LLMs in Action.pdf",
+    "raw/source/systems-architecture/rag-knowledge-graphs/Building Knowledge Graphs - A Practitioner's Guide.pdf",
+    "raw/source/systems-architecture/rag-knowledge-graphs",
+    "wiki/sources/sedkMYR7q",
+    "wiki/sources/sedyfik7v",
+    "wiki/sedU40dsJ",
+    "wiki/entities/Ollama.md",
+    "wiki/concepts/Elo Rating.md",
+    "wiki/concepts/MATH-500.md",
+    "wiki/concepts/Nucleus Sampling.md",
+    "wiki/concepts/Self-Refinement.md",
+    "wiki/sources/2026-11-13-build-a-reasoning-model-from-scratch.md",
+    "wiki/overviews/AI Engineer Project Tracker.md",
+    "wiki/overviews/AI Engineer Portfolio Blueprint.md",
+    "wiki/overviews/AI Engineer Master Roadmap.md",
+    "wiki/overviews/AI Engineer Learning-to-Build Map.md",
+    "wiki/overviews/AI Engineer Gap Analysis.md",
+    "wiki/overviews/AI Engineer Career OS.md",
+    "wiki/overviews/Agentic Workflow Engine Read-Implement Tracker.md",
+    "wiki/overviews/AI Engineer 90-Day Plan.md",
+    "wiki/concepts/B-Tree.md",
+    "wiki/concepts/LLM Evaluation Rubrics.md",
+    "wiki/concepts/Agent Trust and Safety.md",
+    "wiki/concepts/Bayesian Optimization.md",
+    "wiki/concepts/Bayesian Networks.md",
+    "wiki/concepts/Brain-Perception-Action Agent Model.md",
+    "wiki/concepts/HyDE.md",
+    "wiki/concepts/Convolution.md",
+    "wiki/concepts/Coopetition.md",
+    "wiki/concepts/Coordinator-Worker-Delegator Model.md",
+    "wiki/concepts/Corrective RAG.md",
+    "wiki/insta/embedding/8.png",
+    "wiki/insta/embedding/7.png",
+    "wiki/insta/embedding/6.png",
+    "wiki/insta/embedding/5.png",
+    "wiki/insta/embedding/4.png",
+    "wiki/insta/embedding/3.png",
+    "wiki/insta/embedding/2.png",
+    "wiki/insta/embedding/1.png",
+    "node_modules/fastify/docs/resources/encapsulation_context.svg",
+    "node_modules/concurrently/docs/demo.gif"
   ]
 }

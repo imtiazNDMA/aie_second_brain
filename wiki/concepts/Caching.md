@@ -1,11 +1,13 @@
 ---
+
 title: Caching
 type: concept
-tags: [performance, distributed-systems, latency]
+tags: [performance, distributed-systems, latency, cluster/serving-inference]
 sources: [2026-04-16-system-design-interview-complete-guide, 2026-04-16-system-design-on-aws]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # Caching
 

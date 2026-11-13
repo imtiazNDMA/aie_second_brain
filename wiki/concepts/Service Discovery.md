@@ -1,11 +1,13 @@
 ---
+
 title: Service Discovery
 type: concept
-tags: [distributed-systems, infrastructure, networking]
+tags: [distributed-systems, infrastructure, networking, cluster/distributed-systems]
 sources: [2026-04-16-system-design-interview-complete-guide]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # Service Discovery
 

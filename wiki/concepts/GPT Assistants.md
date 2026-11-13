@@ -1,9 +1,11 @@
 ---
-tags: [assistants, openai, product]
+
+tags: [assistants, openai, product, cluster/agents]
 sources: [2026-04-12-ai-agents-in-action]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # GPT Assistants
 

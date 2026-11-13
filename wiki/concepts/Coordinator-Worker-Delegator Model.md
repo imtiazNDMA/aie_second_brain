@@ -1,9 +1,11 @@
 ---
-tags: [agents, collaboration, orchestration]
+
+tags: [agents, collaboration, orchestration, cluster/agents]
 sources: [2026-04-12-building-agentic-ai-systems]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # Coordinator-Worker-Delegator Model
 

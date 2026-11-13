@@ -1,9 +1,11 @@
 ---
-tags: [fine-tuning, lifecycle, process]
+
+tags: [fine-tuning, lifecycle, process, cluster/training-alignment]
 sources: [2026-04-12-ultimate-guide-fine-tuning]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # Seven-Stage [[Fine-Tuning]] Pipeline
 

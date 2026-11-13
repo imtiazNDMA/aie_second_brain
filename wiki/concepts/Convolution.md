@@ -1,11 +1,13 @@
 ---
+
 title: Convolution
 type: concept
-tags: [deep-learning, computer-vision, neural-networks]
+tags: [deep-learning, computer-vision, neural-networks, cluster/transformer-architecture]
 sources: [2026-04-16-deep-learning-with-pytorch-step-by-step]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # Convolution
 

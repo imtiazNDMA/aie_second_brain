@@ -1,11 +1,13 @@
 ---
+
 title: Linearizability
 type: concept
-tags: [distributed-systems, consistency, concurrency]
+tags: [distributed-systems, consistency, concurrency, cluster/distributed-systems]
 sources: [2026-04-16-grokking-advanced-system-design-interview]
 created: 2026-04-30
 updated: 2026-04-30
 ---
+
 
 # Linearizability
 

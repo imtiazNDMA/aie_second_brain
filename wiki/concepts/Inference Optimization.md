@@ -1,11 +1,13 @@
 ---
+
 title: Inference Optimization
 type: concept
-tags: [ml, deployment, performance]
-sources: [2026-04-12-ai-engineering, 2026-05-09-s1-test-time-scaling]
+tags: [ml, deployment, performance, cluster/serving-inference]
+sources: [2026-04-12-ai-engineering, 2026-05-09-s1-test-time-scaling, 2026-09-12-hands-on-llm-serving-optimization]
 created: 2026-04-12
-updated: 2026-05-09
+updated: 2026-09-12
 ---
+
 
 # Inference Optimization
 
@@ -87,6 +89,19 @@ $$\text{Throughput} = \frac{\text{total tokens}}{\text{total time}} = \frac{B \c
 ## Methods
 
 Methods: quantization (reduce precision), pruning (remove weights), knowledge distillation (train smaller student), caching, batching. Critical for deployment.
+
+## Production Serving Architecture
+
+[[Hands-On LLM Serving and Optimization]] defines a layered serving system:
+
+1. **Public API** — stable interface, rate limiting, authentication
+2. **Resource management** — GPU allocation, memory isolation
+3. **Model selection/orchestration** — routing, A/B testing, versioning
+4. **Distributed serving** — tensor/pipeline parallelism, replication
+5. **Inference engine** — attention computation, KV-cache management
+6. **Optimization** — quantization, speculative decoding, batching
+
+Key insight: **optimization is workload-specific, not a checklist**. Chunked prefill improves ITL but worsens TTFT; W4A16 favors bandwidth-bound decode; speculative decoding helps decode-bound workloads.
 
 ## The Other Direction: Test-Time Compute Scaling
 

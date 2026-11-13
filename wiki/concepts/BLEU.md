@@ -1,11 +1,13 @@
 ---
+
 title: BLEU
 type: concept
-tags: [evaluation, nlp, metrics]
+tags: [evaluation, nlp, metrics, cluster/evaluation]
 sources: [2026-04-12-attention-is-all-you-need, 2026-04-12-rag-driven-generative-ai]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # BLEU
 

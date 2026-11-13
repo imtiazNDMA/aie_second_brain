@@ -1,11 +1,13 @@
 ---
+
 title: RLVR
 type: concept
-tags: [reinforcement-learning, alignment, reasoning-models, paradigm]
-sources: [2026-05-09-deepseek-r1]
+tags: [reinforcement-learning, alignment, reasoning-models, paradigm, cluster/training-alignment]
+sources: [2026-05-09-deepseek-r1, 2026-11-13-build-a-reasoning-model-from-scratch]
 created: 2026-05-09
-updated: 2026-05-09
+updated: 2026-11-13
 ---
+
 
 # RLVR
 
@@ -83,6 +85,43 @@ In production reasoning systems, RLVR and RLHF coexist:
 
 DeepSeek-R1 explicitly uses this four-stage pipeline. RLVR drives the reasoning capability; RLHF polishes the user-facing behavior.
 
+## Hands-on findings from *Build a Reasoning Model (From Scratch)*
+
+Raschka (2026) runs RLVR with [[GRPO]] on [[Qwen3]] 0.6B base, using a [[MATH-500]] verifier. Page numbers refer to that book.
+
+**RLVR as RLHF with the reward model replaced.**
+- **RLHF has two steps:** train a reward model on human rankings, then use its scalar scores in the RL objective (p183–185).
+- **RLVR swaps the learned reward model for a deterministic verifier.** For math, the reward is 1 for a correct answer and 0 otherwise. This collapses the two steps into a single generate → score → update loop (p185).
+- **Advantages** (p186):
+  - No separate reward model, which is often comparable in size and cost to the base LLM.
+  - Rewards are reproducible and free of annotation noise.
+  - Training scales to large datasets automatically.
+  - The cost: it is restricted to verifiable domains such as math and code.
+- **Popularity.** RLVR's popularity is traced to DeepSeek-R1 (arXiv 2501.12948), whose rewards were math correctness checks plus code compilation and execution. Code rewards need sandboxed execution (p186).
+
+**Avoiding data leakage.** MATH has about 12,500 problems. Training uses the 12,000 that do not overlap with the 500 MATH-500 test problems (p193).
+
+**Don't reward the worked solution.** The dataset's worked-solution field is deliberately *not* used to reward intermediate steps. Doing so would constrain the model and risk overfitting to one solution style; the model should explore the solution space freely (p195). The DeepSeek-R1 team also tried process reward models during training without success, and concluded that final-answer rewards were better (p201). See [[Process Reward Model]].
+
+**Reward-shaping experiments** (all scored on MATH-500):
+
+| Variant | Result | Source |
+|---|---|---|
+| Strict reward: correct *and* boxed | 47.4% | Table 6.1 |
+| Partial credit: 0.5 for a correct but unboxed answer | 37.8%, lower than strict | Table B.5, p329 |
+| Extra `<think>` format reward, weight 1.0 | Accuracy rose, then dropped sharply while average reward stayed flat | p261–263 |
+| Format reward conditional on correctness (`format_reward *= rlvr_reward`) | Dropped, then recovered; more stable | p331 |
+
+The format reward at weight 1.0 paid out for format alone, so the model stopped focusing on correctness. The book suggests a weight of 0.1 or making the format reward conditional on correctness.
+
+> **Nuance on "reward hacking is rare" (table above).** The verifier itself is exact. But the book's format-reward run shows that RLVR is still exposed to reward *mis-specification*: auxiliary reward terms can be optimized at the expense of correctness. "A correctness-only reward is sufficient for RLVR in practice" (p256).
+
+**Compute.** A comparable full DeepSeek-R1-Zero-style run would cost "several hundred thousand dollars in GPU compute" (p186). The book's runs:
+- **GRPO:** a few rounds took about 12 h and 70 GB of RAM on a DGX Spark (p268).
+- **Distillation:** about 3 h and 15 GB (p268). See [[Distillation]].
+
+**Recommended combination** (p302): distill from a strong teacher, continue with RLVR, then apply inference-time scaling at deployment.
+
 ## Related Concepts
 
 - [[GRPO]] — algorithm most associated with RLVR
@@ -96,6 +135,7 @@ DeepSeek-R1 explicitly uses this four-stage pipeline. RLVR drives the reasoning 
 ## Sources
 
 - [[2026-05-09-deepseek-r1]] — DeepSeek-R1, Nature 2025; demonstrates RLVR feasibility
+- [[2026-11-13-build-a-reasoning-model-from-scratch]] — Raschka 2026; from-scratch RLVR on Qwen3 0.6B with MATH-500 verifier and reward-shaping ablations
 
 ## Open Questions
 

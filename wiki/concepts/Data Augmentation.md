@@ -1,11 +1,13 @@
 ---
+
 title: Data Augmentation
 type: concept
-tags: [ml, data, training]
+tags: [ml, data, training, cluster/training-alignment]
 sources: [2026-04-12-ai-engineering]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # Data Augmentation
 

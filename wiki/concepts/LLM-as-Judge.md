@@ -1,11 +1,13 @@
 ---
+
 title: LLM-as-Judge
 type: concept
-tags: [evaluation, llm, automation]
-sources: [2026-04-12-prompt-engineering-llms, 2026-04-12-ultimate-guide-fine-tuning]
+tags: [evaluation, llm, automation, cluster/evaluation]
+sources: [2026-04-12-prompt-engineering-llms, 2026-04-12-ultimate-guide-fine-tuning, 2026-11-13-build-a-reasoning-model-from-scratch]
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-11-13
 ---
+
 
 # LLM-as-Judge
 
@@ -163,6 +165,31 @@ def pairwise_judge(question, resp_a, resp_b, judge_llm,
 
 The double-order trick controls position bias.
 
+## Local judge recipe and taxonomy (Raschka 2026)
+
+*Build a Reasoning Model (From Scratch)*, Appendix F (p377–396), sorts LLM evaluation into four methods in two groups:
+
+| Group | Methods |
+|---|---|
+| Benchmark-based | Multiple choice ([[MMLU]]); verifiers ([[MATH-500]]) |
+| Judgment-based | Leaderboards (see [[Elo Rating]]); LLM judges |
+
+**The local recipe:**
+- **Setup.** The judge is OpenAI's open-weight gpt-oss:20b ([[GPT-OSS]]), running in [[Ollama]] behind the REST endpoint `http://localhost:11434/api/chat`.
+- **Determinism.** Settings are `seed 123`, `temperature 0`, `num_ctx 2048`.
+- **The rubric** scores 1–5 against a reference answer and ends the prompt with "Evaluation:".
+- **Memory.** gpt-oss:20b is a roughly 14 GB download and needs about 13 GB of RAM. qwen3:4b, at about 4 GB, works on smaller machines (p390–391).
+
+**Why judges work.** "Evaluating an answer is often easier than generating one" (p389).
+
+**Judges vs. leaderboards** (p396):
+- **Advantages.** Judges scale and are consistent, because they need no pool of human voters.
+- **Shared weaknesses.** Both can be biased by model preferences, prompt design and answer style. Judges also depend heavily on the chosen judge model and rubric, and they lack the reproducibility of fixed benchmarks.
+
+**Judges vs. verifiers.** Deterministic verifiers are preferred wherever the answer can be checked. When the book extracts answers from free text, it uses regex rather than an LLM: extraction is mechanical, and regex is cheap, reproducible and independent of another model's variability (p71).
+
+**Small verifiers.** The book cites xVerify (arXiv 2504.10481), which shows that small reasoning models can serve as answer verifiers (p308).
+
 ## Connections
 
 - [[Model Evaluation]] — broader umbrella
@@ -176,3 +203,11 @@ The double-order trick controls position bias.
 - [[Reflexion]] — judge-driven critique loop
 - [[Self-Consistency]] — orthogonal: aggregating multiple samples instead of multiple judges
 - [[BLEU]] / [[ROUGE]] / [[Perplexity]] — automatic metrics that LLM-as-judge typically beats on correlation with human preference
+- [[Elo Rating]] — leaderboard alternative to judges
+- [[Ollama]] — local runtime for an open-weight judge
+
+## Sources
+
+- [[2026-04-12-prompt-engineering-llms]]
+- [[2026-04-12-ultimate-guide-fine-tuning]]
+- [[2026-11-13-build-a-reasoning-model-from-scratch]] — Raschka 2026; local gpt-oss judge via Ollama, four-way evaluation taxonomy

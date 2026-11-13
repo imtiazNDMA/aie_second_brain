@@ -1,11 +1,13 @@
 ---
+
 title: Vision Language Models
 type: concept
-tags: [vision-language, multimodal, vlm, foundation-models, generative-ai]
-sources: [2026-05-28-vision-language-models-2026]
+tags: [vision-language, multimodal, vlm, foundation-models, generative-ai, cluster/vision-multimodal]
+sources: [2026-05-28-vision-language-models-2026, 2026-09-12-vision-language-models-building-vlms]
 created: 2026-05-28
-updated: 2026-05-28
+updated: 2026-09-12
 ---
+
 
 # Vision Language Models
 
@@ -79,8 +81,11 @@ image → [Vision Encoder, frozen] → visual tokens
 | Phi-4 multimodal ([[Microsoft]]) | 5.6B | MIT | competitive | strong |
 | Molmo 72B (Allen AI) | 72B | Apache 2.0 | strong | strong |
 | NVLM-D 72B ([[NVIDIA]]) | 72B | CC-BY-NC | strong | strong |
+| [[SmolVLM]] | ~2B | Apache 2.0 | — | — |
+| [[Qwen3-VL]]-7B | 7B | Qwen License | strong | strong |
+| [[Janus-Pro]] | ~7B | MIT | competitive | competitive |
 
-Notable: **Qwen2.5-VL-7B outperforms Llama 3.2 Vision 11B** on most multimodal benchmarks — per-parameter efficiency favors the Qwen architecture.
+Notable: **Qwen2.5-VL-7B outperforms Llama 3.2 Vision 11B** on most multimodal benchmarks — per-parameter efficiency favors the Qwen architecture. SmolVLM is a compact unified-sequence model proving strong VLM capability is achievable under 3B. Janus-Pro uses a decoupled vision encoder for a clean separation of understanding and generation.
 
 ## Training pipeline (three- or four-stage)
 

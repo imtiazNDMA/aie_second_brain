@@ -1,9 +1,11 @@
 ---
-tags: [clustering, bayesian, nonparametric]
+
+tags: [clustering, bayesian, nonparametric, cluster/ml-foundations]
 sources: [2026-04-12-ml-algorithms-in-depth]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # Dirichlet Process K-Means
 

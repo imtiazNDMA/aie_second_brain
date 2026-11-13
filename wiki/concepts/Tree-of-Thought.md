@@ -1,11 +1,13 @@
 ---
+
 title: Tree-of-Thought
 type: concept
-tags: [prompting, reasoning, search, agents]
+tags: [prompting, reasoning, search, agents, cluster/reasoning-prompting]
 sources: [2026-04-12-ai-agents-in-action, 2026-04-12-prompt-engineering-llms]
 created: 2026-04-30
 updated: 2026-04-30
 ---
+
 
 # Tree-of-Thought
 

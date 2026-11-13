@@ -1,11 +1,13 @@
 ---
+
 title: Support Vector Machines
 type: concept
-tags: [machine-learning, supervised-learning, classification, kernel-methods]
+tags: [machine-learning, supervised-learning, classification, kernel-methods, cluster/ml-foundations]
 sources: [2026-04-29-grokking-ml.md, 2026-04-29-hands-on-ml-python.md]
 created: 2026-04-29
 updated: 2026-04-29
 ---
+
 
 # Support Vector Machines
 

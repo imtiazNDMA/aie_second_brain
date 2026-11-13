@@ -1,11 +1,13 @@
 ---
+
 title: Agent Components
 type: concept
-tags: [agents, architecture, components]
+tags: [agents, architecture, components, cluster/agents]
 sources: [2026-04-12-ai-agents-in-action, 2026-04-12-building-agentic-ai-systems]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # Agent Components
 

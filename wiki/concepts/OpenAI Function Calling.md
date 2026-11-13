@@ -1,9 +1,11 @@
 ---
-tags: [openai, tooling, api]
+
+tags: [openai, tooling, api, cluster/agents]
 sources: [2026-04-12-ai-agents-in-action]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # OpenAI Function Calling
 

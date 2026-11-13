@@ -1,11 +1,13 @@
 ---
+
 title: CRDT
 type: concept
-tags: [distributed-systems, consistency, replication, eventual-consistency]
+tags: [distributed-systems, consistency, replication, eventual-consistency, cluster/distributed-systems]
 sources: [2026-04-16-system-design-on-aws]
 created: 2026-05-10
 updated: 2026-05-10
 ---
+
 
 # CRDT
 

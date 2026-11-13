@@ -1,11 +1,13 @@
 ---
+
 title: Distributed Transaction
 type: concept
-tags: [distributed-systems, transactions, consistency, two-phase-commit]
+tags: [distributed-systems, transactions, consistency, two-phase-commit, cluster/distributed-systems]
 sources: [2026-04-16-system-design-on-aws, 2026-04-16-grokking-advanced-system-design-interview]
 created: 2026-05-10
 updated: 2026-05-10
 ---
+
 
 # Distributed Transaction
 

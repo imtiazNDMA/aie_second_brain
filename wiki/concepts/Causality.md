@@ -1,11 +1,13 @@
 ---
+
 title: Causality
 type: concept
-tags: [ai, research, statistics, philosophy]
+tags: [ai, research, statistics, philosophy, cluster/knowledge-graphs]
 sources: [2026-04-29-llmops-managing-large-language-models-in-production]
 created: 2026-04-29
 updated: 2026-04-29
 ---
+
 
 # Causality
 

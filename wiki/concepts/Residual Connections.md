@@ -1,11 +1,13 @@
 ---
+
 title: Residual Connections
 type: concept
-tags: [deep-learning, architecture, optimization]
+tags: [deep-learning, architecture, optimization, cluster/transformer-architecture]
 sources: [2026-04-16-deep-learning-with-pytorch-step-by-step]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # Residual Connections
 

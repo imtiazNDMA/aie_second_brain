@@ -1,11 +1,13 @@
 ---
+
 title: Write-Ahead Log
 type: concept
-tags: [durability, storage, distributed-systems]
+tags: [durability, storage, distributed-systems, cluster/distributed-systems]
 sources: [2026-04-16-grokking-advanced-system-design-interview]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # Write-Ahead Log
 

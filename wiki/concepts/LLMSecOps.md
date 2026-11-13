@@ -1,11 +1,13 @@
 ---
+
 title: LLMSecOps
 type: concept
-tags: [llmops, security, ai-safety, operations]
+tags: [llmops, security, ai-safety, operations, cluster/mlops-llmops, cluster/security-ethics]
 sources: [2026-04-29-llmops-managing-large-language-models-in-production]
 created: 2026-04-29
 updated: 2026-04-29
 ---
+
 
 # LLMSecOps
 

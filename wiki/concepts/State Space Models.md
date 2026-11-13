@@ -1,11 +1,13 @@
 ---
+
 title: State Space Models
 type: concept
-tags: [ssm, mamba, linear-time, sequence-modeling, architecture-primitive]
+tags: [ssm, mamba, linear-time, sequence-modeling, architecture-primitive, cluster/transformer-architecture]
 sources: [2026-05-28-raschka-llm-architecture-gallery]
 created: 2026-05-28
 updated: 2026-05-28
 ---
+
 
 # State Space Models
 

@@ -1,11 +1,13 @@
 ---
+
 title: CQRS
 type: concept
-tags: [architecture, data-modeling, event-driven]
+tags: [architecture, data-modeling, event-driven, cluster/distributed-systems]
 sources: [2026-04-16-system-design-on-aws]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # CQRS
 

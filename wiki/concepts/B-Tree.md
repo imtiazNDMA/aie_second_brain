@@ -1,11 +1,13 @@
 ---
+
 title: B-Tree
 type: concept
-tags: [storage, indexing, databases, data-structures]
+tags: [storage, indexing, databases, data-structures, cluster/distributed-systems]
 sources: [2026-04-16-system-design-interview-complete-guide]
 created: 2026-05-10
 updated: 2026-05-10
 ---
+
 
 # B-Tree
 

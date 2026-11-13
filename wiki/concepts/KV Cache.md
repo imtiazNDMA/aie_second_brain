@@ -1,11 +1,13 @@
 ---
+
 title: KV Cache
 type: concept
-tags: [inference-optimization, attention, transformer, memory]
-sources: [2026-05-09-cache-augmented-generation]
+tags: [inference-optimization, attention, transformer, memory, cluster/serving-inference]
+sources: [2026-05-09-cache-augmented-generation, 2026-09-12-hands-on-llm-serving-optimization, 2026-11-13-build-a-reasoning-model-from-scratch]
 created: 2026-05-09
-updated: 2026-05-09
+updated: 2026-11-13
 ---
+
 
 # KV Cache
 
@@ -27,15 +29,21 @@ Without caching, generating token $t$ recomputes $K_{1:t}$ and $V_{1:t}$ from sc
 
 ## Memory cost
 
-For a model with $L$ layers, $H$ heads, head dimension $d_h$, sequence length $T$, and 2 bytes per element (fp16):
+For a model with $L$ layers, $H$ KV heads (not query heads), head dimension $d_h$, sequence length $T$, and 2 bytes per element (fp16):
 
-$$\text{KV cache size} = 2 \cdot L \cdot H \cdot d_h \cdot T \cdot 2 \text{ bytes}$$
+$$\text{KV cache size} = 2 \cdot L \cdot H_{KV} \cdot d_h \cdot T \cdot 2 \text{ bytes}$$
 
-For Llama-3-70B (80 layers, 64 heads, $d_h = 128$) at $T = 128{,}000$:
+**Important**: Use `num_key_value_heads`, not query-head count. Llama 3 uses GQA with 8 KV heads despite 64 query heads.
 
-$$2 \cdot 80 \cdot 64 \cdot 128 \cdot 128{,}000 \cdot 2 \approx 320 \text{ GB}$$
+For Llama-2-7B (32 layers, 32 heads, $d_h = 128$) at $T = 4{,}096$, batch 16:
 
-KV-cache memory dominates inference cost at long context lengths — frequently exceeding model parameter memory. This pressure motivated [[Paged Attention]], [[Grouped-Query Attention]], and KV-cache quantization research.
+$$2 \cdot 32 \cdot 32 \cdot 128 \cdot 4{,}096 \cdot 16 \cdot 2 \approx 32 \text{ GB}$$
+
+This exceeds the model's ~14 GB FP16 weights — KV-cache memory dominates inference cost.
+
+> **Note on KV-head count**: Llama-2-7B uses standard multi-head attention (MHA), so all 32 attention heads are KV heads ($H_{KV} = 32$). For GQA models like Llama-3-8B, the KV-head count is much lower — Llama-3-8B uses only 8 KV heads despite 32 query heads, reducing KV-cache memory by 4×.
+
+KV-cache memory pressure motivated [[Paged Attention]], [[Grouped-Query Attention]], KV-cache quantization, and [[LMCache]]'s tiered storage.
 
 ## Architectural variants
 
@@ -68,6 +76,27 @@ Active research area:
 - **Cross-layer / cross-head sharing** — exploit redundancy in cache content
 - **Token merging** — combine similar adjacent tokens to shrink the cache
 
+## Small-model measurements
+
+Raschka (2026) benchmarked a from-scratch [[Qwen3]] 0.6B implementation (*Build a Reasoning Model (From Scratch)*, chapter 2).
+
+**Table 2.1 (p54–55), tokens per second:**
+
+| Hardware | Regular | Regular, compiled | KV cache | KV cache, compiled |
+|---|---|---|---|---|
+| Mac Mini M4 CPU | 5 | 6 | 28 | 68 |
+| Mac Mini M4 GPU | 27 | 43 | 41 | 71 |
+| H100 | 51 | 164 | 48 | 141 |
+
+The output text is identical with and without the cache, which serves as a correctness check (p46–49).
+
+**Why the GPU gains were small** (p55):
+- The cache grows with `torch.cat`, which saves memory, instead of being preallocated to the 40k-token maximum context.
+- The model is small.
+- The batch size is 1.
+
+The book's bonus materials include a GPU-optimized variant.
+
 ## Related Concepts
 
 - [[Self-Attention]] — produces $K$ and $V$
@@ -82,6 +111,8 @@ Active research area:
 ## Sources
 
 - [[2026-05-09-cache-augmented-generation]] — uses KV cache as the substrate of CAG
+- [[2026-09-12-hands-on-llm-serving-optimization]] — hands-on KV-cache sizing and serving trade-offs
+- [[2026-11-13-build-a-reasoning-model-from-scratch]] — Raschka 2026; KV cache and torch.compile throughput on Qwen3 0.6B
 
 ## Open Questions
 

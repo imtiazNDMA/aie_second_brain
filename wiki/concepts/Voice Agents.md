@@ -1,11 +1,13 @@
 ---
+
 title: Voice Agents
 type: concept
-tags: [voice-agents, speech, audio, realtime, multimodal, agents]
+tags: [voice-agents, speech, audio, realtime, multimodal, agents, cluster/vision-multimodal]
 sources: [2026-05-28-voice-agents-2026]
 created: 2026-05-28
 updated: 2026-05-28
 ---
+
 
 # Voice Agents
 

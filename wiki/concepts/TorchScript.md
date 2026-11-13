@@ -1,9 +1,11 @@
 ---
-tags: [pytorch, deployment, graph]
+
+tags: [pytorch, deployment, graph, cluster/ml-foundations]
 sources: [2026-04-12-deep-learning-with-pytorch]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # TorchScript
 

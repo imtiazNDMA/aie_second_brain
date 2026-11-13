@@ -1,11 +1,13 @@
 ---
+
 title: Context Relevance
 type: concept
-tags: [rag, evaluation, retrieval]
+tags: [rag, evaluation, retrieval, cluster/rag-retrieval]
 sources: [2026-04-29-vera, 2026-04-29-rag-survey]
 created: 2026-04-29
 updated: 2026-04-29
 ---
+
 
 # Context Relevance
 

@@ -1,11 +1,13 @@
 ---
+
 title: Linear Attention
 type: concept
-tags: [attention, linear-time, sub-quadratic, architecture-primitive]
+tags: [attention, linear-time, sub-quadratic, architecture-primitive, cluster/transformer-architecture]
 sources: [2026-05-28-raschka-llm-architecture-gallery]
 created: 2026-05-28
 updated: 2026-05-28
 ---
+
 
 # Linear Attention
 

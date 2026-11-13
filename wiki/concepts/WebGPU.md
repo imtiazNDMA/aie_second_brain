@@ -1,11 +1,13 @@
 ---
+
 title: WebGPU
 type: concept
-tags: [runtime, inference, hardware]
+tags: [runtime, inference, hardware, cluster/serving-inference]
 sources: [2026-04-12-ultimate-guide-fine-tuning]
 created: 2026-04-13
 updated: 2026-04-13
 ---
+
 
 # WebGPU
 

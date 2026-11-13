@@ -1,11 +1,13 @@
 ---
+
 title: Pretraining
 type: concept
-tags: [training, llm, foundation-model]
+tags: [training, llm, foundation-model, cluster/training-alignment]
 sources: [2026-04-12-build-llm-from-scratch]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # Pretraining
 

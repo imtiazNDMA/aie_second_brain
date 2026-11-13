@@ -1,11 +1,13 @@
 ---
+
 title: Multi-head Latent Attention
 type: concept
-tags: [attention, kv-cache, deepseek, mla, architecture-primitive]
+tags: [attention, kv-cache, deepseek, mla, architecture-primitive, cluster/transformer-architecture]
 sources: [2026-05-28-raschka-llm-architecture-gallery, 2026-05-28-mixture-of-experts-2026]
 created: 2026-05-28
 updated: 2026-05-28
 ---
+
 
 # Multi-head Latent Attention
 

@@ -1,11 +1,13 @@
 ---
+
 title: Bayesian Optimization
 type: concept
-tags: [optimization, hyperparameters]
+tags: [optimization, hyperparameters, cluster/ml-foundations]
 sources: [2026-04-12-ml-algorithms-in-depth]
 created: 2026-04-12
 updated: 2026-04-13
 ---
+
 
 # Bayesian Optimization
 

@@ -1,11 +1,13 @@
 ---
+
 title: QLoRA
 type: concept
-tags: [fine-tuning, quantization, peft]
+tags: [fine-tuning, quantization, peft, cluster/training-alignment]
 sources: [2026-04-12-ultimate-guide-fine-tuning]
 created: 2026-04-12
 updated: 2026-04-13
 ---
+
 
 # QLoRA
 

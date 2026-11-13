@@ -1,11 +1,13 @@
 ---
+
 title: VERA
 type: concept
-tags: [rag, evaluation, validation]
+tags: [rag, evaluation, validation, cluster/rag-retrieval]
 sources: [2026-04-29-vera]
 created: 2026-04-29
 updated: 2026-04-29
 ---
+
 
 # VERA
 

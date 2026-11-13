@@ -1,11 +1,13 @@
 ---
+
 title: Budget Forcing
 type: concept
-tags: [test-time-compute, inference, decoding, reasoning-models]
+tags: [test-time-compute, inference, decoding, reasoning-models, cluster/training-alignment]
 sources: [2026-05-09-s1-test-time-scaling]
 created: 2026-05-09
 updated: 2026-05-09
 ---
+
 
 # Budget Forcing
 

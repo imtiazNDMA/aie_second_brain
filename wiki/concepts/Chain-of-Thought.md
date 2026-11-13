@@ -1,11 +1,13 @@
 ---
+
 title: Chain-of-Thought
 type: concept
-tags: [prompting, reasoning, agents]
-sources: [2026-04-12-prompt-engineering-llms, 2026-04-12-build-llm-from-scratch, 2026-04-29-self-rag, 2026-04-12-ai-agents-in-action]
+tags: [prompting, reasoning, agents, cluster/reasoning-prompting]
+sources: [2026-04-12-prompt-engineering-llms, 2026-04-12-build-llm-from-scratch, 2026-04-29-self-rag, 2026-04-12-ai-agents-in-action, 2026-11-13-build-a-reasoning-model-from-scratch]
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-11-13
 ---
+
 
 # Chain-of-Thought
 
@@ -88,6 +90,25 @@ In practice the model emits one $z$ greedily. **[[Self-Consistency]]** approxima
 3. **Order sensitivity** — CoT performance depends on which exemplars you choose; bad exemplars degrade accuracy.
 4. **Distraction by exemplars** — model copies an exemplar's *answer pattern* even when the question requires a different operation.
 
+## Small-model evidence: *Build a Reasoning Model (From Scratch)*
+
+Raschka (2026) appended **"Explain step by step."** to the [[MATH-500]] prompt for [[Qwen3]] 0.6B base. He found it worked better on that model than Kojima et al.'s "Let's think step by step." (p100, p308).
+
+**Result:** accuracy rose from 15.2% to **40.6%**, at 84.5 min against 10.1 min for greedy decoding (Table 4.1, p133).
+
+**Contradiction with "gains emerge only at ~60B+" (above).** That claim comes from the original PaLM-era results. A 0.6B base model gained 25 points here. Possible explanations:
+- **Modern pretraining data.** The Qwen3 team put CoT data into pretraining (per the Qwen3 technical report). The base model already produces CoT-like output (p64).
+- **A different benchmark and model generation.**
+
+Treat the 60B threshold as specific to 2022-era models.
+
+**Further findings from the book:**
+- **Trained reasoning models don't benefit.** Models trained to reason "don't need or benefit from" CoT prompting (p102). Exercise B.3 shows CoT is mostly useful for base models (p137).
+- **Why it helps** (p102). It gives the model more opportunities to correct itself, and it matches how worked solutions are written in training data. It "doesn't add knowledge"; it changes how existing knowledge is used.
+- **Overthinking.** On simple problems the model can generate erroneous explanations that mislead it (p102).
+- **Prompt sensitivity is large for base models.** Replacing "Question:" with "Problem:" lifted the base model from 15.3% to 31.2%. The reasoning model barely moved, from 48.2% to 50.0% (exercise 3.4, p320). The author suspects the base model had memorized prompt-formatted MATH-500 examples.
+- **The engineering meaning of "reasoning."** In the book, reasoning means generating intermediate steps before the answer; it does not imply human-like thinking. Steps can sound convincing without being logically sound (p2–4).
+
 ## From prompted CoT to trained reasoning
 
 CoT is *elicited* from base models by prompt construction. The 2024–2025 [[Reasoning Models]] paradigm trains models to natively emit long-form CoT — [[DeepSeek-R1]] via [[RLVR]] / [[GRPO]] on verifiable rewards, s1 via SFT distillation. This shifts CoT from a prompt-engineering trick to a *training objective*, with corresponding new control mechanisms ([[Budget Forcing]]) and a new scaling law ([[Test-Time Compute Scaling]]). CoT remains the substrate; what changed is whether the model has been *taught* to spend it productively.
@@ -106,3 +127,13 @@ CoT is *elicited* from base models by prompt construction. The 2024–2025 [[Rea
 - [[GSM8K]] — canonical benchmark for CoT
 - [[LLM Application Loop]] — productized form of CoT pipelines
 - [[Self-RAG]] — uses CoT inside reflection-token decisions
+- [[MATH-500]] — benchmark for the small-model CoT results above
+- [[Self-Refinement]] — iterative alternative
+
+## Sources
+
+- [[2026-04-12-prompt-engineering-llms]]
+- [[2026-04-12-build-llm-from-scratch]]
+- [[2026-04-29-self-rag]]
+- [[2026-04-12-ai-agents-in-action]]
+- [[2026-11-13-build-a-reasoning-model-from-scratch]] — Raschka 2026; CoT on Qwen3 0.6B (15.2% → 40.6% on MATH-500)

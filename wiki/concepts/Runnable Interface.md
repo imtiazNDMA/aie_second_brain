@@ -1,11 +1,13 @@
 ---
+
 title: Runnable Interface
 type: concept
-tags: [langchain, llm, interface]
+tags: [langchain, llm, interface, cluster/serving-inference]
 sources: [2026-04-29-learning-langchain]
 created: 2026-04-29
 updated: 2026-04-29
 ---
+
 
 # Runnable Interface
 

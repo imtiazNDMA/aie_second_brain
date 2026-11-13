@@ -1,11 +1,13 @@
 ---
+
 title: Self-Consistency
 type: concept
-tags: [prompting, reasoning, sampling]
-sources: [2026-04-12-ai-agents-in-action, 2026-04-12-prompt-engineering-llms]
+tags: [prompting, reasoning, sampling, cluster/reasoning-prompting]
+sources: [2026-04-12-ai-agents-in-action, 2026-04-12-prompt-engineering-llms, 2026-11-13-build-a-reasoning-model-from-scratch]
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-11-13
 ---
+
 
 # Self-Consistency
 
@@ -96,6 +98,51 @@ Self-consistency typically needs 10–40× the compute of greedy CoT for ~10–2
 
 Self-consistency is the canonical **parallel** form of [[Test-Time Compute Scaling]] — spending K× more inference compute by sampling K reasoning chains in parallel. Compare to [[Budget Forcing]] (sequential extension of one chain) and [[Tree-of-Thought]] (search-based) — the three families of test-time compute spending. For [[Reasoning Models]] (DeepSeek-R1, s1), self-consistency composes with the model's native long-form thinking for additional gains.
 
+## Small-model evidence: *Build a Reasoning Model (From Scratch)*
+
+Raschka (2026) implements self-consistency from scratch on [[Qwen3]] 0.6B and scores it on all 500 [[MATH-500]] problems. The paper is Wang et al., arXiv 2203.11171; note the book misprints the ID on p128. Sampling uses temperature 0.9 and top-p 0.9 ([[Nucleus Sampling]]).
+
+**Table 4.1 (p133):**
+
+| Method | Model | Accuracy | Time |
+|---|---|---|---|
+| Greedy baseline | Base | 15.2% | 10.1 min |
+| CoT ("Explain step by step.") | Base | 40.6% | 84.5 min |
+| Top-p + SC n=3 | Base | 29.6% | 97.6 min |
+| Top-p + SC n=10 | Base | 31.6% | 300.4 min |
+| Top-p + CoT | Base | 33.4% | 129.2 min |
+| SC n=3 + top-p + CoT | Base | 42.2% | 211.6 min |
+| SC n=5 + top-p + CoT | Base | 48.0% | 452.9 min |
+| SC n=10 + top-p + CoT | Base | 52.0% | 862.6 min |
+| Greedy baseline | Reasoning | 48.2% | 182.1 min |
+| SC n=3 + top-p + CoT | Reasoning | 55.2% | 544.4 min |
+
+What the table shows (p134):
+- **Without CoT, more samples barely helped:** n=10 gave 31.6% against 29.6% for n=3.
+- **Sampling on its own hurt CoT:** 33.4% against 40.6% for greedy CoT. Voting recovered and exceeded that loss.
+- **SC + CoT with n=10 beat the trained reasoning model's greedy score:** 52.0% against 48.2%, but at about 85× the baseline runtime.
+
+**Contrast with the "saturates around K=20–40" claim above.** On this 0.6B model, gains without CoT were already flat between n=3 and n=10. The saturation point depends on model and task.
+
+**Breaking ties and best-of-N** (Tables B.3 and B.4, base model + CoT, n=3):
+
+| Selection rule | Accuracy |
+|---|---|
+| Majority vote, first answer wins ties | 43.2% |
+| Majority vote + heuristic tie-break (see [[Self-Refinement]] for the scorers) | 43.4% |
+| Majority vote + average-logprob tie-break | 44.8% |
+| Best-of-N with heuristic score (no vote) | 40.6% |
+| Best-of-N with average logprob (no vote) | 43.2% |
+
+This agrees with the book's citation of Wang et al. 2025 (arXiv 2504.14047): "when applicable, majority voting often gives better results" than best-of-N (p309).
+
+**Implementation details:**
+- **Early stopping.** Stop as soon as one answer holds more than half of `num_samples` (exercise 4.4).
+- **Parallel by construction.** Samples are independent, so they parallelize across GPUs without adding user latency (p103–104).
+- **Settings to start from:** temperature about 0.5–0.9 and top-p about 0.7–0.9. If samples come out near-identical, raise them. If they come out nonsensical, lower the temperature first (p132).
+- **The main limitation.** Voting needs a short, extractable final answer, so it is hard to apply to open-ended tasks. This motivates [[Self-Refinement]] (p134).
+- **Production use.** The book cites Claude 4 as using parallel sampling (p98). It speculates that Gemini 3 Deep Think and DeepSeekMath-V2 use SC-like scaling (p137, p309).
+
 ## Connections
 
 - [[Chain-of-Thought]] — the substrate
@@ -108,3 +155,12 @@ Self-consistency is the canonical **parallel** form of [[Test-Time Compute Scali
 - [[Reasoning Strategies]] — taxonomy
 - [[Beam Search]] — token-level analog
 - [[Inference Optimization]] — compute considerations
+- [[Self-Refinement]] — sequential alternative that works for open-ended answers
+- [[Nucleus Sampling]] — temperature and top-p settings that produce diverse samples
+- [[MATH-500]] — benchmark used in the Raschka experiments above
+
+## Sources
+
+- [[2026-04-12-ai-agents-in-action]]
+- [[2026-04-12-prompt-engineering-llms]]
+- [[2026-11-13-build-a-reasoning-model-from-scratch]] — Raschka 2026; from-scratch SC on Qwen3 0.6B, Tables 4.1, B.3, B.4

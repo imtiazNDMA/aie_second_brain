@@ -1,11 +1,13 @@
 ---
+
 title: Model Context Protocol
 type: concept
-tags: [agent-tools, protocol, mcp, tool-use, ai-coding-agents]
+tags: [agent-tools, protocol, mcp, tool-use, ai-coding-agents, cluster/agents]
 sources: []
 created: 2026-05-10
 updated: 2026-05-10
 ---
+
 
 # Model Context Protocol
 

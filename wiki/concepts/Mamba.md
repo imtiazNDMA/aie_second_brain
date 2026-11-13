@@ -1,11 +1,13 @@
 ---
+
 title: Mamba
 type: concept
-tags: [ssm, mamba, selective-ssm, linear-time, sequence-modeling, architecture-primitive]
+tags: [ssm, mamba, selective-ssm, linear-time, sequence-modeling, architecture-primitive, cluster/transformer-architecture]
 sources: [2026-05-28-raschka-llm-architecture-gallery]
 created: 2026-05-28
 updated: 2026-05-28
 ---
+
 
 # Mamba
 

@@ -1,11 +1,13 @@
 ---
+
 title: RARR
 type: concept
-tags: [rag, attribution, hallucination, post-hoc]
+tags: [rag, attribution, hallucination, post-hoc, cluster/rag-retrieval]
 sources: [2026-04-29-vera]
 created: 2026-04-30
 updated: 2026-04-30
 ---
+
 
 # RARR
 

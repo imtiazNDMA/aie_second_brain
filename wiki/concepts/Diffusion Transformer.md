@@ -1,11 +1,13 @@
 ---
+
 title: Diffusion Transformer
 type: concept
-tags: [diffusion, transformer, dit, generative-models, image-generation]
+tags: [diffusion, transformer, dit, generative-models, image-generation, cluster/generative-models]
 sources: [2026-05-28-diffusion-models-2026]
 created: 2026-05-28
 updated: 2026-05-28
 ---
+
 
 # Diffusion Transformer
 

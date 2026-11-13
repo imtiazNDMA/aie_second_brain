@@ -1,11 +1,13 @@
 ---
+
 title: FlashAttention
 type: concept
-tags: [inference, training, attention, gpu, optimization]
-sources: [2026-04-12-build-llm-from-scratch, 2026-04-12-llm-engineers-handbook]
+tags: [inference, training, attention, gpu, optimization, cluster/serving-inference]
+sources: [2026-04-12-build-llm-from-scratch, 2026-04-12-llm-engineers-handbook, 2026-09-12-hands-on-llm-serving-optimization]
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-09-12
 ---
+
 
 # FlashAttention
 
@@ -138,3 +140,7 @@ You almost never write the kernel yourself; you just turn the flag on and verify
 - [[Grouped-Query Attention]] — reduces the size of K/V; multiplicative with FlashAttention
 - [[CUDA]] — substrate
 - [[Transformer]] — the architecture using attention
+
+## Sources
+
+- [[2026-09-12-hands-on-llm-serving-optimization]]

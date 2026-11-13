@@ -1,11 +1,13 @@
 ---
+
 title: Distributed Training
 type: concept
-tags: [ml, training, infrastructure]
+tags: [ml, training, infrastructure, cluster/training-alignment]
 sources: [2026-04-12-ai-engineering]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # Distributed Training
 

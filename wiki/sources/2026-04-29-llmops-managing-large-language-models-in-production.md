@@ -50,3 +50,8 @@ This book provides a comprehensive guide to managing large language models (LLMs
 - [[Retrieval-Augmented Generation]] — Discussed in context of data engineering and evaluation
 - [[Prompt Engineering]] — Critical skill for LLM applications, discussed as both a challenge and operational consideration
 - [[Fine-Tuning]] — Techniques for adapting LLMs to specific tasks, including parameter-efficient methods
+
+## Related Sources
+
+- [[2026-04-12-rag-driven-generative-ai]] — RAG coverage
+- [[2026-07-07-building-ai-agents-with-llms-rag-knowledge-graphs]] — Agent deployment

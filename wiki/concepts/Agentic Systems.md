@@ -1,9 +1,11 @@
 ---
-tags: [agents, architecture, autonomy]
-sources: [2026-04-12-building-agentic-ai-systems, 2026-04-29-llmops-managing-large-language-models-in-production, 2026-04-29-building-llm-agents-rag-knowledge-graphs-reflection, 2026-04-29-building-applications-with-ai-agents]
+
+tags: [agents, architecture, autonomy, cluster/agents]
+sources: [2026-04-12-building-agentic-ai-systems, 2026-04-29-llmops-managing-large-language-models-in-production, 2026-04-29-building-llm-agents-rag-knowledge-graphs-reflection, 2026-04-29-building-applications-with-ai-agents, 2026-07-07-building-ai-agents-with-llms-rag-knowledge-graphs]
 created: 2026-04-12
-updated: 2026-04-29
+updated: 2026-07-07
 ---
+
 
 # Agentic Systems
 
@@ -39,6 +41,8 @@ From [[2026-04-29-building-applications-with-ai-agents]] and [[2026-04-29-buildi
 - Use [[Retrieval-Augmented Generation]] for knowledge-intensive tasks requiring factual grounding.
 - Use autonomous loops when tasks require adaptation to dynamic environments.
 - Treat observability, evaluation, and safety controls as part of core architecture, not post-deployment add-ons.
+- Separate the agent into interface, [[Brain-Perception-Action Agent Model|brain/perception/action]], prompt, memory, and tool layers so each failure mode has an owner.
+- Choose between single-agent, multi-agent, and human-agent interaction patterns based on task complexity, need for specialization, and required control.
 
 ## Related Concepts
 

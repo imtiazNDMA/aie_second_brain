@@ -1,11 +1,13 @@
 ---
+
 title: Rotary Position Embeddings
 type: concept
-tags: [transformer, positional-encoding]
+tags: [transformer, positional-encoding, cluster/transformer-architecture]
 sources: [2026-04-12-build-llm-from-scratch]
 created: 2026-04-13
 updated: 2026-04-13
 ---
+
 
 # Rotary Position Embeddings
 

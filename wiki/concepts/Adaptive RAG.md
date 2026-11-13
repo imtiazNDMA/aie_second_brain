@@ -1,9 +1,11 @@
 ---
-tags: [rag, feedback, evaluation]
+
+tags: [rag, feedback, evaluation, cluster/rag-retrieval]
 sources: [2026-04-12-rag-driven-generative-ai]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+ 
 
 # Adaptive RAG
 

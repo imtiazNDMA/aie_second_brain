@@ -1,11 +1,13 @@
 ---
+
 title: Speculative RAG
 type: concept
-tags: [rag, optimization, planning]
+tags: [rag, optimization, planning, cluster/rag-retrieval]
 sources: [2026-04-12-14-types-of-rag]
 created: 2026-04-13
 updated: 2026-04-13
 ---
+
 
 # Speculative RAG
 

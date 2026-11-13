@@ -1,11 +1,13 @@
 ---
+
 title: RAG-Fusion
 type: concept
-tags: [rag, retrieval, fusion]
+tags: [rag, retrieval, fusion, cluster/rag-retrieval]
 sources: [2026-04-29-rag-survey]
 created: 2026-04-30
 updated: 2026-04-30
 ---
+
 
 # RAG-Fusion
 

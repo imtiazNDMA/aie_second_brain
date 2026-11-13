@@ -2,7 +2,7 @@
 title: Prompt Engineering for LLMs
 type: source
 tags: [prompting, llm, applications]
-sources: [prompt engineering for llms.pdf]
+sources: [Prompt Engineering for LLMs.pdf]
 created: 2026-04-12
 updated: 2026-04-12
 ---

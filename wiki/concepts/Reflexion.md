@@ -1,11 +1,13 @@
 ---
+
 title: Reflexion
 type: concept
-tags: [agents, reflection, reinforcement-learning, prompting]
+tags: [agents, reflection, reinforcement-learning, prompting, cluster/agents]
 sources: [2026-04-12-prompt-engineering-llms, 2026-04-12-ai-agents-in-action]
 created: 2026-04-30
 updated: 2026-04-30
 ---
+
 
 # Reflexion
 

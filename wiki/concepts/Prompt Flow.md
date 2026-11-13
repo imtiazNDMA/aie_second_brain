@@ -1,9 +1,11 @@
 ---
-tags: [prompting, evaluation, workflow]
+
+tags: [prompting, evaluation, workflow, cluster/reasoning-prompting]
 sources: [2026-04-12-ai-agents-in-action]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # Prompt Flow
 

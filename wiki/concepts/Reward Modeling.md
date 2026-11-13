@@ -1,11 +1,13 @@
 ---
+
 title: Reward Modeling
 type: concept
-tags: [rlhf, alignment, post-training, preferences]
+tags: [rlhf, alignment, post-training, preferences, cluster/training-alignment]
 sources: [2026-04-12-llm-engineers-handbook, 2026-04-12-ultimate-guide-fine-tuning]
 created: 2026-05-10
 updated: 2026-05-10
 ---
+
 
 # Reward Modeling
 

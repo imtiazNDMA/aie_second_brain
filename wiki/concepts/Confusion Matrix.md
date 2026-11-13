@@ -1,11 +1,13 @@
 ---
+
 title: Confusion Matrix
 type: concept
-tags: [evaluation, classification, metrics]
+tags: [evaluation, classification, metrics, cluster/evaluation]
 sources: [2026-04-16-deep-learning-with-pytorch-step-by-step]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # Confusion Matrix
 

@@ -1,11 +1,13 @@
 ---
+
 title: Paged Attention
 type: concept
-tags: [inference, serving, attention, memory]
-sources: [2026-04-12-llm-engineers-handbook]
+tags: [inference, serving, attention, memory, cluster/serving-inference]
+sources: [2026-04-12-llm-engineers-handbook, 2026-09-12-hands-on-llm-serving-optimization]
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-09-12
 ---
+
 
 # Paged Attention
 
@@ -162,3 +164,7 @@ Most of the speedup comes from higher concurrent batch size (more requests fit i
 - [[Speculative Decoding]] — orthogonal token-generation optimization
 - [[Grouped-Query Attention]] — reduces per-token KV size
 - [[Caching]] — the OS analog this technique borrows from
+
+## Sources
+
+- [[2026-09-12-hands-on-llm-serving-optimization]]

@@ -1,11 +1,13 @@
 ---
+
 title: Hallucination
 type: concept
-tags: [llm, evaluation, faithfulness, safety, rag]
+tags: [llm, evaluation, faithfulness, safety, rag, cluster/security-ethics]
 sources: [2026-04-29-vera, 2026-04-12-rag-driven-generative-ai, 2026-04-29-self-rag]
 created: 2026-05-09
 updated: 2026-05-09
 ---
+
 
 # Hallucination
 

@@ -1,11 +1,13 @@
 ---
+
 title: Reflection
 type: concept
-tags: [agent-capabilities, self-improvement, meta-cognition]
+tags: [agent-capabilities, self-improvement, meta-cognition, cluster/agents]
 sources: [2026-04-12-building-ai-coding-agents-terminal.md, 2026-04-12-prompt-engineering-llms.md, 2026-04-29-self-rag.md, 2026-04-29-building-llm-agents-rag-knowledge-graphs-reflection]
 created: 2026-04-29
 updated: 2026-04-29
 ---
+
 
 # Reflection
 

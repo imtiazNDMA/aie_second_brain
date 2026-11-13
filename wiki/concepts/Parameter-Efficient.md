@@ -1,9 +1,11 @@
 ---
-tags: [fine-tuning, efficiency, peft]
+
+tags: [fine-tuning, efficiency, peft, cluster/training-alignment]
 sources: [2026-04-12-ultimate-guide-fine-tuning, 2026-04-12-llm-engineers-handbook]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # Parameter-Efficient
 

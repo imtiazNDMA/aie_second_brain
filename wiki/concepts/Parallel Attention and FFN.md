@@ -1,11 +1,13 @@
 ---
+
 title: Parallel Attention and FFN
 type: concept
-tags: [transformer-block, layer-design, architecture-primitive]
+tags: [transformer-block, layer-design, architecture-primitive, cluster/transformer-architecture]
 sources: [2026-05-28-raschka-llm-architecture-gallery]
 created: 2026-05-28
 updated: 2026-05-28
 ---
+
 
 # Parallel Attention and FFN
 

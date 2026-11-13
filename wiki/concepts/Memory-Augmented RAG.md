@@ -1,11 +1,13 @@
 ---
+
 title: Memory-Augmented RAG
 type: concept
-tags: [rag, memory, conversational]
+tags: [rag, memory, conversational, cluster/rag-retrieval]
 sources: [2026-04-12-14-types-of-rag]
 created: 2026-04-13
 updated: 2026-04-13
 ---
+
 
 # Memory-Augmented RAG
 

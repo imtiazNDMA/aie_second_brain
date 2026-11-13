@@ -1,11 +1,13 @@
 ---
+
 title: Perplexity
 type: concept
-tags: [evaluation, language-modeling, metrics]
+tags: [evaluation, language-modeling, metrics, cluster/evaluation]
 sources: [2026-04-12-ai-engineering]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # Perplexity
 

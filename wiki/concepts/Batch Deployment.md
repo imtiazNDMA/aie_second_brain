@@ -1,11 +1,13 @@
 ---
+
 title: Batch Deployment
 type: concept
-tags: [ml, deployment, inference]
+tags: [ml, deployment, inference, cluster/mlops-llmops]
 sources: [2026-04-12-ai-engineering]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # Batch Deployment
 

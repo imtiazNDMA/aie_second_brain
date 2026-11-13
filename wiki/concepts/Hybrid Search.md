@@ -1,11 +1,13 @@
 ---
+
 title: Hybrid Search
 type: concept
-tags: [retrieval, search, rag, bm25, vector-search, hybrid]
+tags: [retrieval, search, rag, bm25, vector-search, hybrid, cluster/rag-retrieval]
 sources: [2026-04-29-rag-survey, 2026-04-12-rag-driven-generative-ai]
 created: 2026-05-09
 updated: 2026-05-09
 ---
+
 
 # Hybrid Search
 

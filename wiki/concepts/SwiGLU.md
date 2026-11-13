@@ -1,11 +1,13 @@
 ---
+
 title: SwiGLU
 type: concept
-tags: [ffn, activation, gated, transformer, architecture-primitive]
+tags: [ffn, activation, gated, transformer, architecture-primitive, cluster/transformer-architecture]
 sources: [2026-05-28-raschka-llm-architecture-gallery]
 created: 2026-05-28
 updated: 2026-05-28
 ---
+
 
 # SwiGLU
 

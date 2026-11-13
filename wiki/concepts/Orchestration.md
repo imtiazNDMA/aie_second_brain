@@ -1,11 +1,13 @@
 ---
+
 title: Orchestration
 type: concept
-tags: [distributed-systems, workflow, architecture]
+tags: [distributed-systems, workflow, architecture, cluster/agents]
 sources: [2026-04-16-system-design-on-aws]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # Orchestration
 

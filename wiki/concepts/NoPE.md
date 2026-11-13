@@ -1,11 +1,13 @@
 ---
+
 title: NoPE
 type: concept
-tags: [positional-encoding, attention, architecture-primitive, no-position]
+tags: [positional-encoding, attention, architecture-primitive, no-position, cluster/transformer-architecture]
 sources: [2026-05-28-raschka-llm-architecture-gallery]
 created: 2026-05-28
 updated: 2026-05-28
 ---
+
 
 # NoPE
 

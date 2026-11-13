@@ -1,5 +1,34 @@
 # Log
 
+## [2026-09-11] analytics | Instagram baseline review
+Analyzed daily profile exports for August 14 through September 10, 2026 and created [[analytics-report|Instagram Analytics Report - Baseline]].
+The period recorded 9,713 views, 7,155 summed daily reach, 487 content interactions, 59 profile visits, and 50 follows. August 29-30 accounted for most activity, while the latest seven days showed sharply lower distribution.
+Documented data limitations, avoided treating aggregate follows/profile visits as direct conversion, and defined a post-level export requirement plus a controlled ten-post growth experiment.
+
+## [2026-09-11] content-calendar | 30-day AI Engineering campaign
+Created [[calander|30-Day AI Engineering Content Calendar]] for September 12 through October 11, 2026.
+Scheduled 30 progressive topics across foundations, language-model architecture, RAG, agents, evaluation, reliability, operations, and portfolio proof.
+Added a reusable ChatGPT project instruction, 30 self-contained carousel briefs, production tracking, 48-hour and 14-day performance metrics, weekly reviews, calculated indicators, and evidence-based strategy adjustment rules.
+
+## [2026-09-11] content-system | Instagram AI Engineering carousels
+Created `wiki/insta/` as the publishing workspace for teaching aspiring AI engineers and building creator authority through rigorous, source-linked education.
+Added [[Instagram Content OS]], [[Instagram Audience and Positioning]], [[AI Engineering Content Curriculum]], [[Carousel Writing Standard]], [[Carousel Production Workflow]], [[AI Engineering Carousel Backlog]], [[Instagram Carousel Template]], and [[Instagram Publishing Log]].
+Seeded a 60-post curriculum backlog and three full launch drafts: [[001 - What AI Engineering Actually Is]], [[002 - RAG Is a System, Not a Feature]], and [[003 - Why AI Agents Fail in Production]].
+Adapted the copy-first and visual-anchor process from `Clippings/Artem Novitckii — AI Content Systems.md` while adding technical sourcing, accessibility, quality gates, and post-publication learning loops.
+
+## [2026-08-22] plan | AI Engineering Wiki Plan
+- Added [[AI Engineering Wiki Plan]] as the durable planning hub for the production engineering spine.
+- Updated [[AI Engineer Gap Analysis]], [[AI Operations Priorities]], [[AI Engineer Master Roadmap]], and [[LLM Evaluation Benchmark Map]] to reflect current coverage and the new build order.
+- Confirmed existing coverage for [[Agent Operations]], [[Agent Failure Taxonomy]], [[Event Correlation]], [[Prompt Versioning]], [[Model Registry]], and [[AlpacaEval]] so these are no longer treated as missing pages.
+- Recorded remaining P0/P1 gaps without creating placeholder pages for them.
+
+## [2026-07-07] ingest | Building AI Agents with LLMs, RAG, and Knowledge Graphs
+Processed Building AI Agents with LLMs, RAG, and Knowledge Graphs.pdf. Created 12 new pages, updated 11 existing pages.
+New entities: [[Salvatore Raieli]], [[Gabriele Iuculano]], [[Streamlit]], [[Docker]], [[Kubernetes]], [[Toolformer]], [[HuggingGPT]], [[ChemCrow]].
+New concepts: [[Brain-Perception-Action Agent Model]], [[Agent Deployment]], [[Reinforcement Learning]].
+Updated existing pages: [[Agentic Systems]], [[Advanced RAG]], [[Graph RAG]], [[Knowledge Graphs]], [[Multi-Agent Systems]], [[LLMOps]], [[LangChain]], [[AutoGen]], [[Haystack]], [[LlamaIndex]], [[Semantic Kernel]].
+No contradictions found; this source mostly reinforces existing agent/RAG/LLMOps coverage while adding deployment and framework-selection detail.
+
 ## [2026-05-28] ingest | LLM Architecture Gallery — 22 model architectures + 11 primitives
 Sebastian Raschka's LLM Architecture Gallery (https://sebastianraschka.com/llm-architecture-gallery/) ingested as the foundation for a new **`wiki/model-architectures/`** directory dedicated to per-model architectural deep-dives with block diagrams.
 
@@ -70,7 +99,7 @@ New entities: [[Michael Lanham]], [[LM Studio]], [[AutoGen]], [[CrewAI]], [[Agen
 New concepts: [[Agent Components]], [[AI Interface]], [[GPT Assistants]], [[Custom Actions]], [[Multi-Agent Systems]], [[OpenAI Function Calling]], [[Agentic Behavior Trees]], [[Prompt Flow]], [[LLM Evaluation Rubrics]], [[Reasoning Strategies]].
 
 ## [2026-04-12] ingest | Building Agentic AI Systems
-Processed building agentic ai systems.pdf. Created 8 new pages, updated 0 existing pages.
+Processed Building Agentic AI Systems.pdf. Created 8 new pages, updated 0 existing pages.
 New entities: [[Anjanava Biswas]], [[Wrick Talukdar]], [[LangGraph]]. New concepts: [[Generative AI]], [[Agentic Systems]], [[Coordinator-Worker-Delegator Model]], [[Agent Trust and Safety]].
 
 ## [2026-04-12] ingest | LLM Engineer's Handbook
@@ -86,15 +115,15 @@ Processed [[Prompt Engineering]] for llms.pdf. Created 5 new pages, updated 3 ex
 New entities: [[John Berryman]], [[Albert Ziegler]]. New concepts: [[SOMA Evaluation Framework]], [[LLM Application Loop]]. Updated [[Prompt Engineering]], [[RLHF]], and [[LLM Evaluation Rubrics]] with methodology from the book.
 
 ## [2026-04-12] ingest | RAG-Driven Generative AI
-Processed RAG-driven generative ai.pdf. Created 9 new pages, updated 2 existing pages.
+Processed RAG-Driven Generative AI.pdf. Created 9 new pages, updated 2 existing pages.
 New entities: [[Denis Rothman]], [[LlamaIndex]], [[Deep Lake]], [[Pinecone]], [[Chroma]]. New concepts: [[Adaptive RAG]], [[Knowledge-Graph Indexing]], [[Dynamic RAG Collections]]. Updated [[Retrieval-Augmented Generation]] and [[Agent Memory]] with Deep Lake/[[Pinecone]]/[[Chroma]] guidance.
 
 ## [2026-04-12] ingest | The Ultimate Guide to [[Fine-Tuning]] LLMs
-Processed The ultimate guide to fine tuning.pdf. Created 3 new pages, updated 2 existing pages.
+Processed The Ultimate Guide to Fine-Tuning LLMs.pdf. Created 3 new pages, updated 2 existing pages.
 New entity: [[CeADAR Connect Group]]. New concept: [[Seven-Stage Fine-Tuning Pipeline]]. Updated [[Fine-Tuning]] and [[RLHF]] with lifecycle, PEFT, and safety insights.
 
 ## [2026-04-12] ingest | Attention Is All You Need
-Processed attention-is-all-you-need.pdf. Created 4 new pages, updated 3 existing pages.
+Processed Attention Is All You Need.pdf. Created 4 new pages, updated 3 existing pages.
 New concepts: [[Self-Attention]], [[Multi-Head Attention]], [[Scaled Dot-Product Attention]]. Updated [[Transformer]], [[Attention Mechanism]], and [[Positional Encoding]] with [[Transformer]]-specific details.
 
 ## [2026-04-12] lint | Health check
@@ -175,7 +204,7 @@ Normalized wikilink casing (e.g., [[AI Engineering]], [[Autograd]]), fixed lower
 Found 0 errors, 2 warnings, 2 info items. Flagged the orphan `log.md` page and the mismatched entity count in `wiki/index.md`; identified cross-reference opportunities for [[Vector Database]] and highlighted coverage gaps around safety evaluation benchmarks. No fixes applied yet.
 
 ## [2026-04-16] ingest | System Design Interview - The Complete Guide to System Design
-Processed SYSTEM DESIGN INTERVIEW_ The Complete Guide to System Design.pdf. Created 18 new pages, updated 2 existing pages.
+Processed System Design Interview - The Complete Guide.pdf. Created 18 new pages, updated 2 existing pages.
 New entities: [[Richard Johnson]], [[Redis]], [[Riak]], [[Oracle NoSQL Database]], [[Apache ZooKeeper]], [[Twitter Snowflake]].
 New concepts: [[System Design Interviews]], [[High Availability]], [[Load Balancing]], [[Consistent Hashing]], [[Rate Limiting]], [[Service Discovery]], [[Fanout]], [[Message Ordering]], [[Caching]].
 Added a graphics catalog for this source (removed on 2026-04-16 during graphics-folder cleanup).
@@ -190,13 +219,13 @@ Added a graphics catalog for this source (removed on 2026-04-16 during graphics-
 Fixed malformed triple-bracket wikilinks in clippings that could create stray graph nodes (e.g., `[adaptive rag`). Added evaluation metric concepts [[BLEU]], [[ROUGE]], and [[Perplexity]], and linked them from [[Model Evaluation]] / [[RAG Evaluation]]. Updated [[index]] counts.
 
 ## [2026-04-16] ingest | System Design on AWS
-Processed system design on aws.pdf. Created 25 new pages, updated 7 existing pages.
+Processed System Design on AWS.pdf. Created 25 new pages, updated 7 existing pages.
 New entities: [[Jayanth Kumar]], [[Mandeep Singh]], [[Amazon VPC]], [[Amazon Route 53]], [[Amazon API Gateway]], [[Amazon CloudFront]], [[Amazon S3]], [[Amazon EC2]], [[AWS Lambda]], [[Amazon DynamoDB]], [[Amazon Kinesis]], [[AWS Identity and Access Management]].
 New concepts: [[Blast Radius]], [[Day 0 Architecture]], [[Day N Architecture]], [[Choreography]], [[Orchestration]], [[Circuit Breaker]], [[CQRS]], [[Saga Pattern]], [[Fault Tolerance]], [[Event-Driven Architecture]], [[Retry with Backoff]].
 Added a graphics catalog for this source (removed on 2026-04-16 during graphics-folder cleanup). Media attachments were omitted by design.
 
 ## [2026-04-16] ingest | Deep Learning with PyTorch Step-by-Step
-Processed Deep learning with pytorch step by step.pdf. Created 26 new pages, updated 7 existing pages.
+Processed Deep Learning with PyTorch Step-by-Step.pdf. Created 26 new pages, updated 7 existing pages.
 New entities: [[Daniel Voigt Godoy]], [[TensorBoard]], [[Torchvision]], [[ImageNet]], [[AlexNet]], [[VGG]], [[Inception]], [[ResNet]].
 New concepts: [[Transfer Learning]], [[Batch Normalization]], [[Gradient Clipping]], [[Teacher Forcing]], [[Sequence-to-Sequence Learning]], [[Learning Rate Scheduling]], [[Residual Connections]], [[Vision Transformer]], [[Convolution]], [[Recurrent Neural Network]], [[Gated Recurrent Unit]], [[Long Short-Term Memory]], [[CUDA]], [[DataLoader]], [[TensorDataset]], [[Confusion Matrix]].
 Added a graphics catalog for this source (removed on 2026-04-16 during graphics-folder cleanup). Media attachments were omitted by design.
@@ -268,7 +297,7 @@ Found 12 errors, 3 warnings, 3 info items. Fixed: none.
 Found 0 errors, 0 warnings, 0 info items. Fixed: resolved merge conflicts, normalized wikilinks, created missing entity/concept pages for unresolved targets, regenerated wiki/index.md, and repaired malformed frontmatter.
 
 ## [2026-04-29] ingest | Building LLM Agents with RAG, Knowledge Graphs and Reflection
-Processed building llm agents.pdf. Created 4 new pages, updated 7 existing pages.
+Processed Building LLM Agents with RAG, Knowledge Graphs and Reflection.pdf. Created 4 new pages, updated 7 existing pages.
 New entity: [[Mira S. Devlin]]. New concepts: [[R3A Loop]], [[Planner-Executor-Evaluator Pattern]].
 New source pages: [[2026-04-29-building-llm-agents-rag-knowledge-graphs-reflection]], [[2026-04-29-building-applications-with-ai-agents]].
 Updated concepts: [[Agentic Systems]], [[Graph RAG]], [[Multi-Agent Systems]], [[Agent Memory]], [[Reflection]], [[Retrieval-Augmented Generation]], [[Knowledge Graphs]].
@@ -301,7 +330,7 @@ Created [[Wiki Operations]] to centralize ingest/lint/index maintenance workflow
 
 ## [2026-04-30] audit | Parallel gap audit across all raw sources
 Dispatched 6 parallel audit agents reviewing all 27 PDFs in `raw/source/` against existing 320 wiki pages to identify missing concepts/entities. Audits grouped by theme (RAG, agents, LLM-engineering, deep-learning/ML, system-design, AIOps + mystery PDFs).
-Verified one source still unprocessed: `building ai agents with LLMs.pdf` (Raieli & Iuculano, Packt 2025) — deferred to a separate ingest run.
+Verified one source still unprocessed: `Building AI Agents with LLMs, RAG, and Knowledge Graphs.pdf` (Raieli & Iuculano, Packt 2025) — deferred to a separate ingest run.
 Confirmed `annas-arch-4a596d7d2fe8.pdf` is the same content as the already-ingested LLMOps book by Abi Aryan (.md version was processed, PDF is the original).
 Audit report identified ~95 new pages and ~15 enrichment targets across distributed systems, agent reasoning patterns, RAG sub-techniques, inference optimization, alignment variants, generative ML, AWS services, evaluation benchmarks, and foundational ML researchers.
 
@@ -386,11 +415,11 @@ Fetched and ingested 5 high-impact recent papers from arXiv targeting explicit g
 
 **Gaps closed** (per 2026-04-30 audit deferred list): foundational ML researcher (Philip S. Yu); reasoning-models cluster (entire category was missing); CAG paradigm; LLM4AIOps task taxonomy.
 
-**Still deferred for future passes**: full ingest of `building ai agents with LLMs.pdf` (still unprocessed); remaining foundational researchers ([[Yann LeCun]], [[Yoshua Bengio]], [[Geoffrey Hinton]], [[Andrej Karpathy]], etc.); additional distributed-systems primitives; further inference optimizations ([[Continuous Batching]], [[KV Cache Compression]] — though KV Cache itself is now created).
+**Still deferred for future passes**: full ingest of `Building AI Agents with LLMs, RAG, and Knowledge Graphs.pdf` (still unprocessed); remaining foundational researchers ([[Yann LeCun]], [[Yoshua Bengio]], [[Geoffrey Hinton]], [[Andrej Karpathy]], etc.); additional distributed-systems primitives; further inference optimizations ([[Continuous Batching]], [[KV Cache Compression]] — though KV Cache itself is now created).
 
 ## [2026-04-30] note | Deferred items for next-pass ingest
 Deferred to a follow-up run:
-- **Full ingest of `building ai agents with LLMs.pdf`** (Raieli & Iuculano, Packt 2025) — confirmed unprocessed; covers transformers, LLMs as reasoning engines, multi-agent orchestration, RAG, evaluation. Estimated 10–15 page contributions.
+- **Full ingest of `Building AI Agents with LLMs, RAG, and Knowledge Graphs.pdf`** (Raieli & Iuculano, Packt 2025) — confirmed unprocessed; covers transformers, LLMs as reasoning engines, multi-agent orchestration, RAG, evaluation. Estimated 10–15 page contributions.
 - **Foundational ML researchers**: [[Yann LeCun]], [[Yoshua Bengio]], [[Geoffrey Hinton]], [[Andrej Karpathy]], [[Jürgen Schmidhuber]], [[Sepp Hochreiter]], [[Michael I. Jordan]], [[David Blei]], [[Leslie Lamport]], [[Martin Fowler]], [[François Chollet]] — all referenced in source pages but missing dedicated entity pages.
 - **Additional distributed-systems primitives**: [[Raft]], [[Paxos]], [[B-Tree]], [[Two-Phase Commit]], [[CRDT]], [[Cache Stampede]], [[Change Data Capture]], [[Watermarks]], [[Exactly-Once Semantics]], [[Well-Architected Framework]].
 - **Additional inference optimizations**: [[Continuous Batching]], [[KV Cache Compression]] (the latter ties into existing [[KV Cache]] page).
@@ -553,3 +582,164 @@ Closed every broken wikilink and every orphan flagged in the prior cleanup. Wiki
 - Additional AWS service entities (SQS, SNS, RDS, ElastiCache, Step Functions, EventBridge, Aurora) — would close the rest of [[2026-04-16-system-design-on-aws]]'s vendor gaps.
 - Consider promoting the highest-value concepts to syntheses as more sources land (Mixture-of-Experts, Long Context Engineering, Embeddings Engineering, Diffusion stack are all candidates the wiki now has substrate for).
 
+## [2026-09-12] ingest | 8-book production AI engineering batch
+Processed 8 new PDF sources in a single batch. Created 8 source summary pages, 19 new concept pages, 33 new entity pages, and updated 6 existing concept pages.
+
+**Sources created (8):**
+- [[2026-09-12-practical-llm-evaluation-production-systems]] — Mohanna, Kar, Ralte (Packt 2026)
+- [[2026-09-12-digital-twins-in-action]] — Greg Biegel (Manning 2026)
+- [[2026-09-12-building-knowledge-graphs-practitioners-guide]] — Barrasa, Webber (O'Reilly 2023)
+- [[2026-09-12-knowledge-graphs-and-llms-in-action]] — Negro, Futia, Kůs, Montagna (Manning 2025)
+- [[2026-09-12-hands-on-llm-serving-optimization]] — Wang, Hu (O'Reilly 2026)
+- [[2026-09-12-grokking-ai-applications]] — Andrea De Mauro (Manning 2026)
+- [[2026-09-12-vision-language-models-building-vlms]] — Noyan, Farré, Marafioti, Zohar (O'Reilly 2026)
+- [[2026-09-12-gans-in-action]] — Langr, Bok (Manning 2019)
+
+**New concept pages (19):**
+- [[Digital Twin]], [[Process Validity]], [[Slice-Based Evaluation]], [[Prefill-Decode Disaggregation]], [[Multimodal RAG]], [[Any-to-Any Generation]], [[Text-to-Cypher]], [[Knowledge Lakes]], [[Reduced-Order Models]], [[Adversarial Examples]], [[Mode Collapse]], [[CycleGAN]], [[Fréchet Inception Distance]], [[Inception Score]], [[Deepfake Ethics]], [[Asset Administration Shell]], [[Semi-Supervised Learning]], [[Factorized Temporal Attention]], [[Flow Matching]]
+
+**New entity pages (33):**
+- Authors: [[Alessandro Negro]], [[Giuseppe Futia]], [[Vlastimil Kůs]], [[Fabio Montagna]], [[Jesus Barrasa]], [[Jim Webber]], [[Chi Wang]], [[Peiheng Hu]], [[Andrea De Mauro]], [[Merve Noyan]], [[Miquel Farré]], [[Andrés Marafioti]], [[Orr Zohar]], [[Jakub Langr]], [[Vladimir Bok]], [[Indrajit Kar]], [[Zonunfeli Ralte]], [[Greg Biegel]]
+- Tools/models: [[SmolVLM]], [[Idefics 2]], [[ColPali]], [[SmolVLA]], [[GR00T N1.5]], [[LMCache]], [[SGLang]], [[OpenModelica]], [[KNIME]], [[Langfuse]], [[LangWatch]], [[Composio]], [[Neo4j Graph Data Science]], [[spaCy]], [[WordNet]]
+
+**Existing pages updated (6):**
+- [[Knowledge Graphs]] — added RDF vs LPG distinction, purpose-driven development, KG+LLM integration, KGs for digital twins
+- [[Generative Adversarial Network]] — added GANs in Action source
+- [[Vision Language Models]] — added VLMs with Hugging Face source
+- [[Inference Optimization]] — added production serving architecture from LLM Serving book
+- [[KV Cache]] — corrected memory sizing to use KV heads, added LMCache reference
+- [[Flow Matching]] — added robotics action prediction application
+
+**Index counts:**
+- Entities: 157 → 190 (+33)
+- Concepts: 289 → 309 (+19 for new, 1 existing updated)
+- Sources: 43 → 51 (+8)
+- Total new wiki pages created: 60 (8 sources + 19 concepts + 33 entities)
+
+**Key contradictions/tensions found:**
+- [[LLM Inference Optimization Stack]] says chunked prefill lowers TTFT; Hands-On LLM Serving says it normally increases TTFT
+- [[KV Cache]] used query-head count instead of KV-head count for memory sizing
+- [[Vision Language Models]] says "OCR is solved"; VLM book retains handwriting, degraded scans, layouts as active problems
+- [[Continuous Batching]] calls PagedAttention "required substrate"; LLM Serving treats them as separable
+- GANs book Inception Score definition is non-standard (describes KL between real and generated instead of conditional vs marginal)
+
+## [2026-09-12] clustering | 14-topic graph view clustering
+Organized all ~309 concepts into 14 topic clusters for Obsidian graph view navigation.
+
+**Cluster hub pages created (14):**
+- [[A - Transformer and LLM Architecture]]: 30 concepts — attention variants, normalization, sequence models
+- [[B - LLM Training and Alignment]]: 30 concepts — pretraining, fine-tuning, RLHF/DPO, data pipeline
+- [[C - LLM Serving and Inference]]: 18 concepts — KV-cache, batching, speculative decoding
+- [[D - RAG and Retrieval]]: 30 concepts — naive through advanced RAG, vector search
+- [[E - Agents and Agentic Systems]]: 29 concepts — agent architectures, orchestration, tool use
+- [[F - Reasoning and Prompting]]: 14 concepts — CoT, tree-of-thought, prompt engineering
+- [[G - Evaluation and Benchmarks]]: 18 concepts — benchmarks, metrics, scoring rubrics
+- [[H - Generative Models]]: 11 concepts — GANs, diffusion, flow matching
+- [[I - Vision Multimodal and Audio]]: 7 concepts — VLMs, CLIP, voice agents
+- [[J - Knowledge Graphs]]: 6 concepts — KGs, graph RAG, GNNs
+- [[K - MLOps LLMOps and AIOps]]: 14 concepts — operations, monitoring, deployment
+- [[L - Distributed Systems]]: 43 concepts — consensus, storage, distributed transactions
+- [[M - Classical ML and DL Foundations]]: 39 concepts — classical algorithms, frameworks
+- [[N - Security Ethics and Governance]]: 5 concepts — adversarial, deepfake, safety
+
+**Concept pages tagged:** 297 files received cluster tags in frontmatter
+**Multi-cluster concepts:** ~8 concepts (Adversarial Examples, Agent Trust and Safety, DataLoader, LLMSecOps, Step-Back Prompting, Speculative RAG, VERA, Vector Database) received multiple cluster tags
+**Skipped:** 10 concept pages had no mapping (e.g., Graph RAG, Mixture of Experts — these may need manual assignment)
+
+**Graph view impact:** Cluster hub pages link to all concepts in their cluster, creating visible clusters in Obsidian's graph view. Tags enable filtering by cluster in the tag pane.
+
+## [2026-09-12] lint | Health check
+Found 32 errors, 12 warnings, 8 info items. Fixed: all 52 issues.
+
+**Errors fixed (32):**
+- Created 25 missing entity stub pages (Alessandro Negro, Andrea De Mauro, Andrés Marafioti, Chi Wang, Composio, Fabio Montagna, Giuseppe Futia, GR00T N1.5, Greg Biegel, Idefics 2, Indrajit Kar, Jakub Langr, Jesus Barrasa, Jim Webber, LangWatch, Merve Noyan, Miquel Farré, Neo4j Graph Data Science, Orr Zohar, Peiheng Hu, spaCy, Vlastimil Kůs, Vladimir Bok, WordNet, Zonunfeli Ralte)
+- Created 6 high-traffic entity pages (Neo4j, Deepgram, ElevenLabs, LiveKit, Pipecat, Meta AI)
+- Created [[Visual Tokens]] concept page
+- Renamed `Frchet Inception Distance.md` → `Fréchet Inception Distance.md` (orphan fix)
+- Added [[OpenModelica]] to index entities section
+- Fixed index counts: Entities 190→203, Concepts 309→307
+- Fixed [[Continuous Batching]] contradiction: PagedAttention now described as "complementary but separable" (not "required substrate")
+- Updated 4 stale concept pages with newer sources: [[Graph RAG]], [[Paged Attention]], [[Speculative Decoding]], [[FlashAttention]]
+
+**Warnings fixed (12):**
+- Updated [[Continuous Batching]] frontmatter sources (was empty)
+- Added [[2026-09-12-hands-on-llm-serving-optimization]] to [[KV Cache]] Sources section
+- Clarified [[KV Cache]] formula: noted Llama-2-7B uses MHA (32 KV heads), GQA models have fewer
+- Updated [[Vision Language Models]] leaderboard with SmolVLM, Qwen3-VL, Janus-Pro
+- Updated [[LLM Inference Optimization Stack]] sources with newer serving source
+
+**Info fixed (8):**
+- Added [[LangChain]] link to [[Retrieval-Augmented Generation]] concept
+- Added [[FAISS]] link to [[Vector Database]] concept
+- Added [[Low-Rank Adaptation]] link to [[Mixture of Experts]] concept
+- Added [[CrewAI]] link to [[Multi-Agent Systems]] concept
+- Added [[Vector Database]], [[Embeddings]] links to Pinecone, Chroma, Qdrant entities
+- Added [[Multi-Agent Systems]], [[Agentic Systems]] links to LangGraph, CrewAI entities
+- Added Related Sources sections to 4 source pages (LLMOps, Building AI Agents, KGs and LLMs, Building Agentic AI)
+- Added Sources section to [[LLM Inference Optimization Stack]] synthesis
+
+
+## [2026-11-13] ingest | Build a Reasoning Model (From Scratch) — Sebastian Raschka (Manning 2026)
+Processed `raw/source/llm-engineering/Build a Reasoning Model (From Scratch).pdf`. Read in full: chapters 1–8 and appendices A–G. Every number below was checked against the cited page or table. Created 7 new pages, updated 14 existing pages.
+
+**Source page:** [[2026-11-13-build-a-reasoning-model-from-scratch]]
+
+**New concepts:**
+- [[Self-Refinement]]
+- [[Nucleus Sampling]]
+- [[MATH-500]]
+- [[Elo Rating]]
+
+**New entity:** [[Ollama]]
+
+**Updated (additive, cited sections; no prior content removed):**
+- Concepts: [[GRPO]], [[RLVR]], [[Self-Consistency]], [[Test-Time Compute Scaling]], [[Distillation]], [[Chain-of-Thought]], [[Reasoning Models]], [[Process Reward Model]], [[RLHF]], [[KV Cache]], [[LLM-as-Judge]], [[MMLU]].
+- Entities: [[Sebastian Raschka]], [[DeepSeek-R1]].
+- Model architecture: [[Qwen3]].
+
+**Contradictions recorded on the pages:**
+- [[GRPO]]: the existing loss puts the KL penalty at the core. The book says KL "is not strictly essential", is often left out for math (Dr. GRPO, Olmo 3, DeepSeek-V3.2), and its own KL run collapsed to 0%.
+- [[GRPO]]: the book says length normalization is not part of the original GRPO. That conflicts with DeepSeekMath's per-token averaging.
+- [[Chain-of-Thought]]: the existing page says CoT gains emerge only above about 60B parameters. The book measured +25 points on a 0.6B model (15.2% → 40.6%).
+- [[Self-Consistency]]: the existing page says gains saturate around K=20–40. The book saw almost no gain from n=3 to n=10 without CoT.
+- [[RLVR]]: the existing page says reward hacking is "rare". The book's format-reward runs show that auxiliary rewards can still be mis-specified.
+- [[DeepSeek-R1]]: the paper reports 97.3% on MATH-500; the book measures 91.2%. The evaluation setups differ.
+
+**Errors in the book, flagged on the source page and not propagated:**
+- The "14.8 million GPU-hours" figure for DeepSeek V3.
+- A misprinted self-consistency arXiv ID.
+- Validation losses that differ between Table 8.1 and Table B.6.
+- A "6-billion" typo in Appendix E.
+
+**Counts:**
+- Concepts: 307 → 311
+- Entities: 203 → 204
+- Sources: 51 → 52
+
+## [2026-11-13] maintenance | Reorganized raw/source into topic folders
+Moved all 45 files in `raw/source/` into topic subfolders and gave them clean title-only filenames. Download-site suffixes, hashes and ISBN strings were dropped; author and publisher metadata stays on each source page.
+
+**Folders:**
+
+| Folder | Files |
+|---|---|
+| `agents/` | 7 |
+| `llm-engineering/` | 11 |
+| `rag-knowledge-graphs/` | 3 |
+| `papers/` | 5 |
+| `ml-foundations/` | 6 |
+| `mlops-aiops/` | 2 |
+| `systems-architecture/` | 8 |
+| `_duplicates/` | 3 |
+
+`_duplicates/` holds byte-identical copies (`temp_acing.pdf`, `temp_kg.pdf`, `llm-eval-book.pdf`), kept for review rather than deleted.
+
+Every `sources:` reference and every `Processed …` log line that named an old filename was rewritten to the new name, across 23 wiki files, so log-based detection of unprocessed sources still works. Files already tracked in git were moved with `git mv`.
+
+**Still not ingested (6):**
+- `agents/An Illustrated Guide to AI Agents.epub`
+- `systems-architecture/Designing Data-Intensive Applications (2nd Edition).pdf`
+- `systems-architecture/Acing the System Design Interview.pdf`
+- `systems-architecture/Fundamentals of Software Architecture.pdf`
+- `systems-architecture/Software Architecture - The Hard Parts.pdf`
+- `ml-foundations/Hands-On Machine Learning with Scikit-Learn and PyTorch.pdf`

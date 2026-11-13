@@ -2,9 +2,9 @@
 title: Semantic Kernel
 type: entity
 tags: [framework, microsoft, orchestration]
-sources: [2026-04-12-ai-agents-in-action, 2026-04-29-llmops-managing-large-language-models-in-production.md]
+sources: [2026-04-12-ai-agents-in-action, 2026-04-29-llmops-managing-large-language-models-in-production.md, 2026-07-07-building-ai-agents-with-llms-rag-knowledge-graphs]
 created: 2026-04-12
-updated: 2026-04-29
+updated: 2026-07-07
 ---
 
 # Semantic Kernel

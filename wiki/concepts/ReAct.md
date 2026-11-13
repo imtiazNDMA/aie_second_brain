@@ -1,11 +1,13 @@
 ---
+
 title: ReAct
 type: concept
-tags: [agents, reasoning, tool-use, prompting]
+tags: [agents, reasoning, tool-use, prompting, cluster/agents]
 sources: [2026-04-12-ai-agents-in-action, 2026-04-12-building-ai-coding-agents-terminal, 2026-04-12-building-agentic-ai-systems, 2026-04-29-building-applications-with-ai-agents]
 created: 2026-04-30
 updated: 2026-04-30
 ---
+
 
 # ReAct
 

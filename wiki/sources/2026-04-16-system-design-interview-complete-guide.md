@@ -2,7 +2,7 @@
 title: System Design Interview - The Complete Guide to System Design Interview Tips, Software Analysis and 20 Frequently Most Asked Questions
 type: source
 tags: [system-design, distributed-systems, interview-prep]
-sources: [SYSTEM DESIGN INTERVIEW_ The Complete Guide to System Design.pdf]
+sources: [System Design Interview - The Complete Guide.pdf]
 created: 2026-04-16
 updated: 2026-04-16
 ---

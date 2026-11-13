@@ -1,11 +1,13 @@
 ---
+
 title: Sliding Window Attention
 type: concept
-tags: [attention, long-context, local-attention, architecture-primitive]
+tags: [attention, long-context, local-attention, architecture-primitive, cluster/transformer-architecture]
 sources: [2026-05-28-raschka-llm-architecture-gallery]
 created: 2026-05-28
 updated: 2026-05-28
 ---
+
 
 # Sliding Window Attention
 

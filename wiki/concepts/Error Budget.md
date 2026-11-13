@@ -1,11 +1,13 @@
 ---
+
 title: Error Budget
 type: concept
-tags: [observability, sre, production, reliability, governance]
+tags: [observability, sre, production, reliability, governance, cluster/distributed-systems]
 sources: [2026-04-16-system-design-on-aws]
 created: 2026-04-30
 updated: 2026-04-30
 ---
+
 
 # Error Budget
 

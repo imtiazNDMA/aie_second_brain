@@ -1,11 +1,13 @@
 ---
+
 title: HNSW
 type: concept
-tags: [vector-search, ann, indexing, retrieval]
+tags: [vector-search, ann, indexing, retrieval, cluster/rag-retrieval]
 sources: []
 created: 2026-05-10
 updated: 2026-05-10
 ---
+
 
 # HNSW
 

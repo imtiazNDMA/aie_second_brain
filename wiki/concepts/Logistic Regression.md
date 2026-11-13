@@ -1,11 +1,13 @@
 ---
+
 title: Logistic Regression
 type: concept
-tags: [machine-learning, classification, statistics]
+tags: [machine-learning, classification, statistics, cluster/ml-foundations]
 sources: [2026-04-29-grokking-ml, 2026-04-12-ml-algorithms-in-depth]
 created: 2026-04-29
 updated: 2026-04-29
 ---
+
 
 # Logistic Regression
 

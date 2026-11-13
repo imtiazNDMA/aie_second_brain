@@ -1,9 +1,11 @@
 ---
-tags: [agents, safety, governance]
+
+tags: [agents, safety, governance, cluster/agents, cluster/security-ethics]
 sources: [2026-04-12-building-agentic-ai-systems]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # Agent Trust and Safety
 

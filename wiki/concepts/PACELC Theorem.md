@@ -1,11 +1,13 @@
 ---
+
 title: PACELC Theorem
 type: concept
-tags: [distributed-systems, latency, consistency]
+tags: [distributed-systems, latency, consistency, cluster/distributed-systems]
 sources: [2026-04-16-grokking-advanced-system-design-interview]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # PACELC Theorem
 

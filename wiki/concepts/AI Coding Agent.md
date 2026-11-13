@@ -1,9 +1,11 @@
 ---
-tags: [ai, agent, coding, automation]
+
+tags: [ai, agent, coding, automation, cluster/agents]
 sources: [Building AI Coding Agents for the Terminal.pdf]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # AI Coding Agent
 

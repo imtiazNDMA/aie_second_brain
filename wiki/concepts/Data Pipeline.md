@@ -1,11 +1,13 @@
 ---
+
 title: Data Pipeline
 type: concept
-tags: [ml, infrastructure, data]
+tags: [ml, infrastructure, data, cluster/training-alignment]
 sources: [2026-04-12-ai-engineering]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # Data Pipeline
 

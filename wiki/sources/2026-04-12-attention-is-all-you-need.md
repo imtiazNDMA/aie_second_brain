@@ -2,7 +2,7 @@
 title: Attention Is All You Need
 type: source
 tags: [transformer, attention, nlp]
-sources: [attention-is-all-you-need.pdf]
+sources: [Attention Is All You Need.pdf]
 created: 2026-04-12
 updated: 2026-04-12
 ---

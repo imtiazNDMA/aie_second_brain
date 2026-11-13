@@ -1,11 +1,13 @@
 ---
+
 title: Reflection Tokens
 type: concept
-tags: [rag, llm, self-reflection]
+tags: [rag, llm, self-reflection, cluster/reasoning-prompting]
 sources: [2026-04-29-self-rag]
 created: 2026-04-29
 updated: 2026-04-29
 ---
+
 
 # Reflection Tokens
 

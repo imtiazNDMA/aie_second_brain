@@ -1,11 +1,13 @@
 ---
+
 title: Markov Chain Monte Carlo
 type: concept
-tags: [bayesian, sampling, inference]
+tags: [bayesian, sampling, inference, cluster/ml-foundations]
 sources: [2026-04-12-ml-algorithms-in-depth]
 created: 2026-04-12
 updated: 2026-04-13
 ---
+
 
 # Markov Chain Monte Carlo
 

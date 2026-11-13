@@ -1,11 +1,13 @@
 ---
+
 title: Beam Search
 type: concept
-tags: [decoding, inference, generation, sequence-modeling]
+tags: [decoding, inference, generation, sequence-modeling, cluster/serving-inference]
 sources: []
 created: 2026-05-10
 updated: 2026-05-10
 ---
+
 
 # Beam Search
 

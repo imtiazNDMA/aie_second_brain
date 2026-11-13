@@ -9,7 +9,7 @@ updated: 2026-04-12
 
 # Chroma
 
-Lightweight, open-source vector database for dynamic, short-lived collections (daily meetings, ad-hoc workspaces) described in *RAG-Driven Generative AI*.
+Lightweight, open-source [[Vector Database]] for dynamic, short-lived collections (daily meetings, ad-hoc workspaces) described in *RAG-Driven Generative AI*.
 
 ## Usage
 

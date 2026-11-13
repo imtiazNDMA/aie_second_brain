@@ -1,11 +1,13 @@
 ---
+
 title: PyTorch Tensor
 type: concept
-tags: [pytorch, tensor, data-structure]
+tags: [pytorch, tensor, data-structure, cluster/ml-foundations]
 sources: [2026-04-12-deep-learning-with-pytorch.md, 2026-04-29-hands-on-ml-python.md]
 created: 2026-04-29
 updated: 2026-04-29
 ---
+
 
 # PyTorch Tensor
 

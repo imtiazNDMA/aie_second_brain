@@ -1,11 +1,13 @@
 ---
+
 title: Real-Time Deployment
 type: concept
-tags: [ml, deployment, inference]
+tags: [ml, deployment, inference, cluster/serving-inference]
 sources: [2026-04-12-ai-engineering]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # Real-Time Deployment
 

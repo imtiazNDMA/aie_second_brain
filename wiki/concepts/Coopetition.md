@@ -1,11 +1,13 @@
 ---
+
 title: Coopetition
 type: concept
-tags: [agentic-ai, multi-agent, collaboration]
+tags: [agentic-ai, multi-agent, collaboration, cluster/agents]
 sources: [2026-05-09-multi-agent-collaboration-survey]
 created: 2026-05-09
 updated: 2026-05-09
 ---
+
 
 # Coopetition
 

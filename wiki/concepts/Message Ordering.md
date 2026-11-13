@@ -1,11 +1,13 @@
 ---
+
 title: Message Ordering
 type: concept
-tags: [chat-systems, ids, distributed-systems]
+tags: [chat-systems, ids, distributed-systems, cluster/distributed-systems]
 sources: [2026-04-16-system-design-interview-complete-guide]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # Message Ordering
 

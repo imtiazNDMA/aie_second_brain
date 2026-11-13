@@ -1,11 +1,13 @@
 ---
+
 title: R3A Loop
 type: concept
-tags: [agents, architecture, reasoning, reflection]
+tags: [agents, architecture, reasoning, reflection, cluster/rag-retrieval]
 sources: [2026-04-29-building-llm-agents-rag-knowledge-graphs-reflection]
 created: 2026-04-29
 updated: 2026-04-29
 ---
+
 
 # R3A Loop
 

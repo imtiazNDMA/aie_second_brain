@@ -1,11 +1,13 @@
 ---
+
 title: High Availability
 type: concept
-tags: [distributed-systems, reliability, operations]
+tags: [distributed-systems, reliability, operations, cluster/distributed-systems]
 sources: [2026-04-16-system-design-interview-complete-guide, 2026-04-16-system-design-on-aws]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # High Availability
 

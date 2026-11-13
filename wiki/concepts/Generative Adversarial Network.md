@@ -1,11 +1,13 @@
 ---
+
 title: Generative Adversarial Network
 type: concept
-tags: [generative-models, deep-learning, neural-networks]
-sources: [2026-04-12-ml-algorithms-in-depth, 2026-04-16-deep-learning-with-pytorch-step-by-step]
+tags: [generative-models, deep-learning, neural-networks, cluster/generative-models]
+sources: [2026-04-12-ml-algorithms-in-depth, 2026-04-16-deep-learning-with-pytorch-step-by-step, 2026-09-12-gans-in-action]
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-09-12
 ---
+
 
 # Generative Adversarial Network
 

@@ -1,9 +1,11 @@
 ---
-tags: [topic-modeling, bayesian]
+
+tags: [topic-modeling, bayesian, cluster/ml-foundations]
 sources: [2026-04-12-ml-algorithms-in-depth]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # Latent Dirichlet Allocation
 

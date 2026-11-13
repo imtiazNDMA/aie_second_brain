@@ -1,9 +1,11 @@
 ---
-tags: [fine-tuning, strategies]
+
+tags: [fine-tuning, strategies, cluster/training-alignment]
 sources: [2026-04-12-ultimate-guide-fine-tuning]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # Half [[Fine-Tuning]]
 

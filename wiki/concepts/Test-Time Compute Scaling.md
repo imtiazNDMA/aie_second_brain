@@ -2,9 +2,9 @@
 title: Test-Time Compute Scaling
 type: concept
 tags: [reasoning-models, test-time-compute, inference, scaling-laws]
-sources: [2026-05-09-s1-test-time-scaling, 2026-05-09-deepseek-r1]
+sources: [2026-05-09-s1-test-time-scaling, 2026-05-09-deepseek-r1, 2026-11-13-build-a-reasoning-model-from-scratch]
 created: 2026-05-09
-updated: 2026-05-09
+updated: 2026-11-13
 ---
 
 # Test-Time Compute Scaling
@@ -79,6 +79,47 @@ Chat applications cap thinking budgets; offline analysis can spend minutes per q
 
 Reasoning is expensive enough that caching answers — and even caching partial reasoning chains — pays back faster than for short-answer queries.
 
+## Measured on a small model: *Build a Reasoning Model (From Scratch)*
+
+Raschka (2026) groups reasoning methods into three families (p8–9):
+- **Inference-time compute scaling** (also called test-time scaling): no weight change.
+- **Reinforcement learning:** see [[RLVR]].
+- **[[Distillation]].**
+
+He covers three inference-time methods out of more than 10 he evaluated across thousands of experiments (p96–97):
+- **[[Chain-of-Thought]] prompting:** a longer response, a *sequential* technique.
+- **[[Self-Consistency]]:** many responses, a *parallel* technique.
+- **[[Self-Refinement]]:** iterative.
+
+**Results on [[MATH-500]] with [[Qwen3]] 0.6B:**
+
+| Method | Base model | Reasoning model |
+|---|---|---|
+| Greedy | 15.2% (10.1 min) | 48.2% (182.1 min) |
+| + CoT | 40.6% (84.5 min) | — |
+| + SC n=10 + CoT | 52.0% (862.6 min) | — |
+| + SC n=3 + CoT | — | 55.2% (544.4 min) |
+| + self-refinement, no scorer, 1 iteration | 25.0% | 56.6% |
+| + self-refinement, heuristic scorer, 1 iteration | 21.6% | 57.8% (498.6 min) |
+
+Sources: Table 4.1 (p133) and Table 5.1 (p176).
+
+The book's takeaway is "better accuracy for more compute" (p134). Two cautions come with it:
+- **Temperature and top-p alone are not inference scaling.** They only control diversity: 17.8% against 15.2% greedy (p134).
+- **CoT prompting mostly helps base models.** Trained reasoning models "don't need or benefit from" it (p102, p137).
+
+**Why reasoning costs more** (p14–15):
+1. Every output token is a forward pass, so twice the length is roughly twice the passes.
+2. Many tasks need several model calls: sampled candidates, tool calls, verifiers.
+
+On MATH-500 the reasoning model's answers averaged 1361.21 tokens against 96.74 for the base model, about 10× longer (Table B.1, p319).
+
+**Overthinking.** On simple problems CoT can hurt: the model generates erroneous explanations and misleads itself (p102). Reasoning is not needed for summarization, translation or knowledge QA (p14).
+
+**Adaptive budgets as a future direction** (p301). Not every answer should be the same length. Application-layer controllers can decide whether to answer briefly, spend more budget or stop early. The book's example is OpenAI's GPT-5 "auto" mode (2025), which steers reasoning effort and trace length.
+
+**Combining with training** (p180, p302). Inference scaling can be applied on top of RL- or distillation-trained models. The book recommends distillation, then RLVR, then inference-time scaling at deployment.
+
 ## Limitations
 
 - **Off-distribution decay** — test-time compute helps most on tasks the model was trained to think about; gains are weaker on novel domains
@@ -92,6 +133,7 @@ Reasoning is expensive enough that caching answers — and even caching partial 
 - [[Reasoning Models]] — models trained to spend test-time compute well
 - [[DeepSeek-R1]] — RL-trained exemplar
 - [[Self-Consistency]] — parallel sampling strategy
+- [[Self-Refinement]] — iterative critique-and-revise strategy
 - [[Tree-of-Thought]] — search-based variant
 - [[Reflexion]] — iterative variant
 - [[Chain-of-Thought]] — substrate
@@ -102,6 +144,7 @@ Reasoning is expensive enough that caching answers — and even caching partial 
 
 - [[2026-05-09-s1-test-time-scaling]] — Muennighoff et al., EMNLP 2025
 - [[2026-05-09-deepseek-r1]] — DeepSeek-AI, Nature 2025
+- [[2026-11-13-build-a-reasoning-model-from-scratch]] — Raschka 2026; CoT, self-consistency and self-refinement measured on Qwen3 0.6B / MATH-500
 
 ## Open Questions
 

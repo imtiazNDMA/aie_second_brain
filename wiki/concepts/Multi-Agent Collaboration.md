@@ -1,11 +1,13 @@
 ---
+
 title: Multi-Agent Collaboration
 type: concept
-tags: [agentic-ai, multi-agent, orchestration, taxonomy]
+tags: [agentic-ai, multi-agent, orchestration, taxonomy, cluster/agents]
 sources: [2026-05-09-multi-agent-collaboration-survey]
 created: 2026-05-09
 updated: 2026-05-09
 ---
+
 
 # Multi-Agent Collaboration
 

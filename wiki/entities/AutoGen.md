@@ -2,9 +2,9 @@
 title: AutoGen
 type: entity
 tags: [multi-agent, framework, microsoft, automation]
-sources: [2026-04-12-ai-agents-in-action]
+sources: [2026-04-12-ai-agents-in-action, 2026-07-07-building-ai-agents-with-llms-rag-knowledge-graphs]
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-07-07
 ---
 
 # AutoGen

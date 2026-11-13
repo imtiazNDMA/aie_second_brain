@@ -1,11 +1,13 @@
 ---
+
 title: Process Reward Model
 type: concept
-tags: [rlhf, reward-modeling, reasoning-models, alignment]
-sources: [2026-05-09-deepseek-r1]
+tags: [rlhf, reward-modeling, reasoning-models, alignment, cluster/training-alignment]
+sources: [2026-05-09-deepseek-r1, 2026-11-13-build-a-reasoning-model-from-scratch]
 created: 2026-05-10
-updated: 2026-05-10
+updated: 2026-11-13
 ---
+
 
 # Process Reward Model
 
@@ -56,6 +58,16 @@ PRMs serve two roles:
 
 The 2024–2025 reasoning-model wave largely *bypassed* PRMs in favor of [[RLVR]] with rule-based outcome rewards (DeepSeek-R1's [[GRPO]] on rule-based correctness), demonstrating that strong reasoning could emerge from outcome-only signals at sufficient scale. PRMs remain an active research direction with potential for further gains.
 
+## Notes from *Build a Reasoning Model (From Scratch)*
+
+Raschka (2026) adds these points:
+
+- **Step-level judges for training.** PRMs are learned "step-level judges" that give reward signals at each step during RL training. They are "predominantly developed for training rather than for pure evaluation." Verifiers, by contrast, check correctness symbolically and usually only at the outcome (Appendix F, p395–396).
+- **Hard to scale.** "PRMs are difficult to train reliably at scale." DeepSeek-R1 did not adopt PRMs and used verifiers instead (p396). The R1 team tried PRMs for intermediate-step scoring during training without success and concluded that final-answer correctness rewards worked better (p201).
+- **Mixed results in practice.** "Scoring the intermediate steps of a response remains an active research area"; PRMs "do not always yield better outputs in practice" (p142).
+- **Where MATH-500 comes from.** The [[MATH-500]] split comes from OpenAI's "Let's Verify Step by Step" (arXiv 2305.20050). That work also released 800,000 step-level correctness labels for MATH solutions (p307–308).
+- **Outlook.** Rewards that go beyond the final answer may give a richer signal. DeepSeekMath-V2 (arXiv 2511.22570) showed that judging the whole answer during training can meaningfully improve reasoning (p301).
+
 ## Related Concepts
 
 - [[Reward Modeling]] — parent concept (outcome-style)
@@ -70,6 +82,7 @@ The 2024–2025 reasoning-model wave largely *bypassed* PRMs in favor of [[RLVR]
 ## Sources
 
 - [[2026-05-09-deepseek-r1]] — discusses the choice to use rule-based outcome rewards instead of PRMs
+- [[2026-11-13-build-a-reasoning-model-from-scratch]] — Raschka 2026; PRMs as step-level judges, R1's unsuccessful PRM attempt
 
 ## Open Questions
 

@@ -9,7 +9,7 @@ updated: 2026-04-12
 
 # CrewAI
 
-Multi-agent orchestration framework that models each agent with a role, goal, backstory, and tools, then runs them sequentially or hierarchically to finish projects.
+[[Multi-Agent Systems]] orchestration framework that models each agent with a role, goal, backstory, and [[Tool Use]], then runs them sequentially or hierarchically to finish projects.
 
 ## Summary
 

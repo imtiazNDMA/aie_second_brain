@@ -1,11 +1,13 @@
 ---
+
 title: Bloom Filters
 type: concept
-tags: [data-structures, retrieval, distributed-systems]
+tags: [data-structures, retrieval, distributed-systems, cluster/distributed-systems]
 sources: [2026-04-16-grokking-advanced-system-design-interview]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # Bloom Filters
 

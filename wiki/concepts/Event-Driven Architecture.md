@@ -1,11 +1,13 @@
 ---
+
 title: Event-Driven Architecture
 type: concept
-tags: [distributed-systems, messaging, architecture]
+tags: [distributed-systems, messaging, architecture, cluster/distributed-systems]
 sources: [2026-04-16-system-design-on-aws]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # Event-Driven Architecture
 

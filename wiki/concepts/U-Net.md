@@ -1,11 +1,13 @@
 ---
+
 title: U-Net
 type: concept
-tags: [architecture, vision, segmentation, diffusion-models]
+tags: [architecture, vision, segmentation, diffusion-models, cluster/generative-models]
 sources: []
 created: 2026-05-10
 updated: 2026-05-10
 ---
+
 
 # U-Net
 

@@ -1,11 +1,13 @@
 ---
+
 title: Naive Bayes
 type: concept
-tags: [machine-learning, classification, probability]
+tags: [machine-learning, classification, probability, cluster/ml-foundations]
 sources: [2026-04-29-grokking-ml, 2026-04-12-ml-algorithms-in-depth]
 created: 2026-04-29
 updated: 2026-04-29
 ---
+
 
 # Naive Bayes
 

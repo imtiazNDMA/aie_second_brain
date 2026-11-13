@@ -1,11 +1,13 @@
 ---
+
 title: Multimodal Tokenization
 type: concept
-tags: [multimodal, tokenization, vision, audio, embeddings, foundation-models]
+tags: [multimodal, tokenization, vision, audio, embeddings, foundation-models, cluster/vision-multimodal]
 sources: [2026-05-28-vision-language-models-2026, 2026-05-28-voice-agents-2026, 2026-05-28-diffusion-models-2026]
 created: 2026-05-28
 updated: 2026-05-28
 ---
+
 
 # Multimodal Tokenization
 

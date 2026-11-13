@@ -1,11 +1,13 @@
 ---
+
 title: QK-Norm
 type: concept
-tags: [attention, normalization, training-stability, architecture-primitive]
+tags: [attention, normalization, training-stability, architecture-primitive, cluster/transformer-architecture]
 sources: [2026-05-28-raschka-llm-architecture-gallery]
 created: 2026-05-28
 updated: 2026-05-28
 ---
+
 
 # QK-Norm
 

@@ -1,11 +1,13 @@
 ---
+
 title: Score Matching
 type: concept
-tags: [diffusion-models, generative, training, theory]
+tags: [diffusion-models, generative, training, theory, cluster/generative-models]
 sources: []
 created: 2026-05-10
 updated: 2026-05-10
 ---
+
 
 # Score Matching
 

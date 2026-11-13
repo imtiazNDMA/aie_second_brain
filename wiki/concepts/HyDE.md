@@ -1,11 +1,13 @@
 ---
+
 title: HyDE (Hypothetical Document Embeddings)
 type: concept
-tags: [rag, query-rewriting, embeddings]
+tags: [rag, query-rewriting, embeddings, cluster/rag-retrieval]
 sources: [2026-04-12-14-types-of-rag]
 created: 2026-04-13
 updated: 2026-04-13
 ---
+
 
 # HyDE (Hypothetical Document Embeddings)
 

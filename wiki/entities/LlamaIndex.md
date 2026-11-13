@@ -2,9 +2,9 @@
 title: LlamaIndex
 type: entity
 tags: [tool, rag, orchestration]
-sources: [2026-04-12-rag-driven-generative-ai]
+sources: [2026-04-12-rag-driven-generative-ai, 2026-07-07-building-ai-agents-with-llms-rag-knowledge-graphs]
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-07-07
 ---
 
 # LlamaIndex

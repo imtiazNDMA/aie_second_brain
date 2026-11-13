@@ -1,11 +1,13 @@
 ---
+
 title: Query Rewriting
 type: concept
-tags: [rag, retrieval, prompting]
+tags: [rag, retrieval, prompting, cluster/rag-retrieval]
 sources: [2026-04-29-rag-survey, 2026-04-29-vera, 2026-04-12-rag-driven-generative-ai]
 created: 2026-04-30
 updated: 2026-04-30
 ---
+
 
 # Query Rewriting
 

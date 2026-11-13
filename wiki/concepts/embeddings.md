@@ -1,11 +1,13 @@
 ---
+
 title: Embeddings
 type: concept
-tags: [nlp, vector, representation]
+tags: [nlp, vector, representation, cluster/rag-retrieval]
 sources: [2026-04-12-llm-engineers-handbook, 2026-04-12-rag-driven-generative-ai]
 created: 2026-04-13
 updated: 2026-04-13
 ---
+
 
 # Embeddings
 

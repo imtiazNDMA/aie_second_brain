@@ -1,11 +1,13 @@
 ---
+
 title: AlpacaEval
 type: concept
-tags: [evaluation, benchmark, llm-as-judge, chat]
+tags: [evaluation, benchmark, llm-as-judge, chat, cluster/evaluation]
 sources: [2026-04-29-hands-on-llms]
 created: 2026-05-10
 updated: 2026-05-10
 ---
+
 
 # AlpacaEval
 

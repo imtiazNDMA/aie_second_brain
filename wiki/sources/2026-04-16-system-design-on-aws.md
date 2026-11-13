@@ -2,7 +2,7 @@
 title: System Design on AWS
 type: source
 tags: [system-design, aws, cloud-architecture]
-sources: [system design on aws.pdf]
+sources: [System Design on AWS.pdf]
 created: 2026-04-16
 updated: 2026-04-16
 ---

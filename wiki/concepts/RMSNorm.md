@@ -1,11 +1,13 @@
 ---
+
 title: RMSNorm
 type: concept
-tags: [normalization, transformer, architecture-primitive]
+tags: [normalization, transformer, architecture-primitive, cluster/transformer-architecture]
 sources: [2026-05-28-raschka-llm-architecture-gallery]
 created: 2026-05-28
 updated: 2026-05-28
 ---
+
 
 # RMSNorm
 

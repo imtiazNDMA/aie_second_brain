@@ -2,7 +2,7 @@
 title: Building Agentic AI Systems
 type: source
 tags: [agents, generative-ai, architecture]
-sources: [building agentic ai systems.pdf]
+sources: [Building Agentic AI Systems.pdf]
 created: 2026-04-12
 updated: 2026-04-12
 ---
@@ -60,3 +60,7 @@ Guide to designing generative, tool-using agents that can reason, plan, and coll
 - [[Tool Use]] — Function calling and action gating.
 - [[Reflection]] — Self-critique workflows.
 - [[Agent Memory]] — Context management and persistence.
+
+## Related Sources
+
+- [[2026-07-07-building-ai-agents-with-llms-rag-knowledge-graphs]] — Agent deployment

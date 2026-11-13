@@ -1,11 +1,13 @@
 ---
+
 title: Attention Mechanism
 type: concept
-tags: [deep-learning, transformer, nlp]
+tags: [deep-learning, transformer, nlp, cluster/transformer-architecture]
 sources: [2026-04-12-build-llm-from-scratch, 2026-04-12-attention-is-all-you-need]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # Attention Mechanism
 

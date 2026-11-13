@@ -1,11 +1,13 @@
 ---
+
 title: Modular RAG
 type: concept
-tags: [rag, llm, architecture, modularity]
+tags: [rag, llm, architecture, modularity, cluster/rag-retrieval]
 sources: [2026-04-12-14-types-of-rag, 2026-04-29-rag-survey]
 created: 2026-04-13
 updated: 2026-04-29
 ---
+
 
 # Modular RAG
 

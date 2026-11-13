@@ -1,11 +1,13 @@
 ---
+
 title: AIOps
 type: concept
-tags: [aiops, observability, sre, devops, incident-management]
+tags: [aiops, observability, sre, devops, incident-management, cluster/mlops-llmops]
 sources: [2026-04-29-hands-on-aiops-best-practices-guide-to-implementing-aiops, 2026-05-09-llm-aiops-survey]
 created: 2026-04-29
 updated: 2026-05-09
 ---
+
 
 # AIOps
 

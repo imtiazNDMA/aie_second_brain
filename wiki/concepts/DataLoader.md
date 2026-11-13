@@ -1,11 +1,13 @@
 ---
+
 title: DataLoader
 type: concept
-tags: [data-pipeline, pytorch, training]
+tags: [data-pipeline, pytorch, training, cluster/ml-foundations, cluster/training-alignment]
 sources: [2026-04-16-deep-learning-with-pytorch-step-by-step]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # DataLoader
 

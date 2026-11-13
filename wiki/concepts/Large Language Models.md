@@ -1,11 +1,13 @@
 ---
+
 title: Large Language Models
 type: concept
-tags: [llm, transformer, foundational, hub]
+tags: [llm, transformer, foundational, hub, cluster/transformer-architecture]
 sources: [2026-04-12-ai-engineering, 2026-04-12-build-llm-from-scratch, 2026-04-12-llm-engineers-handbook, 2026-05-09-deepseek-r1, 2026-05-09-llm-aiops-survey]
 created: 2026-05-09
 updated: 2026-05-09
 ---
+
 
 # Large Language Models
 

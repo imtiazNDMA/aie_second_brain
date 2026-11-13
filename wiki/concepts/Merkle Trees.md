@@ -1,11 +1,13 @@
 ---
+
 title: Merkle Trees
 type: concept
-tags: [anti-entropy, hashing, distributed-systems]
+tags: [anti-entropy, hashing, distributed-systems, cluster/distributed-systems]
 sources: [2026-04-16-grokking-advanced-system-design-interview]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # Merkle Trees
 

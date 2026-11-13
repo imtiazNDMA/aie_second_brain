@@ -1,11 +1,13 @@
 ---
+
 title: HumanEval
 type: concept
-tags: [evaluation, benchmark, code-generation, llm]
+tags: [evaluation, benchmark, code-generation, llm, cluster/evaluation]
 sources: [2026-04-29-hands-on-llms, 2026-05-09-deepseek-r1]
 created: 2026-05-10
 updated: 2026-05-10
 ---
+
 
 # HumanEval
 

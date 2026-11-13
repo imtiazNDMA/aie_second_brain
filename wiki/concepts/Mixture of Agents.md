@@ -1,9 +1,11 @@
 ---
-tags: [agents, fine-tuning, moe]
+
+tags: [agents, fine-tuning, moe, cluster/agents]
 sources: [2026-04-12-ultimate-guide-fine-tuning]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # Mixture of Agents
 

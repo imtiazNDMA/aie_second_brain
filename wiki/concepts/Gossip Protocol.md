@@ -1,11 +1,13 @@
 ---
+
 title: Gossip Protocol
 type: concept
-tags: [membership, failure-detection, distributed-systems]
+tags: [membership, failure-detection, distributed-systems, cluster/distributed-systems]
 sources: [2026-04-16-grokking-advanced-system-design-interview]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # Gossip Protocol
 

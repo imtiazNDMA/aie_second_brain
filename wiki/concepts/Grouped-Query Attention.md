@@ -1,11 +1,13 @@
 ---
+
 title: Grouped-Query Attention
 type: concept
-tags: [transformer, attention, inference]
+tags: [transformer, attention, inference, cluster/transformer-architecture]
 sources: [2026-04-12-build-llm-from-scratch]
 created: 2026-04-13
 updated: 2026-04-13
 ---
+
 
 # Grouped-Query Attention
 

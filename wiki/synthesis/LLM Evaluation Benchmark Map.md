@@ -4,7 +4,7 @@ type: synthesis
 tags: [evaluation, benchmarks, metrics, llm-as-judge, rag-evaluation]
 sources: [2026-04-12-prompt-engineering-llms, 2026-04-29-vera, 2026-05-09-deepseek-r1, 2026-05-09-s1-test-time-scaling]
 created: 2026-05-09
-updated: 2026-05-09
+updated: 2026-08-22
 ---
 
 # LLM Evaluation Benchmark Map
@@ -144,9 +144,13 @@ Need a public benchmark for marketing?
 5. **Benchmark-driven goodharting** — train-to-the-test. Hold out an internal eval the public never sees.
 6. **No production-rubric eval** — public benchmarks correlate with production quality but don't equal it. Invest in custom rubrics.
 
+## Production evaluation gap
+
+This benchmark map is useful for capability selection, but it is not a release gate by itself. The next layer must evaluate sampled production traffic, version datasets, measure statistical uncertainty, calibrate judges against human labels, score agent trajectories, and combine quality with cost, latency, and safety. See [[AI Engineering Wiki Plan]] and [[AI Engineer Gap Analysis]].
+
 ## Where this wiki has unfilled gaps
 
-The wiki has [[FactScore]] and [[2026-04-29-vera|VERA]] but not full pages for AlpacaEval, AIME, Codeforces, HumanEval, GPQA, MMLU-Pro, RAGAS, or Chatbot Arena. These would all be useful concept pages to add when the next ingestion pass touches them.
+The wiki has [[FactScore]], [[2026-04-29-vera|VERA]], [[AlpacaEval]], and [[RAGAS]]. Full pages are still useful for AIME, Codeforces, HumanEval, GPQA, MMLU-Pro, and Chatbot Arena, but production evaluation and release-gate coverage now has higher priority than adding more public benchmark pages.
 
 ## Related pages
 

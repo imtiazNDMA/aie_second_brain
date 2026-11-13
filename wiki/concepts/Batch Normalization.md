@@ -1,11 +1,13 @@
 ---
+
 title: Batch Normalization
 type: concept
-tags: [optimization, deep-learning, training-stability]
+tags: [optimization, deep-learning, training-stability, cluster/transformer-architecture]
 sources: [2026-04-16-deep-learning-with-pytorch-step-by-step]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # Batch Normalization
 

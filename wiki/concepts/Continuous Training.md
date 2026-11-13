@@ -1,11 +1,13 @@
 ---
+
 title: Continuous Training
 type: concept
-tags: [ml, operations, automation]
+tags: [ml, operations, automation, cluster/training-alignment]
 sources: [2026-04-12-ai-engineering]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # Continuous Training
 

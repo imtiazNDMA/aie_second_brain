@@ -1,11 +1,13 @@
 ---
+
 title: Day N Architecture
 type: concept
-tags: [system-design, scalability, architecture]
+tags: [system-design, scalability, architecture, cluster/distributed-systems]
 sources: [2026-04-16-system-design-on-aws]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # Day N Architecture
 

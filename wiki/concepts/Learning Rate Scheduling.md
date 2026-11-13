@@ -1,11 +1,13 @@
 ---
+
 title: Learning Rate Scheduling
 type: concept
-tags: [optimization, training, hyperparameters]
+tags: [optimization, training, hyperparameters, cluster/training-alignment]
 sources: [2026-04-16-deep-learning-with-pytorch-step-by-step]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # Learning Rate Scheduling
 

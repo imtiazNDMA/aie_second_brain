@@ -1,11 +1,13 @@
 ---
+
 title: SLI SLO SLA
 type: concept
-tags: [observability, sre, production, reliability]
+tags: [observability, sre, production, reliability, cluster/distributed-systems]
 sources: [2026-04-16-system-design-on-aws, 2026-04-16-grokking-advanced-system-design-interview]
 created: 2026-04-30
 updated: 2026-04-30
 ---
+
 
 # SLI / SLO / SLA
 

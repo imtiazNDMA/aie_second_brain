@@ -1,11 +1,13 @@
 ---
+
 title: Simulated Annealing
 type: concept
-tags: [optimization, probabilistic, search]
+tags: [optimization, probabilistic, search, cluster/ml-foundations]
 sources: [2026-04-12-ml-algorithms-in-depth]
 created: 2026-04-13
 updated: 2026-04-13
 ---
+
 
 # Simulated Annealing
 

@@ -1,11 +1,13 @@
 ---
+
 title: Fault Tolerance
 type: concept
-tags: [reliability, distributed-systems, resilience]
+tags: [reliability, distributed-systems, resilience, cluster/distributed-systems]
 sources: [2026-04-16-system-design-on-aws]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # Fault Tolerance
 

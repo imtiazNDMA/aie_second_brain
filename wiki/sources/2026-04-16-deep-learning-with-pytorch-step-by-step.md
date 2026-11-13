@@ -2,7 +2,7 @@
 title: Deep Learning with PyTorch Step-by-Step
 type: source
 tags: [deep-learning, pytorch, ml-engineering]
-sources: [Deep learning with pytorch step by step.pdf]
+sources: [Deep Learning with PyTorch Step-by-Step.pdf]
 created: 2026-04-16
 updated: 2026-04-16
 ---

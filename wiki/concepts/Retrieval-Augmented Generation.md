@@ -1,9 +1,11 @@
 ---
-tags: [llm, retrieval, augmentation, rag]
+
+tags: [llm, retrieval, augmentation, rag, cluster/rag-retrieval]
 sources: [Building LLMs for Production.pdf, AI Agents in Action.pdf, 2026-04-12-rag-driven-generative-ai, 2026-04-12-14-types-of-rag, 2026-04-29-llmops-managing-large-language-models-in-production, 2026-04-29-rag-survey, 2026-04-29-graph-rag-survey, 2026-04-29-building-llm-agents-rag-knowledge-graphs-reflection, 2026-04-29-building-applications-with-ai-agents, 2026-05-09-cache-augmented-generation]
 created: 2026-04-12
 updated: 2026-05-09
 ---
+
 
 # Retrieval-Augmented Generation
 
@@ -13,7 +15,7 @@ A pattern for grounding LLM responses in external knowledge sources. RAG combine
 
 ## Implementation Notes
 
-- Use LangChain or [[LlamaIndex]] loaders to read PDFs/markdown, then split content by tokens with overlap.
+- Use [[LangChain]] or [[LlamaIndex]] loaders to read PDFs/markdown, then split content by tokens with overlap.
 - Generate embeddings via OpenAI/Hugging Face or local models and store them in vector databases such as [[Deep Lake]], [[Pinecone]], or [[Chroma]].
 - Query similarity search results (self-query, rerankers) at runtime and inject them into prompts as citations or context paragraphs.
 - Combine with agent runtimes (Nexus, [[LangGraph]]) to expose knowledge stores directly to assistants.

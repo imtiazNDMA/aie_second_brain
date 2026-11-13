@@ -9,7 +9,7 @@ updated: 2026-04-12
 
 # Pinecone
 
-Managed vector database emphasized for large-scale financial, video, and enterprise RAG workloads.
+Managed [[Vector Database]] emphasized for large-scale financial, video, and enterprise RAG workloads, storing and retrieving [[Embeddings]] for similarity search.
 
 ## Highlights
 

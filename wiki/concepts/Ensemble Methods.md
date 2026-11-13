@@ -1,11 +1,13 @@
 ---
+
 title: Ensemble Methods
 type: concept
-tags: [machine-learning, ensemble, bagging, boosting]
+tags: [machine-learning, ensemble, bagging, boosting, cluster/ml-foundations]
 sources: [2026-04-29-grokking-ml.md, 2026-04-29-hands-on-ml-python.md, 2026-04-12-ml-algorithms-in-depth.md]
 created: 2026-04-29
 updated: 2026-04-29
 ---
+
 
 # Ensemble Methods
 

@@ -1,11 +1,13 @@
 ---
+
 title: Tool Use
 type: concept
-tags: [agent-capabilities, function-calling, actions]
+tags: [agent-capabilities, function-calling, actions, cluster/agents]
 sources: [2026-04-12-building-ai-coding-agents-terminal.md, 2026-04-12-prompt-engineering-llms.md]
 created: 2026-04-29
 updated: 2026-04-29
 ---
+
 
 # Tool Use
 

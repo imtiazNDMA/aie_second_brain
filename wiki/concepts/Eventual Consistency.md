@@ -1,11 +1,13 @@
 ---
+
 title: Eventual Consistency
 type: concept
-tags: [distributed-systems, consistency, availability]
+tags: [distributed-systems, consistency, availability, cluster/distributed-systems]
 sources: [2026-04-16-grokking-advanced-system-design-interview, 2026-04-16-system-design-on-aws]
 created: 2026-04-30
 updated: 2026-04-30
 ---
+
 
 # Eventual Consistency
 

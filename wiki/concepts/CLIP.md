@@ -1,11 +1,13 @@
 ---
+
 title: CLIP
 type: concept
-tags: [vision-language, multimodal, embeddings, contrastive]
+tags: [vision-language, multimodal, embeddings, contrastive, cluster/vision-multimodal]
 sources: [2026-05-28-vision-language-models-2026]
 created: 2026-05-10
 updated: 2026-05-28
 ---
+
 
 # CLIP
 

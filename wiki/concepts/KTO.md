@@ -1,11 +1,13 @@
 ---
+
 title: KTO
 type: concept
-tags: [alignment, fine-tuning, preference-learning, prospect-theory]
+tags: [alignment, fine-tuning, preference-learning, prospect-theory, cluster/training-alignment]
 sources: [2026-04-12-ultimate-guide-fine-tuning, 2026-04-12-llm-engineers-handbook]
 created: 2026-04-30
 updated: 2026-04-30
 ---
+
 
 # KTO
 

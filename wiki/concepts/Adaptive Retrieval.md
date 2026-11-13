@@ -1,11 +1,13 @@
 ---
+
 title: Adaptive Retrieval
 type: concept
-tags: [rag, llm, retrieval]
+tags: [rag, llm, retrieval, cluster/rag-retrieval]
 sources: [2026-04-29-self-rag, 2026-04-29-rag-survey]
 created: 2026-04-29
 updated: 2026-04-29
 ---
+
 
 # Adaptive Retrieval
 

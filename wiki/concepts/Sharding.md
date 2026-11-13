@@ -1,11 +1,13 @@
 ---
+
 title: Sharding
 type: concept
-tags: [distributed-systems, scalability, databases, partitioning]
+tags: [distributed-systems, scalability, databases, partitioning, cluster/distributed-systems]
 sources: [2026-04-16-grokking-advanced-system-design-interview, 2026-04-16-system-design-interview-complete-guide]
 created: 2026-04-30
 updated: 2026-04-30
 ---
+
 
 # Sharding
 

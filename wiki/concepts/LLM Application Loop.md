@@ -1,9 +1,11 @@
 ---
-tags: [architecture, prompt, applications]
+
+tags: [architecture, prompt, applications, cluster/reasoning-prompting]
 sources: [2026-04-12-prompt-engineering-llms]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # LLM Application Loop
 

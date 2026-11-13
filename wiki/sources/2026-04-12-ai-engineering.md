@@ -1,7 +1,7 @@
 title: [[AI Engineering]]
 type: source
 tags: [book, mlops, production-ml, engineering]
-sources: [AI ENGINEERING by Chip Huyen (PDF)(Nonfiction).pdf]
+sources: [AI Engineering.pdf]
 created: 2026-04-12
 updated: 2026-04-12
 ---

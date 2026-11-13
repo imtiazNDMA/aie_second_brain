@@ -1,11 +1,13 @@
 ---
+
 title: Step-Back Prompting
 type: concept
-tags: [rag, prompting, retrieval, reasoning]
+tags: [rag, prompting, retrieval, reasoning, cluster/rag-retrieval]
 sources: [2026-04-29-rag-survey]
 created: 2026-04-30
 updated: 2026-04-30
 ---
+
 
 # Step-Back Prompting
 

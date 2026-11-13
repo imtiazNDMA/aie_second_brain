@@ -1,11 +1,13 @@
 ---
+
 title: Sequence-to-Sequence Learning
 type: concept
-tags: [sequence-modeling, nlp, deep-learning]
+tags: [sequence-modeling, nlp, deep-learning, cluster/transformer-architecture]
 sources: [2026-04-16-deep-learning-with-pytorch-step-by-step]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # Sequence-to-Sequence Learning
 

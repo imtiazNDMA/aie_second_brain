@@ -1,11 +1,13 @@
 ---
+
 title: Blast Radius
 type: concept
-tags: [reliability, fault-isolation, operations]
+tags: [reliability, fault-isolation, operations, cluster/serving-inference]
 sources: [2026-04-16-system-design-on-aws]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # Blast Radius
 

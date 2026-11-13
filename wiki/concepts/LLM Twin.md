@@ -1,9 +1,11 @@
 ---
-tags: [llm, personalization, applications]
+
+tags: [llm, personalization, applications, cluster/reasoning-prompting]
 sources: [2026-04-12-llm-engineers-handbook]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # LLM Twin
 

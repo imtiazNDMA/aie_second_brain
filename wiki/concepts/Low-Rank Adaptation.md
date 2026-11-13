@@ -1,11 +1,13 @@
 ---
+
 title: Low-Rank Adaptation
 type: concept
-tags: [fine-tuning, peft, efficiency]
+tags: [fine-tuning, peft, efficiency, cluster/training-alignment]
 sources: [2026-04-12-ultimate-guide-fine-tuning]
 created: 2026-04-12
 updated: 2026-04-13
 ---
+
 
 # Low-Rank Adaptation
 

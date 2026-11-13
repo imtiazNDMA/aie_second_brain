@@ -162,7 +162,7 @@ Conceptually: MoE buys you capacity (parameters that exist somewhere) cheaply, b
 
 - **Memory-bound serving** — entire model must be resident; can't run a 671B model on a single GPU.
 - **Latency-critical small models** — routing overhead dominates at small $N$.
-- **Fine-tuning** — expert imbalance during LoRA/SFT; some experts may never see gradient.
+- **Fine-tuning** — expert imbalance during [[Low-Rank Adaptation]]/SFT; some experts may never see gradient.
 - **Edge / on-device** — total memory footprint kills.
 - **Predictable latency** — token-level routing variance affects p99 latency.
 

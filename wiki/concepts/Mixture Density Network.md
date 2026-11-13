@@ -1,9 +1,11 @@
 ---
-tags: [deep-learning, probabilistic]
+
+tags: [deep-learning, probabilistic, cluster/ml-foundations]
 sources: [2026-04-12-ml-algorithms-in-depth]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # Mixture Density Network
 

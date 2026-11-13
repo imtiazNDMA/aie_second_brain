@@ -1,11 +1,13 @@
 ---
+
 title: Graph Neural Network
 type: concept
-tags: [deep-learning, graph, gnn, representation-learning]
+tags: [deep-learning, graph, gnn, representation-learning, cluster/knowledge-graphs]
 sources: [2026-04-12-ml-algorithms-in-depth.md, 2026-04-29-graph-rag-survey.md]
 created: 2026-04-29
 updated: 2026-04-29
 ---
+
 
 # Graph Neural Network
 

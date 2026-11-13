@@ -1,11 +1,13 @@
 ---
+
 title: Speculative Decoding
 type: concept
-tags: [inference, optimization, decoding]
-sources: [2026-04-12-llm-engineers-handbook]
+tags: [inference, optimization, decoding, cluster/serving-inference]
+sources: [2026-04-12-llm-engineers-handbook, 2026-09-12-hands-on-llm-serving-optimization]
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-09-12
 ---
+
 
 # Speculative Decoding
 
@@ -124,3 +126,7 @@ Modern serving stacks (vLLM, TGI) generally implement EAGLE or tree-speculative,
 - [[vLLM]] — serving framework with native speculative support
 - [[TorchScript]] / [[TorchServe]] — production serving where speculative is deployed
 - [[Reasoning Strategies]] — note: [[Tree-of-Thought]]'s "branch-and-evaluate" is the *node*-level analog
+
+## Sources
+
+- [[2026-09-12-hands-on-llm-serving-optimization]]

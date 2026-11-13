@@ -2,7 +2,7 @@
 title: RAG-Driven Generative AI
 type: source
 tags: [rag, vector-stores, pipelines]
-sources: [RAG-driven generative ai.pdf]
+sources: [RAG-Driven Generative AI.pdf]
 created: 2026-04-12
 updated: 2026-04-12
 ---

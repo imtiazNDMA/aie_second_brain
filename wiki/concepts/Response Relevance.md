@@ -1,11 +1,13 @@
 ---
+
 title: Response Relevance
 type: concept
-tags: [rag, evaluation, metrics]
+tags: [rag, evaluation, metrics, cluster/rag-retrieval]
 sources: [2026-04-29-vera, 2026-04-29-rag-survey]
 created: 2026-04-29
 updated: 2026-04-29
 ---
+
 
 # Response Relevance
 

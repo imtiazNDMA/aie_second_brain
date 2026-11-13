@@ -1,11 +1,13 @@
 ---
+
 title: RLHF
 type: concept
-tags: [alignment, training, llm]
-sources: [2026-04-12-build-llm-from-scratch, 2026-04-12-prompt-engineering-llms, 2026-04-12-ultimate-guide-fine-tuning, 2026-05-09-deepseek-r1]
+tags: [alignment, training, llm, cluster/training-alignment]
+sources: [2026-04-12-build-llm-from-scratch, 2026-04-12-prompt-engineering-llms, 2026-04-12-ultimate-guide-fine-tuning, 2026-05-09-deepseek-r1, 2026-11-13-build-a-reasoning-model-from-scratch]
 created: 2026-04-12
-updated: 2026-05-09
+updated: 2026-11-13
 ---
+
 
 # RLHF
 
@@ -80,6 +82,13 @@ The clipped objective prevents catastrophic policy updates.
 
 In practice, frontier reasoning models like DeepSeek-R1 use a **four-stage pipeline** combining both: cold-start SFT → RLVR (reasoning) → rejection sampling → RLHF/DPO (helpfulness). See [[GRPO]] for the algorithm DeepSeek-R1 uses.
 
+Raschka (2026) adds the following points (*Build a Reasoning Model (From Scratch)*, chapter 6):
+- **Where RLHF comes from.** RLHF was popularized by InstructGPT (arXiv 2203.02155, 2022), which was key to turning GPT-3 into the original ChatGPT. It remains the most popular preference-tuning method (p182).
+- **The reward model.** It is itself an LLM, usually initialized from a pretrained model. It is trained on human rankings that a statistical preference model turns into relative scores, and it outputs a single scalar reward (p183–185).
+- **RLHF as the precursor to RLVR.** Both follow the same generate → score → update structure. RLVR replaces the reward model with a deterministic verifier (p185).
+- **Clipping strength.** PPO-based RLHF often uses an aggressive clip range of about 0.1, while DeepSeek-R1's GRPO used 10 (p246).
+- **What RL does in general.** "Pretraining mainly builds knowledge, while RL shapes how the model uses that knowledge" (p182).
+
 ## Related Concepts
 
 - [[Pretraining]]
@@ -90,3 +99,11 @@ In practice, frontier reasoning models like DeepSeek-R1 use a **four-stage pipel
 - [[RLVR]]
 - [[GRPO]]
 - [[Reasoning Models]]
+
+## Sources
+
+- [[2026-04-12-build-llm-from-scratch]]
+- [[2026-04-12-prompt-engineering-llms]]
+- [[2026-04-12-ultimate-guide-fine-tuning]]
+- [[2026-05-09-deepseek-r1]]
+- [[2026-11-13-build-a-reasoning-model-from-scratch]] — Raschka 2026; RLHF as the precursor to RLVR

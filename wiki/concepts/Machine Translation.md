@@ -1,11 +1,13 @@
 ---
+
 title: Machine Translation
 type: concept
-tags: [nlp, seq2seq, transformer, translation]
+tags: [nlp, seq2seq, transformer, translation, cluster/ml-foundations]
 sources: [nips-2017-attention-is-all-you-need-Paper.md]
 created: 2026-04-29
 updated: 2026-04-29
 ---
+
 
 # Machine Translation
 

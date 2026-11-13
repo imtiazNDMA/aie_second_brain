@@ -2,7 +2,7 @@
 title: Deep Learning with PyTorch (Essential Excerpts)
 type: source
 tags: [pytorch, deep-learning, tensors]
-sources: [Deep Learning with PyTorch_ Essential Excerpts 2019.pdf]
+sources: [Deep Learning with PyTorch (Essential Excerpts).pdf]
 created: 2026-04-12
 updated: 2026-04-12
 ---

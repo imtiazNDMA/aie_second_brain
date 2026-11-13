@@ -1,11 +1,13 @@
 ---
+
 title: Advanced RAG
 type: concept
-tags: [rag, llm, optimization]
-sources: [2026-04-29-rag-survey]
+tags: [rag, llm, optimization, cluster/rag-retrieval]
+sources: [2026-04-29-rag-survey, 2026-07-07-building-ai-agents-with-llms-rag-knowledge-graphs]
 created: 2026-04-29
-updated: 2026-04-29
+updated: 2026-07-07
 ---
+
 
 # Advanced RAG
 
@@ -53,6 +55,18 @@ Effectively integrate retrieved context:
 - Reduced hallucination
 - Better handling of complex queries
 - More relevant context selection
+
+## Practical Failure Modes
+
+[[2026-07-07-building-ai-agents-with-llms-rag-knowledge-graphs]] frames advanced RAG as a response to concrete production failures:
+
+- relevant chunks not retrieved because indexing, embedding choice, or document parsing is weak
+- relevant chunks retrieved but pushed out of the top-k set
+- correct evidence present but lost in excessive or noisy context
+- answer format, specificity, citation, or completeness not matching the user's need
+- stale knowledge bases, redundant corpora, privacy constraints, and scaling bottlenecks
+
+It emphasizes a pipeline response: hierarchical indexing, hypothetical questions, [[HyDE]], context enrichment, query transformation, [[Hybrid Search]], query routing, reranking, citation tracking, chat-history handling, and context compression.
 
 ## Connections
 - [[Retrieval-Augmented Generation]] — foundation

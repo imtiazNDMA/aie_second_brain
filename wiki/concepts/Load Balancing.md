@@ -1,11 +1,13 @@
 ---
+
 title: Load Balancing
 type: concept
-tags: [distributed-systems, scalability, networking]
+tags: [distributed-systems, scalability, networking, cluster/serving-inference]
 sources: [2026-04-16-system-design-interview-complete-guide, 2026-04-16-system-design-on-aws]
 created: 2026-04-16
 updated: 2026-04-16
 ---
+
 
 # Load Balancing
 

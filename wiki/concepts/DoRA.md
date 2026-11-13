@@ -1,11 +1,13 @@
 ---
+
 title: DoRA (Dimension-wise Offset of Residual Adapter)
 type: concept
-tags: [fine-tuning, adapters, peft]
+tags: [fine-tuning, adapters, peft, cluster/training-alignment]
 sources: [2026-04-12-ultimate-guide-fine-tuning]
 created: 2026-04-13
 updated: 2026-04-13
 ---
+
 
 # DoRA (Dimension-wise Offset of Residual Adapter)
 

@@ -1,11 +1,13 @@
 ---
+
 title: LSM Tree
 type: concept
-tags: [storage, databases, distributed-systems]
+tags: [storage, databases, distributed-systems, cluster/distributed-systems]
 sources: [2026-04-16-grokking-advanced-system-design-interview]
 created: 2026-04-30
 updated: 2026-04-30
 ---
+
 
 # LSM Tree
 

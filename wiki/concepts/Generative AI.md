@@ -1,9 +1,11 @@
 ---
-tags: [ai, generative, foundation-models]
+
+tags: [ai, generative, foundation-models, cluster/generative-models]
 sources: [2026-04-12-building-agentic-ai-systems]
 created: 2026-04-12
 updated: 2026-04-12
 ---
+
 
 # Generative AI
 

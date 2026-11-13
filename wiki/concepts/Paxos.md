@@ -1,11 +1,13 @@
 ---
+
 title: Paxos
 type: concept
-tags: [distributed-systems, consensus, replication]
+tags: [distributed-systems, consensus, replication, cluster/distributed-systems]
 sources: [2026-04-16-grokking-advanced-system-design-interview]
 created: 2026-05-10
 updated: 2026-05-10
 ---
+
 
 # Paxos
 

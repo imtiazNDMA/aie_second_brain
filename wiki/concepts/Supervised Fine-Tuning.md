@@ -1,11 +1,13 @@
 ---
+
 title: Supervised Fine-Tuning
 type: concept
-tags: [fine-tuning, post-training, sft, alignment]
+tags: [fine-tuning, post-training, sft, alignment, cluster/training-alignment]
 sources: [2026-04-12-llm-engineers-handbook, 2026-04-12-ultimate-guide-fine-tuning, 2026-05-09-s1-test-time-scaling]
 created: 2026-05-09
 updated: 2026-05-09
 ---
+
 
 # Supervised Fine-Tuning
 

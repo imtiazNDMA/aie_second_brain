@@ -1,11 +1,13 @@
 ---
+
 title: Multi-Token Prediction
 type: concept
-tags: [training, auxiliary-loss, deepseek, mtp, architecture-primitive]
+tags: [training, auxiliary-loss, deepseek, mtp, architecture-primitive, cluster/transformer-architecture]
 sources: [2026-05-28-raschka-llm-architecture-gallery, 2026-05-28-mixture-of-experts-2026]
 created: 2026-05-28
 updated: 2026-05-28
 ---
+
 
 # Multi-Token Prediction
 

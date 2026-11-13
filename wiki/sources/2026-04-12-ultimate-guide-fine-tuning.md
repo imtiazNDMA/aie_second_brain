@@ -2,7 +2,7 @@
 title: The Ultimate Guide to Fine-Tuning LLMs
 type: source
 tags: [fine-tuning, alignment, report]
-sources: [The ultimate guide to fine tuning.pdf]
+sources: [The Ultimate Guide to Fine-Tuning LLMs.pdf]
 created: 2026-04-12
 updated: 2026-04-12
 ---

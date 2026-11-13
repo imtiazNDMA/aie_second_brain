@@ -1,11 +1,13 @@
 ---
+
 title: Decoder
 type: concept
-tags: [transformer, deep-learning, generation]
+tags: [transformer, deep-learning, generation, cluster/transformer-architecture]
 sources: [nips-2017-attention-is-all-you-need-Paper.md, 2026-04-29-hands-on-llms.md]
 created: 2026-04-29
 updated: 2026-04-29
 ---
+
 
 # Decoder
 
